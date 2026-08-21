@@ -360,7 +360,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
     # that's genuinely harder to predict. The optimizer's routing math is untouched -- it still
     # uses the real, uncapped available_to_donate/deficit values; only the dot's on-screen size
     # is bounded.
-    sd_map["radius"] = 40 + sd_map[["surplus", "deficit"]].max(axis=1).clip(upper=10) * 15
+    sd_map["radius"] = 40 + sd_map[["surplus", "deficit"]].max(axis=1).clip(upper=5) * 12
     # display only -- a station can't physically hold negative bikes or more than its
     # capacity, but the raw regression output can land slightly outside [0, capacity]
     # (e.g. -0.08 predicted for a near-empty station). surplus/deficit above were already
