@@ -437,7 +437,7 @@ def render_live_view(selected_boroughs, min_buffer, top_k):
 with st.sidebar:
     st.title("🚲 Rebalancing Controls")
 
-    mode = st.radio("Mode", ["📼 Historical Playback", "🔴 Live"], index=0, horizontal=True)
+    mode = st.radio("Mode", ["📼 Historical Playback", "🔴 Live"], index=1, horizontal=True)
     is_live = mode.startswith("🔴")
 
     if is_live:
