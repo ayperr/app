@@ -296,6 +296,20 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
     # -0.1, even though both physically bottom out at 0) -- this clip only cleans up the
     # number shown in the map tooltip, it doesn't feed back into any of the routing math.
     sd_map["predicted_bikes"] = sd_map["predicted_bikes"].clip(lower=0).clip(upper=sd_map["capacity"]).round(1)
+    # pydeck only takes ONE tooltip template for the whole Deck, shared across every
+    # layer -- it does a dumb {field} string-replace on whatever object is under the
+    # cursor, and any placeholder that isn't a column on THAT layer's data is left
+    # in the tooltip verbatim instead of being blanked out (that's why hovering a
+    # move-line used to show literal "{name}" / "Region: {borough}" text -- those
+    # are station-dot fields the arc data doesn't have). Fix: pre-render each row's
+    # full tooltip HTML into one column of the same name on *both* dataframes, and
+    # point the shared template at just that one column -- each layer supplies its
+    # own already-correct content, so nothing collides.
+    sd_map["tooltip_html"] = (
+        "<b>" + sd_map["name"] + "</b><br/>Region: " + sd_map["borough"].astype(str)
+        + "<br/>Status: " + sd_map["status"] + "<br/>Predicted bikes: "
+        + sd_map["predicted_bikes"].astype(str) + " / cap " + sd_map["capacity"].astype(str)
+    )
 
     layers = [
         pdk.Layer(
@@ -314,6 +328,11 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
         arcs = moves.join(name_lookup.add_prefix("from_"), on="from_station_id")
         arcs = arcs.join(name_lookup.add_prefix("to_"), on="to_station_id")
         arcs["width"] = arcs["bikes"].clip(upper=12)
+        arcs["tooltip_html"] = (
+            "<b>" + arcs["bikes"].astype(str) + " bikes</b><br/>" + arcs["from_name"]
+            + " &rarr; " + arcs["to_name"] + "<br/>net flow: " + arcs["bikes"].astype(str)
+            + " bikes over " + arcs["distance_km"].astype(str) + " km (~" + arcs["minutes"].astype(str) + " min)"
+        )
         layers.append(
             pdk.Layer(
                 "ArcLayer",
@@ -329,8 +348,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
 
     view_state = pdk.ViewState(latitude=40.745, longitude=-73.97, zoom=10.3, pitch=35)
     tooltip = {
-        "html": "<b>{name}</b><br/>Region: {borough}<br/>Status: {status}<br/>"
-                "Predicted bikes: {predicted_bikes} / cap {capacity}",
+        "html": "{tooltip_html}",
         "style": {"backgroundColor": "steelblue", "color": "white"},
     }
     st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view_state, tooltip=tooltip,
