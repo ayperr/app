@@ -62,6 +62,21 @@ def load_demo_features(bike_type):
     df = pd.read_parquet(f"{DATA}/demo_features_{bike_type}.parquet")
     df["station_id"] = df["station_id"].astype(str)
     df["date"] = pd.to_datetime(df["date"])
+    # This table is ~2.4M rows x 29 columns and stays cached (st.cache_data)
+    # for the life of the process -- loaded at float64/int64 precision from
+    # parquet it runs ~475MB in memory *per bike type*, ~950MB for both,
+    # which alone is enough to OOM-kill the process on a constrained host
+    # (e.g. Streamlit Community Cloud's free ~1GB tier) -- seen in practice
+    # as a bare "Oh no."/502-503 with no Python traceback, since the process
+    # dies before it can log one. None of these columns need 64-bit
+    # precision (weather/flow figures, not financial data), so downcasting
+    # to the smallest safe dtype roughly halves the footprint for free.
+    float_cols = df.select_dtypes(include="float64").columns
+    df[float_cols] = df[float_cols].astype("float32")
+    int_cols = df.select_dtypes(include="int64").columns
+    for c in int_cols:
+        df[c] = pd.to_numeric(df[c], downcast="integer")
+    df["borough"] = df["borough"].astype("category")
     return df
 
 
