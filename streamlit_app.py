@@ -25,21 +25,29 @@ total), so render_dashboard() below -- KPIs, map, moves/types/performance
 tabs -- is fully shared between them; only the sidebar controls and the
 data-fetch step differ.
 """
+
 import gc
 import json
 
+import live_data
 import pandas as pd
 import pydeck as pdk
 import streamlit as st
-
-import live_data
 from data_utils import (
-    BIKE_TYPES, HORIZON_HOURS, WARMUP_DAYS, available_timestamps, get_snapshot,
-    load_demo_features, load_stations, simulate_occupancy_total,
+    BIKE_TYPES,
+    HORIZON_HOURS,
+    WARMUP_DAYS,
+    available_timestamps,
+    get_snapshot,
+    load_demo_features,
+    load_stations,
+    simulate_occupancy_total,
 )
 from optimizer import compute_surplus_deficit, solve_rebalancing, summarize_system_state
 
-st.set_page_config(page_title="Citi Bike NYC Rebalancing", page_icon="🚲", layout="wide")
+st.set_page_config(
+    page_title="Citi Bike NYC Rebalancing", page_icon="🚲", layout="wide"
+)
 
 STATUS_COLORS = {
     "overfill": [220, 60, 60],
@@ -48,29 +56,45 @@ STATUS_COLORS = {
 }
 LIVE_REFRESH_SECONDS = 120
 
-FEATURE_SOURCE_TABLE = pd.DataFrame([
-    {"Feature(s)": "hour, day_of_week, month, is_weekend, is_holiday",
-     "Live source": "computed from the last fully-completed hour",
-     "Until then / on failure": "none needed -- always exact"},
-    {"Feature(s)": "lat, lng, borough, capacity",
-     "Live source": "your station list; capacity is overwritten with real GBFS dock counts for matched stations",
-     "Until then / on failure": "station list's estimated capacity, for stations GBFS doesn't cover"},
-    {"Feature(s)": "current bikes (classic / electric split)",
-     "Live source": "live GBFS station_status, this instant",
-     "Until then / on failure": "none -- a station GBFS doesn't cover or match is left out of the view entirely"},
-    {"Feature(s)": "temperature, humidity, precipitation, rain, snow, wind, cloud cover, weather code",
-     "Live source": "Open-Meteo current conditions",
-     "Until then / on failure": "mid-range defaults (e.g. 15°C, no precipitation) if the feed is unreachable"},
-    {"Feature(s)": "event_count, major_event_count",
-     "Live source": "NYC Open Data's live permitted-events feed, by borough",
-     "Until then / on failure": "zero events if the feed is unreachable"},
-    {"Feature(s)": "net_flow + its 1h/24h/168h lags, 24h rolling avg, same-slot-last-4-weeks avg",
-     "Live source": "this app's own hourly snapshot log, per feature, once enough history has accumulated",
-     "Until then / on failure": "a historical seasonal average for that station's hour-of-day/day-of-week"},
-    {"Feature(s)": "departures, arrivals",
-     "Live source": "none -- GBFS reports current dock counts, never flow",
-     "Until then / on failure": "always the seasonal average"},
-])
+FEATURE_SOURCE_TABLE = pd.DataFrame(
+    [
+        {
+            "Feature(s)": "hour, day_of_week, month, is_weekend, is_holiday",
+            "Live source": "computed from the last fully-completed hour",
+            "Until then / on failure": "none needed -- always exact",
+        },
+        {
+            "Feature(s)": "lat, lng, borough, capacity",
+            "Live source": "your station list; capacity is overwritten with real GBFS dock counts for matched stations",
+            "Until then / on failure": "station list's estimated capacity, for stations GBFS doesn't cover",
+        },
+        {
+            "Feature(s)": "current bikes (classic / electric split)",
+            "Live source": "live GBFS station_status, this instant",
+            "Until then / on failure": "none -- a station GBFS doesn't cover or match is left out of the view entirely",
+        },
+        {
+            "Feature(s)": "temperature, humidity, precipitation, rain, snow, wind, cloud cover, weather code",
+            "Live source": "Open-Meteo current conditions",
+            "Until then / on failure": "mid-range defaults (e.g. 15°C, no precipitation) if the feed is unreachable",
+        },
+        {
+            "Feature(s)": "event_count, major_event_count",
+            "Live source": "NYC Open Data's live permitted-events feed, by borough",
+            "Until then / on failure": "zero events if the feed is unreachable",
+        },
+        {
+            "Feature(s)": "net_flow + its 1h/24h/168h lags, 24h rolling avg, same-slot-last-4-weeks avg",
+            "Live source": "this app's own hourly snapshot log, per feature, once enough history has accumulated",
+            "Until then / on failure": "a historical seasonal average for that station's hour-of-day/day-of-week",
+        },
+        {
+            "Feature(s)": "departures, arrivals",
+            "Live source": "none -- GBFS reports current dock counts, never flow",
+            "Until then / on failure": "always the seasonal average",
+        },
+    ]
+)
 
 COMMON_ABOUT_MARKDOWN = f"""
 **Data (~3 years, Aug 2023 - Jul 2026, full NYC system incl. Hoboken/JC) used to train both models:**
@@ -160,7 +184,9 @@ def render_moves_tab(sd, moves):
         n_surplus = int((sd["surplus"] > 0).sum())
         n_deficit = int((sd["deficit"] > 0).sum())
         if n_surplus == 0 and n_deficit == 0:
-            st.success("No rebalancing moves needed -- every station in view is predicted healthy.")
+            st.success(
+                "No rebalancing moves needed -- every station in view is predicted healthy."
+            )
         elif n_deficit > 0 and n_surplus == 0:
             st.warning(
                 f"{n_deficit} station(s) are predicted to run low on bikes, but no station in view has "
@@ -186,12 +212,20 @@ def render_moves_tab(sd, moves):
     display = moves.copy()
     display["From"] = display["from_station_id"].map(name_lookup_s)
     display["To"] = display["to_station_id"].map(name_lookup_s)
-    display = display.rename(columns={"bikes": "Bikes", "distance_km": "Distance (km)", "minutes": "Est. minutes"})
+    display = display.rename(
+        columns={
+            "bikes": "Bikes",
+            "distance_km": "Distance (km)",
+            "minutes": "Est. minutes",
+        }
+    )
     display = display[["From", "To", "Bikes", "Distance (km)", "Est. minutes"]]
-    st.dataframe(display, width='stretch', hide_index=True)
+    st.dataframe(display, width="stretch", hide_index=True)
 
     st.markdown("##### Driver view -- next move")
-    options = [f"#{i+1}: {r.From} -> {r.To} ({r.Bikes} bikes)" for i, r in display.iterrows()]
+    options = [
+        f"#{i + 1}: {r.From} -> {r.To} ({r.Bikes} bikes)" for i, r in display.iterrows()
+    ]
     pick = st.selectbox("Select a move", options)
     row = display.iloc[options.index(pick)]
     mc1, mc2, mc3 = st.columns(3)
@@ -211,7 +245,12 @@ def render_types_tab(sd):
     by_borough = (
         sd.groupby("borough")[["pred_net_flow_classic", "pred_net_flow_electric"]]
         .sum()
-        .rename(columns={"pred_net_flow_classic": "Classic", "pred_net_flow_electric": "Electric"})
+        .rename(
+            columns={
+                "pred_net_flow_classic": "Classic",
+                "pred_net_flow_electric": "Electric",
+            }
+        )
     )
     by_borough.index.name = "Region"
     st.bar_chart(by_borough)
@@ -221,20 +260,37 @@ def render_types_tab(sd):
         "XGBoost models -- since usage patterns differ (e-bikes skew toward longer/commute trips)."
     )
     sd_scatter = sd.rename(columns={"borough": "Region"})
-    st.scatter_chart(sd_scatter, x="pred_net_flow_classic", y="pred_net_flow_electric", color="Region")
+    st.scatter_chart(
+        sd_scatter,
+        x="pred_net_flow_classic",
+        y="pred_net_flow_electric",
+        color="Region",
+    )
 
 
 def render_perf_tab():
-    st.markdown("##### Held-out test-set accuracy (most recent ~6 months, never seen in training)")
+    st.markdown(
+        "##### Held-out test-set accuracy (most recent ~6 months, never seen in training)"
+    )
     rows = []
     for bt in BIKE_TYPES:
         with open(f"models/metrics_{bt}.json") as f:
             m = json.load(f)
         rows.append({"Bike type": bt, "Model": "XGBoost", **m["model"]})
-        rows.append({"Bike type": bt, "Model": "Baseline: persistence", **m["baseline_persist"]})
-        rows.append({"Bike type": bt, "Model": "Baseline: same slot last 4wk", **m["baseline_seasonal"]})
-    perf_df = pd.DataFrame(rows).rename(columns={"rmse": "RMSE", "mae": "MAE", "r2": "R2"})
-    st.dataframe(perf_df, width='stretch', hide_index=True)
+        rows.append(
+            {"Bike type": bt, "Model": "Baseline: persistence", **m["baseline_persist"]}
+        )
+        rows.append(
+            {
+                "Bike type": bt,
+                "Model": "Baseline: same slot last 4wk",
+                **m["baseline_seasonal"],
+            }
+        )
+    perf_df = pd.DataFrame(rows).rename(
+        columns={"rmse": "RMSE", "mae": "MAE", "r2": "R2"}
+    )
+    st.dataframe(perf_df, width="stretch", hide_index=True)
     st.caption(
         "XGBoost beats both naive baselines on every metric for both bike types -- persistence and "
         "seasonal-average baselines both score a *negative* R2 (worse than predicting the mean), "
@@ -244,12 +300,24 @@ def render_perf_tab():
     st.markdown("##### Feature importance (gain)")
     fc1, fc2 = st.columns(2)
     for col, bt in zip([fc1, fc2], BIKE_TYPES):
-        fi = pd.read_csv(f"models/feature_importance_{bt}.csv").head(10).set_index("feature")
+        fi = (
+            pd.read_csv(f"models/feature_importance_{bt}.csv")
+            .head(10)
+            .set_index("feature")
+        )
         col.markdown(f"**{bt}**")
         col.bar_chart(fi)
 
 
-def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffix, about_markdown, extra_tabs=None):
+def render_dashboard(
+    snapshot,
+    selected_boroughs,
+    min_buffer,
+    top_k,
+    title_suffix,
+    about_markdown,
+    extra_tabs=None,
+):
     """
     snapshot: unified per-station DataFrame (station_id, name, lat, lng,
     borough, capacity, current_bikes_total, pred_net_flow_classic/electric/
@@ -260,7 +328,9 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
     extra_tabs: optional list of (label, render_fn) for mode-specific tabs
     (e.g. Live's coverage/freshness tab), inserted before "About this demo".
     """
-    snapshot = snapshot[snapshot["borough"].isin(selected_boroughs)].reset_index(drop=True)
+    snapshot = snapshot[snapshot["borough"].isin(selected_boroughs)].reset_index(
+        drop=True
+    )
     if snapshot.empty:
         st.warning("No stations match the current region filter.")
         return
@@ -277,8 +347,16 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
     st.title(f"Citi Bike NYC -- Rebalancing Dashboard   {title_suffix}")
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Stations in view", f"{kpi['n_stations']:,}")
-    c2.metric("Overfill risk", f"{kpi['n_overfill_risk']:,}", help="Predicted to exceed capacity")
-    c3.metric("Empty risk", f"{kpi['n_empty_risk']:,}", help="Predicted to fall below the min-buffer")
+    c2.metric(
+        "Overfill risk",
+        f"{kpi['n_overfill_risk']:,}",
+        help="Predicted to exceed capacity",
+    )
+    c3.metric(
+        "Empty risk",
+        f"{kpi['n_empty_risk']:,}",
+        help="Predicted to fall below the min-buffer",
+    )
     c4.metric("Bikes to remove", f"{kpi['bikes_to_remove']:,}")
     c5.metric("Bikes to add", f"{kpi['bikes_to_add']:,}")
 
@@ -295,20 +373,29 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
     # the optimizer -- a station predicted at -5 needs bikes more urgently than one at
     # -0.1, even though both physically bottom out at 0) -- this clip only cleans up the
     # number shown in the map tooltip, it doesn't feed back into any of the routing math.
-    sd_map["predicted_bikes"] = sd_map["predicted_bikes"].clip(lower=0).clip(upper=sd_map["capacity"]).round(1)
+    sd_map["predicted_bikes"] = (
+        sd_map["predicted_bikes"].clip(lower=0).clip(upper=sd_map["capacity"]).round(1)
+    )
     # pydeck only takes ONE tooltip template for the whole Deck, shared across every
     # layer -- it does a dumb {field} string-replace on whatever object is under the
     # cursor, and any placeholder that isn't a column on THAT layer's data is left
     # in the tooltip verbatim instead of being blanked out (that's why hovering a
     # move-line used to show literal "{name}" / "Region: {borough}" text -- those
-    # are station-dot fields the arc data doesn't have). Fix: pre-render each row's
-    # full tooltip HTML into one column of the same name on *both* dataframes, and
-    # point the shared template at just that one column -- each layer supplies its
-    # own already-correct content, so nothing collides.
-    sd_map["tooltip_html"] = (
-        "<b>" + sd_map["name"] + "</b><br/>Region: " + sd_map["borough"].astype(str)
-        + "<br/>Status: " + sd_map["status"] + "<br/>Predicted bikes: "
-        + sd_map["predicted_bikes"].astype(str) + " / cap " + sd_map["capacity"].astype(str)
+    # are station-dot fields the arc data doesn't have). Fix: give both dataframes
+    # the same three generic placeholder columns (title/line1/line2), blank ones as
+    # "" rather than omitting them, and keep the actual <b>/<br/> markup in the
+    # static template below rather than in the data -- pydeck HTML-escapes
+    # substituted field values (so a "<br/>" living inside the data renders as the
+    # literal text "<br/>", not a line break; the markup has to stay in the template).
+    sd_map["tooltip_title"] = sd_map["name"]
+    sd_map["tooltip_line1"] = (
+        "Region: " + sd_map["borough"].astype(str) + " | Status: " + sd_map["status"]
+    )
+    sd_map["tooltip_line2"] = (
+        "Predicted bikes: "
+        + sd_map["predicted_bikes"].astype(str)
+        + " / cap "
+        + sd_map["capacity"].astype(str)
     )
 
     layers = [
@@ -328,10 +415,14 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
         arcs = moves.join(name_lookup.add_prefix("from_"), on="from_station_id")
         arcs = arcs.join(name_lookup.add_prefix("to_"), on="to_station_id")
         arcs["width"] = arcs["bikes"].clip(upper=12)
-        arcs["tooltip_html"] = (
-            "<b>" + arcs["bikes"].astype(str) + " bikes</b><br/>" + arcs["from_name"]
-            + " &rarr; " + arcs["to_name"] + "<br/>net flow: " + arcs["bikes"].astype(str)
-            + " bikes over " + arcs["distance_km"].astype(str) + " km (~" + arcs["minutes"].astype(str) + " min)"
+        arcs["tooltip_title"] = arcs["bikes"].astype(str) + " bikes"
+        arcs["tooltip_line1"] = arcs["from_name"] + " -> " + arcs["to_name"]
+        arcs["tooltip_line2"] = (
+            "net flow: "
+            + arcs["distance_km"].astype(str)
+            + " km (~"
+            + arcs["minutes"].astype(str)
+            + " min)"
         )
         layers.append(
             pdk.Layer(
@@ -348,23 +439,37 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
 
     view_state = pdk.ViewState(latitude=40.745, longitude=-73.97, zoom=10.3, pitch=35)
     tooltip = {
-        "html": "{tooltip_html}",
+        "html": "<b>{tooltip_title}</b><br/>{tooltip_line1}<br/>{tooltip_line2}",
         "style": {"backgroundColor": "steelblue", "color": "white"},
     }
-    st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view_state, tooltip=tooltip,
-                              map_provider="carto", map_style="light"))
+    st.pydeck_chart(
+        pdk.Deck(
+            layers=layers,
+            initial_view_state=view_state,
+            tooltip=tooltip,
+            map_provider="carto",
+            map_style="light",
+        )
+    )
     st.caption(
         "🔴 red = overfill risk (docks running out)   🟠 orange = empty risk (bikes running out)   "
         "🟢 green = healthy   |   arcs show the recommended rebalancing plan (red end = pickup, green end = drop-off)"
     )
 
     # ------------------------------------------------------------ tabs
-    tab_specs = [("🚚 Rebalancing moves", lambda: render_moves_tab(sd, moves)),
-                 ("⚡ Classic vs e-bike", lambda: render_types_tab(sd)),
-                 ("📊 Model performance", render_perf_tab)]
+    tab_specs = [
+        ("🚚 Rebalancing moves", lambda: render_moves_tab(sd, moves)),
+        ("⚡ Classic vs e-bike", lambda: render_types_tab(sd)),
+        ("📊 Model performance", render_perf_tab),
+    ]
     if extra_tabs:
         tab_specs += list(extra_tabs)
-    tab_specs.append(("ℹ️ About this demo", lambda: st.markdown(COMMON_ABOUT_MARKDOWN + about_markdown)))
+    tab_specs.append(
+        (
+            "ℹ️ About this demo",
+            lambda: st.markdown(COMMON_ABOUT_MARKDOWN + about_markdown),
+        )
+    )
 
     tabs = st.tabs([label for label, _ in tab_specs])
     for tab, (_, render_fn) in zip(tabs, tab_specs):
@@ -383,11 +488,16 @@ def render_live_status_tab(out, meta):
     all_stations = load_stations()
     total_by_borough = all_stations.groupby("borough").size().rename("Total stations")
     matched_by_borough = out.groupby("borough").size().rename("Matched live")
-    cov_by_borough = pd.concat([matched_by_borough, total_by_borough], axis=1).fillna(0).astype(int)
+    cov_by_borough = (
+        pd.concat([matched_by_borough, total_by_borough], axis=1).fillna(0).astype(int)
+    )
     cov_by_borough.index.name = "Region"
-    cov_by_borough["Coverage"] = (cov_by_borough["Matched live"] / cov_by_borough["Total stations"]
-                                   ).map(lambda x: f"{x*100:.0f}%")
-    st.dataframe(cov_by_borough.sort_values("Total stations", ascending=False), width='stretch')
+    cov_by_borough["Coverage"] = (
+        cov_by_borough["Matched live"] / cov_by_borough["Total stations"]
+    ).map(lambda x: f"{x * 100:.0f}%")
+    st.dataframe(
+        cov_by_borough.sort_values("Total stations", ascending=False), width="stretch"
+    )
 
     st.markdown(
         f"**Live history collected:** {min(meta['history_depth_hours'], 168):.1f}h / 168h (1 week). "
@@ -397,11 +507,16 @@ def render_live_status_tab(out, meta):
     )
     cov_rows = []
     for bt in BIKE_TYPES:
-        cov_rows.append({"Bike type": bt, **{c: f"{v*100:.0f}%" for c, v in meta["coverage"][bt].items()}})
-    st.dataframe(pd.DataFrame(cov_rows), width='stretch', hide_index=True)
+        cov_rows.append(
+            {
+                "Bike type": bt,
+                **{c: f"{v * 100:.0f}%" for c, v in meta["coverage"][bt].items()},
+            }
+        )
+    st.dataframe(pd.DataFrame(cov_rows), width="stretch", hide_index=True)
 
     st.markdown("**Where every feature comes from live, and its fallback:**")
-    st.dataframe(FEATURE_SOURCE_TABLE, width='stretch', hide_index=True)
+    st.dataframe(FEATURE_SOURCE_TABLE, width="stretch", hide_index=True)
     st.caption(
         f"Weather feed reachable: {'✅' if meta['weather_ok'] else '❌ (using defaults)'}   |   "
         f"Events feed reachable: {'✅' if meta['events_ok'] else '❌ (assuming zero events)'}"
@@ -414,7 +529,9 @@ def render_live_view(selected_boroughs, min_buffer, top_k):
 
     header_col, refresh_col = st.columns([5, 1])
     with refresh_col:
-        st.button("🔄 Refresh now", width='stretch')  # any click reruns just this fragment, right away
+        st.button(
+            "🔄 Refresh now", width="stretch"
+        )  # any click reruns just this fragment, right away
 
     if not meta.get("ok"):
         with header_col:
@@ -427,8 +544,10 @@ def render_live_view(selected_boroughs, min_buffer, top_k):
         )
         cw = meta.get("crosswalk_stats")
         if cw:
-            st.caption(f"(Reached the station list -- {cw['n_matched']:,}/{cw['n_canonical']:,} stations "
-                       f"matched to live GBFS ids -- but the live status feed itself failed this cycle.)")
+            st.caption(
+                f"(Reached the station list -- {cw['n_matched']:,}/{cw['n_canonical']:,} stations "
+                f"matched to live GBFS ids -- but the live status feed itself failed this cycle.)"
+            )
         return
 
     reference_hour = meta["reference_hour"]
@@ -443,16 +562,31 @@ def render_live_view(selected_boroughs, min_buffer, top_k):
 
     n_canon = meta["crosswalk_stats"]["n_canonical"]
     cA, cB, cC = st.columns(3)
-    cA.metric("Live station coverage", f"{meta['n_matched']:,} / {n_canon:,}",
-              help="Matched via nearest lat/lng to the live GBFS feed. Full breakdown in the Live data tab.")
-    cB.metric("Live history collected", f"{min(meta['history_depth_hours'], 168):.0f}h / 168h",
-              help="Once this reaches 168h (1 week), every lag feature can be fully real instead of proxied.")
-    avg_net_flow_cov = sum(meta["coverage"][bt]["net_flow"] for bt in BIKE_TYPES) / len(BIKE_TYPES)
-    cC.metric("Net-flow realness", f"{avg_net_flow_cov*100:.0f}%",
-              help="Share of matched stations where the latest hour's net flow is real, not a seasonal proxy.")
+    cA.metric(
+        "Live station coverage",
+        f"{meta['n_matched']:,} / {n_canon:,}",
+        help="Matched via nearest lat/lng to the live GBFS feed. Full breakdown in the Live data tab.",
+    )
+    cB.metric(
+        "Live history collected",
+        f"{min(meta['history_depth_hours'], 168):.0f}h / 168h",
+        help="Once this reaches 168h (1 week), every lag feature can be fully real instead of proxied.",
+    )
+    avg_net_flow_cov = sum(meta["coverage"][bt]["net_flow"] for bt in BIKE_TYPES) / len(
+        BIKE_TYPES
+    )
+    cC.metric(
+        "Net-flow realness",
+        f"{avg_net_flow_cov * 100:.0f}%",
+        help="Share of matched stations where the latest hour's net flow is real, not a seasonal proxy.",
+    )
 
     render_dashboard(
-        out, selected_boroughs, min_buffer, top_k, title_suffix="🔴 Live",
+        out,
+        selected_boroughs,
+        min_buffer,
+        top_k,
+        title_suffix="🔴 Live",
         about_markdown=LIVE_ABOUT_MARKDOWN,
         extra_tabs=[("🛰️ Live data", lambda: render_live_status_tab(out, meta))],
     )
@@ -462,7 +596,9 @@ def render_live_view(selected_boroughs, min_buffer, top_k):
 with st.sidebar:
     st.title("🚲 Rebalancing Controls")
 
-    mode = st.radio("Mode", ["📼 Historical Playback", "🔴 Live"], index=1, horizontal=True)
+    mode = st.radio(
+        "Mode", ["📼 Historical Playback", "🔴 Live"], index=1, horizontal=True
+    )
     is_live = mode.startswith("🔴")
 
     # Memory footprint, not correctness: each mode's data layer is cached
@@ -551,8 +687,14 @@ try:
         render_live_view(selected_boroughs, min_buffer, top_k)
     else:
         snapshot = get_snapshot(selected_ts)
-        render_dashboard(snapshot, selected_boroughs, min_buffer, top_k,
-                          title_suffix="📼 Playback", about_markdown=HISTORICAL_ABOUT_MARKDOWN)
+        render_dashboard(
+            snapshot,
+            selected_boroughs,
+            min_buffer,
+            top_k,
+            title_suffix="📼 Playback",
+            about_markdown=HISTORICAL_ABOUT_MARKDOWN,
+        )
 except Exception as e:
     st.error(
         "This mode hit an error while loading -- often a transient hiccup right at a mode "
@@ -560,7 +702,9 @@ except Exception as e:
         "Your sidebar settings are preserved."
     )
     if not is_live:
-        st.info("Historical Playback is fully self-contained (no network needed) -- try **Refresh** below.")
+        st.info(
+            "Historical Playback is fully self-contained (no network needed) -- try **Refresh** below."
+        )
     else:
         st.info(
             "Live mode needs outbound internet access to GBFS/Open-Meteo/NYC Open Data. If this keeps "
