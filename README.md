@@ -3,7 +3,9 @@
 A Streamlit app for a Citi Bike operations/dispatch audience: predicts each
 station's net bike flow a few hours ahead (separately for classic and
 electric bikes), flags stations at risk of overfilling or running empty,
-and recommends a minimum-cost set of truck moves to fix it.
+and recommends a minimum-cost set of truck moves to fix it -- including
+proactive moves from stations that are merely comfortably stocked, not
+just ones that are literally overfull (see **Modeling summary** below).
 
 Two modes, switchable from the sidebar at any time:
 
@@ -92,13 +94,30 @@ models/               trained XGBoost models + metadata (feature order, categori
 Two independent XGBoost regressors (classic bikes, electric bikes) predict
 net flow (arrivals − departures) 3 hours ahead per station, trained on
 ~3 years of NYC Citi Bike trip history plus historical weather and permitted-
-events data. Both beat naive persistence/seasonal baselines by a wide
-margin on a held-out, chronologically-later test set (see the app's
-**Model performance** tab for exact numbers). Full methodology, every
-simplifying assumption made, and one real data-quality bug found and fixed
-along the way are documented in the app's **About this demo** tab and in
-the module docstrings (`data_utils.py` and `optimizer.py` especially) —
-worth reading before presenting this, not just decoration.
+events data. Validated with **5-fold time series cross-validation**
+(expanding-window, chronological — never random k-fold, which would leak
+near-identical neighboring-in-time rows into training) on the ~2 years
+before a final held-out test window, then scored once against that
+untouched, chronologically-later ~6-month test set (see the app's
+**Model performance** tab for both the per-fold CV numbers and the test
+score).
+
+The rebalancing optimizer is **proactive**, not just reactive: a station
+doesn't need to be predicted literally over capacity to act as a bike
+source for a truck move. Any station predicted to stay comfortably
+stocked — above its own empty-risk threshold plus a safety margin it
+keeps in reserve — even after giving bikes away is a valid donor for a
+nearby station predicted to run low. Previously the optimizer could only
+relieve literal overfills, so a system with plenty of empty risk but zero
+overfull docks had nothing to recommend at all; the **Rebalancing moves**
+tab now labels each move as either relieving an overfill or proactively
+freeing up a comfortable station.
+
+Full methodology, every simplifying assumption made, and one real
+data-quality bug found and fixed along the way are documented in the
+app's **About this demo** tab and in the module docstrings
+(`data_utils.py` and `optimizer.py` especially) — worth reading before
+presenting this, not just decoration.
 
 ## Regenerating the models
 
