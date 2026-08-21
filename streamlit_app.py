@@ -351,7 +351,16 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
 
     sd_map = sd.copy()
     sd_map["color"] = sd_map["status"].map(STATUS_COLORS)
-    sd_map["radius"] = 40 + sd_map[["surplus", "deficit"]].max(axis=1) * 15
+    # display only -- capped at 10 so ONE outlier prediction can't visually dominate the whole
+    # map. Model accuracy isn't uniform across ~2,672 stations (see the About tab's data-quality
+    # notes) -- a handful of stations have real test-set error several times the system average
+    # (station_test_error_{bike_type}.csv), and an occasional very-off prediction there can make
+    # surplus/deficit swing much larger than anywhere else in view, which reads as a rendering
+    # glitch rather than what it actually is: an honest (if noisy) model output for a station
+    # that's genuinely harder to predict. The optimizer's routing math is untouched -- it still
+    # uses the real, uncapped available_to_donate/deficit values; only the dot's on-screen size
+    # is bounded.
+    sd_map["radius"] = 40 + sd_map[["surplus", "deficit"]].max(axis=1).clip(upper=10) * 15
     # display only -- a station can't physically hold negative bikes or more than its
     # capacity, but the raw regression output can land slightly outside [0, capacity]
     # (e.g. -0.08 predicted for a near-empty station). surplus/deficit above were already
