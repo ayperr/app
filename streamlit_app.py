@@ -25,6 +25,7 @@ total), so render_dashboard() below -- KPIs, map, moves/types/performance
 tabs -- is fully shared between them; only the sidebar controls and the
 data-fetch step differ.
 """
+import gc
 import json
 
 import pandas as pd
@@ -467,6 +468,18 @@ with st.sidebar:
         else:
             live_data.load_seasonal_baseline.clear()
         st.session_state.last_mode_is_live = is_live
+        # gc.collect() forces Python to actually reclaim that memory right
+        # now rather than whenever the interpreter next feels like it, and
+        # st.rerun() restarts the script fresh *after* that reclaim instead
+        # of continuing to build the new mode's dashboard in the same pass
+        # -- otherwise the moment of switching is exactly when memory usage
+        # peaks highest (old mode's data not yet fully released, new
+        # mode's data actively being built), which is the most likely spot
+        # for a constrained host to OOM-kill the process mid-switch. This
+        # trades one extra rerun (a brief blank flash) for never rendering
+        # a new mode on top of a not-yet-cleared old one.
+        gc.collect()
+        st.rerun()
 
     if is_live:
         st.caption(
