@@ -382,8 +382,16 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
     # literal text "<br/>", not a line break; the markup has to stay in the template).
     sd_map["tooltip_title"] = sd_map["name"]
     sd_map["tooltip_line1"] = "Region: " + sd_map["borough"].astype(str) + " | Status: " + sd_map["status"]
-    sd_map["tooltip_line2"] = (
-        "Predicted bikes: " + sd_map["predicted_bikes"].astype(str) + " / cap " + sd_map["capacity"].astype(str)
+    # Two distinct numbers, kept visually separate so "why does this say predicted, not
+    # live?" isn't a question the tooltip itself raises: current_bikes_total is the real
+    # count right now (live GBFS in Live mode, simulated-from-real-history in Playback --
+    # either way, "as of this moment"), predicted_bikes is where the model expects that
+    # number to be HORIZON_HOURS from now -- which is the number the map's color/status/
+    # sizing are actually based on, since the whole point of this app is flagging risk
+    # before it happens, not just mirroring the current count.
+    sd_map["tooltip_line2"] = "Now: " + sd_map["current_bikes_total"].round(1).astype(str) + " / cap " + sd_map["capacity"].astype(str)
+    sd_map["tooltip_line3"] = (
+        f"Predicted ({HORIZON_HOURS}h): " + sd_map["predicted_bikes"].astype(str) + " / cap " + sd_map["capacity"].astype(str)
     )
 
     layers = [
@@ -408,6 +416,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
         arcs["tooltip_line2"] = (
             "net flow: " + arcs["distance_km"].astype(str) + " km (~" + arcs["minutes"].astype(str) + " min)"
         )
+        arcs["tooltip_line3"] = ""
         layers.append(
             pdk.Layer(
                 "ArcLayer",
@@ -423,7 +432,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
 
     view_state = pdk.ViewState(latitude=40.745, longitude=-73.97, zoom=10.3, pitch=35)
     tooltip = {
-        "html": "<b>{tooltip_title}</b><br/>{tooltip_line1}<br/>{tooltip_line2}",
+        "html": "<b>{tooltip_title}</b><br/>{tooltip_line1}<br/>{tooltip_line2}<br/>{tooltip_line3}",
         "style": {"backgroundColor": "steelblue", "color": "white"},
     }
     st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view_state, tooltip=tooltip,
