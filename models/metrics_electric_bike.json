@@ -1,0 +1,26 @@
+{
+  "bike_type": "electric_bike",
+  "horizon_hours": 3,
+  "train_end": "2025-07-31",
+  "val_end": "2026-01-31",
+  "train_sample_pct": 12,
+  "val_sample_pct": 30,
+  "test_sample_pct": 30,
+  "best_iteration": 349,
+  "n_test": 3095632,
+  "model": {
+    "rmse": 2.062822721259804,
+    "mae": 1.0073429346084595,
+    "r2": 0.2360495924949646
+  },
+  "baseline_persist": {
+    "rmse": 3.2130261238999864,
+    "mae": 1.568743348121643,
+    "r2": -0.8534029722213745
+  },
+  "baseline_seasonal": {
+    "rmse": 2.742321913160968,
+    "mae": 1.3270984888076782,
+    "r2": -0.3501380681991577
+  }
+}

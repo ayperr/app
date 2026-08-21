@@ -1,0 +1,26 @@
+{
+  "bike_type": "classic_bike",
+  "horizon_hours": 3,
+  "train_end": "2025-07-31",
+  "val_end": "2026-01-31",
+  "train_sample_pct": 12,
+  "val_sample_pct": 30,
+  "test_sample_pct": 30,
+  "best_iteration": 349,
+  "n_test": 3056236,
+  "model": {
+    "rmse": 1.2466573367475196,
+    "mae": 0.5583350658416748,
+    "r2": 0.14411216974258423
+  },
+  "baseline_persist": {
+    "rmse": 1.864182548142666,
+    "mae": 0.8492622971534729,
+    "r2": -0.9138132333755493
+  },
+  "baseline_seasonal": {
+    "rmse": 1.5389415093127137,
+    "mae": 0.7121362686157227,
+    "r2": -0.30426812171936035
+  }
+}

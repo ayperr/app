@@ -1,0 +1,2547 @@
+station_id,name,lat,lng,borough,capacity
+1234.56,Morgan HCT Charging,40.708948,-73.932777,Brooklyn,21
+190 Morgan,190 Morgan,40.711071680975735,-73.9320957361997,Brooklyn,15
+1964.01,101 St & Fort Hamilton Pkwy,40.61124,-74.03282,Jersey City,19
+2009.04,Shore Rd & 4 Ave,40.6115,-74.03513,Jersey City,20
+2042.01,4 Ave & 99 St,40.61327,-74.03315,Jersey City,18
+2086.07,99 St & 3 Ave,40.61451,-74.03502,Jersey City,19
+2118.13,Fort Hamilton Pkwy & 95 St,40.61466,-74.02946,Jersey City,18
+2127.03,Shore Rd & 97 St,40.61529,-74.03779,Jersey City,19
+2158.08,4 Ave & 94 St,40.61689,-74.03091,Jersey City,20
+2190.08,Fort Hamilton Pkwy & 92 St,40.61717,-74.02744,Jersey City,20
+2200.07,96 St & Marine Ave,40.61699,-74.03568,Jersey City,19
+2231.1,3 Ave & 92 St,40.61946,-74.03261,Jersey City,20
+2240.06,Shore Rd & Oliver St,40.61919,-74.0402,Jersey City,19
+2261.04,5 Ave & 88 St,40.62021,-74.02717,Jersey City,19
+2303.05,4 Ave & 87 St,40.62184,-74.02863,Jersey City,22
+2312.02,Colonial Rd & 89 St,40.62254,-74.03726,Jersey City,19
+2335.08,Fort Hamilton Pkwy & 85 St,40.62095,-74.02388,Jersey City,21
+2345.04,Ridge Blvd & 89 St,40.62194,-74.03477,Jersey City,19
+2345.05,89 St & 3 Ave,40.62137,-74.03209,Jersey City,19
+2354.03,Shore Rd & Narrows Ave,40.6222,-74.04029,Jersey City,18
+2377.01,4 Ave & 85 St,40.62354,-74.02817,Jersey City,22
+2387.07,86 St & Ridge Blvd,40.62402,-74.03396,Jersey City,19
+2419.03,84 St & 3 Ave,40.62503,-74.03059,Jersey City,20
+2453.05,4 Ave & 81 St,40.62643,-74.02707,Jersey City,20
+2463.04,Ridge Blvd & 82 St,40.62711,-74.0326,Jersey City,18
+2472.02,Shore Rd & 86 St,40.62561,-74.04079,Jersey City,19
+2488.09,6 Ave & 78 St,40.62569,-74.02119,Jersey City,19
+2497.07,3 Ave & 81 St,40.627,-74.02948,Jersey City,20
+2506.1,83 St & Narrows Ave,40.62757,-74.03838,Jersey City,19
+2506.11,Colonial Rd & 83 St,40.62691,-74.03564,Jersey City,19
+2533.04,79 St & 5 Ave,40.62646,-74.02367,Jersey City,20
+2569.07,6 Ave & 74 St,40.629233,-74.019864,Brooklyn,21
+2578.16,3 Ave & 77 St,40.62991,-74.02834,Jersey City,21
+2578.17,4 Ave & 76 St,40.63005,-74.0255,Jersey City,21
+2615.05,Bay Ridge Pkwy & 5 Ave,40.62967,-74.02275,Jersey City,21
+2625.01,78 St & Ridge Blvd,40.62994,-74.03121,Jersey City,18
+2635.08,Shore Rd & 80 St,40.63074,-74.03962,Jersey City,18
+2660.09,4 Ave & 72 St,40.63283,-74.02439,Jersey City,20
+2671.05,77 St & Colonial Rd,40.63121,-74.03318,Jersey City,18
+2698.07,68 St & 5 Ave,40.63416,-74.02058,Jersey City,20
+2708.07,73 St & Ridge Blvd,40.63349,-74.02976,Jersey City,22
+2717.06,Shore Rd & 74 St,40.63414,-74.03699,Jersey City,19
+2733.03,67 St & Erik Pl,40.633385,-74.016562,Brooklyn,21
+2743.04,68 St & 4 Ave,40.63537,-74.02342,Jersey City,22
+2754.05,Colonial Rd & 71 St,40.63537,-74.03202,Jersey City,20
+2782.02,5 Ave & 67 St,40.63593237994821,-74.01975896253617,Brooklyn,20
+2793.07,Ovington Ave & 3 Ave,40.63487,-74.02625,Jersey City,23
+2803.04,Narrows Ave & MacKay Pl,40.63692,-74.03449,Jersey City,19
+2818.01,Ditmas Ave & McDonald Ave,40.63548,-73.97825,Brooklyn,21
+2821.05,7 Ave & 62 St,40.63556,-74.01298,Brooklyn,23
+2821.06,62 St & 7 Ave,40.635928,-74.013256,Brooklyn,15
+2832.03,4 Ave & Shore Road Dr,40.637033,-74.022141,Jersey City,19
+2843.01,Colonial Rd & 68 St,40.63841,-74.03093,Jersey City,22
+2843.13,70 St & Ridge Blvd,40.63596,-74.02908,Jersey City,21
+2861.02,57 St & 7 Ave,40.638566,-74.010147,Brooklyn,21
+2868.03,15 Ave & 37 St,40.63899,-73.98074,Brooklyn,19
+2872.02,63 St & 5 Ave,40.63766,-74.01782,Brooklyn,20
+2883.03,3 Ave & Wakeman Pl,40.638246,-74.024714,Jersey City,20
+2898.01,Cortelyou Rd & Stratford Rd,40.63966,-73.96807,Brooklyn,24
+2908.02,E 3 St & Cortelyou Rd,40.63828,-73.9765,Brooklyn,20
+2912.08,6 Ave & 60 St,40.638196,-74.013821,Brooklyn,19
+2923.01,62 St & 4 Ave,40.639859,-74.019776,Brooklyn,21
+2932.03,Wakeman Pl & Ridge Blvd,40.639421,-74.026823,Jersey City,20
+2942.07,Shore Pkwy Greenway & Bay Ridge Ave,40.63896,-74.03678,Jersey City,26
+2947.05,Cortelyou Rd & E 8 St,40.63874,-73.97063,Brooklyn,23
+2951.05,55 St & 7 Ave,40.639673,-74.008957,Brooklyn,21
+2957.08,Ave C & McDonald Ave,40.6403436,-73.9791522,Brooklyn,18
+2961.05,59 St & 5 Ave,40.640125,-74.015726,Brooklyn,20
+2971.02,64 St & 3 Ave,40.639978,-74.02324,Jersey City,18
+2981.03,Colonial Rd & Wakeman Pl,40.64067,-74.0294,Jersey City,20
+2984.04,Cortelyou Rd & Argyle Rd,40.64034,-73.96603,Brooklyn,24
+2996.05,Ocean Pkwy & Ave C,40.64078,-73.97395,Brooklyn,24
+3000.08,6 Ave & 55 St,40.640831,-74.010996,Brooklyn,20
+3007.05,Church Ave & Story St,40.642031,-73.981073,Brooklyn,21
+3011.03,59 St & 4 Ave,40.641269,-74.017651,Brooklyn,24
+3019.02,65 St & 2 Ave,40.640493,-74.02564,Jersey City,18
+3019.03,Keegan Rd & 2 Ave,40.64243139706092,-74.0255355834961,Jersey City,19
+3022.01,Cortelyou Rd & E 19 St,40.64269,-73.96099,Brooklyn,24
+3034.02,Matthews Ct & Coney Island Ave,40.64235,-73.96951,Brooklyn,20
+3038.08,50 St & 7 Ave,40.642501,-74.006055,Brooklyn,23
+3046.03,E 3 St & Church Ave,40.643817,-73.977433,Brooklyn,22
+3050.03,55 St & 5 Ave,40.642408,-74.013318,Brooklyn,21
+3056.05,12 Ave & 36 St,40.643546,-73.986418,Brooklyn,21
+3056.07,37 St & 13 Ave,40.64166,-73.98505,Brooklyn,20
+3070.04,E 16 St & Cortelyou Rd,40.64173,-73.96364,Brooklyn,24
+3080.01,E 8 St & Beverley Rd,40.64369,-73.97163,Brooklyn,20
+3084.05,52 St & 6 Ave,40.642703,-74.009441,Brooklyn,21
+3087.01,Cortelyou Rd & E 34 St,40.64454,-73.94486,Brooklyn,20
+3090.06,Church Ave & McDonald Ave,40.642809,-73.979239,Brooklyn,24
+3093.07,57 St & 4 Ave,40.642622,-74.016866,Brooklyn,21
+3099.01,37 St & Fort Hamilton Pkwy,40.64417,-73.98923,Brooklyn,21
+3113.06,Rugby Rd & Beverley Rd,40.64435,-73.96591,Brooklyn,22
+3113.1,Stratford Rd & Beverley Rd,40.64378,-73.96867,Brooklyn,21
+3117.05,46 St & 7 Ave,40.644743,-74.003754,Brooklyn,24
+3121.01,Cortelyou Rd & Albany Ave,40.64483,-73.93853,Brooklyn,19
+3125.09,Ocean Pkwy & Church Ave,40.64471895763575,-73.97451460361481,Brooklyn,24
+3129.08,53 St & 5 Ave,40.643371,-74.011884,Brooklyn,21
+3132.09,Beverley Rd & Nostrand Ave,40.64507,-73.9488,Brooklyn,23
+3135.04,Chester Ave & 12 Ave,40.644367,-73.984276,Brooklyn,21
+3138.03,56 St & 2 Ave,40.645705,-74.020292,Jersey City,24
+3138.09,58 St & 2 Ave,40.644512,-74.021506,Jersey City,15
+3140.09,Bedford Ave & Beverley Rd,40.64491,-73.95487,Brooklyn,24
+3148.08,E 17 St & Beverley Rd,40.64466,-73.96322,Brooklyn,22
+3148.09,E 19 St & Beverley Rd,40.64483,-73.9613,Brooklyn,21
+3155.01,Schenectady Ave & Cortelyou Rd,40.64535,-73.93268,Brooklyn,19
+3157.08,Turner Pl & Coney Island Ave,40.64521,-73.97073,Brooklyn,23
+3161.02,46 St & 6 Ave,40.645921,-74.005708,Brooklyn,22
+3164.04,Brooklyn Ave & Beverley Rd,40.64575,-73.94331,Brooklyn,18
+3166.03,Albemarle Rd & McDonald Ave,40.645074,-73.979681,Brooklyn,24
+3169.07,53 St & 4 Ave,40.644862,-74.014531,Brooklyn,25
+3172.01,Tilden Ave & Nostrand Ave,40.64683,-73.94933,Brooklyn,20
+3178.02,57 St & 1 Ave,40.646377,-74.023087,Jersey City,22
+3180.02,Beverley Rd & Flatbush Ave,40.64499,-73.95818,Brooklyn,25
+3180.09,Albemarle Rd & E 21 St,40.64741,-73.95933,Brooklyn,24
+3184.07,New Utrecht Ave & 9 Ave,40.646249287052434,-73.99452600971485,Brooklyn,25
+3187.01,Beverley Rd & E 49 St,40.64621,-73.93067,Brooklyn,20
+3188.04,Rugby Rd & Albemarle Rd,40.64672,-73.96637,Brooklyn,21
+3192.05,7 Ave & 41 St,40.647379,-74.000911,Brooklyn,27
+3199.01,Caton Ave & E 7 St,40.647718,-73.973663,Brooklyn,23
+3202.06,48 St & 5 Ave,40.646351,-74.009271,Brooklyn,24
+3205.06,Brooklyn Ave & Tilden Ave,40.64725,-73.94352,Brooklyn,18
+3208.07,Dahill Rd & 12 Ave,40.646037,-73.980963,Brooklyn,22
+3211.06,53 St & 2 Ave,40.64744,-74.018846,Brooklyn,22
+3214.04,Tilden Ave & Lott St,40.64661,-73.95401,Brooklyn,20
+3220.01,58 St & Pier 4,40.646475,-74.026081,Jersey City,23
+3223.07,Ocean Ave & Tennis Ct,40.64873,-73.96084,Brooklyn,23
+3229.07,E 48 St & Tilden Ave,40.64795,-73.93182,Brooklyn,19
+3230.01,Caton Ave & E 10 St,40.648481,-73.97058,Brooklyn,25
+3233.02,5 Ave & 44 St,40.64865,-74.00646,Brooklyn,23
+3233.06,44 St & 6 Ave,40.647105,-74.004483,Brooklyn,15
+3240.15,Fort Hamilton Pkwy & E 5 St,40.649037,-73.97673,Brooklyn,26
+3243.02,47 St & 3 Ave,40.649143,-74.012384,Brooklyn,20
+3246.06,New York Ave & Snyder Ave,40.64868,-73.94635,Brooklyn,20
+3253.01,52 St & 1 Ave,40.649292,-74.020105,Jersey City,21
+3256.04,Bedford Ave & Albemarle Rd,40.64796,-73.9556,Brooklyn,21
+3263.01,E 18 St & Church Ave,40.64958,-73.96316,Brooklyn,26
+3266.01,7 Ave & 40 St,40.648169,-74.000057,Brooklyn,23
+3272.01,E 8 St & Caton Ave,40.648055,-73.972432,Brooklyn,24
+3275.03,45 St & 4 Ave,40.649145,-74.009486,Brooklyn,25
+3278.07,Brooklyn Ave & Snyder Ave,40.64915,-73.94368,Brooklyn,18
+3280.04,Fort Hamilton Pkwy & E 2 St,40.648005,-73.979342,Brooklyn,23
+3283.05,48 St & 2 Ave,40.650176,-74.015606,Brooklyn,18
+3286.07,Rogers Ave & Snyder Ave,40.6487143313713,-73.95207855180962,Brooklyn,22
+3294.03,E 21 St & Church Ave,40.65007,-73.96001,Brooklyn,24
+3300.04,E 49 St & Church Ave,40.65182,-73.93135,Brooklyn,20
+3300.06,Snyder Ave & Schenectady Ave,40.65,-73.93296,Brooklyn,17
+3303.03,Caton Ave & Argyle Rd,40.649681,-73.967829,Brooklyn,25
+3306.03,5 Ave & 41 St,40.649983,-74.005144,Brooklyn,26
+3309.04,Church Ave & E 42 St,40.65127,-73.93818,Brooklyn,20
+3312.07,Prospect Ave & Greenwood Ave,40.651745,-73.975988,Brooklyn,25
+3315.05,44 St & 3 Ave,40.651173,-74.011405,Brooklyn,20
+3318.05,E 34 St & Church Ave,40.65116,-73.94577,Brooklyn,20
+3327.01,Lott St & Erasmus St,40.64949,-73.95408,Brooklyn,20
+3335.09,Caton Ave & St. Pauls Pl,40.65153,-73.96277,Brooklyn,25
+3341.06,Church Ave & E 45 St,40.65159,-73.93535,Brooklyn,18
+3344.02,Park Circle & East Dr,40.651566,-73.972212,Brooklyn,32
+3347.03,41 St & 4 Ave,40.651354,-74.007168,Brooklyn,22
+3350.04,E 38 St & Church Ave,40.65106,-73.94193,Brooklyn,20
+3353.04,Greenwood Ave & E 4 St,40.650739,-73.977739,Brooklyn,23
+3356.05,44 St & 2 Ave,40.652502,-74.013587,Brooklyn,20
+3356.07,2 Ave & 44 St,40.65230357303063,-74.01344954967499,Brooklyn,15
+3359.01,Church Ave & Nostrand Ave,40.65074,-73.94986,Brooklyn,23
+3359.03,Linden Blvd & Nostrand Ave,40.65272,-73.94994,Brooklyn,24
+3368.04,Caton Ave & Bedford Ave,40.65237,-73.95623,Brooklyn,29
+3373.01,E 51 St & Linden Blvd,40.65399,-73.92967,Brooklyn,20
+3376.02,Parade Pl & Crooke Ave,40.651847,-73.965248,Brooklyn,27
+3376.04,Parkside Ave & Parade Pl,40.6532,-73.96639,Brooklyn,25
+3379.03,5 Ave & 37 St,40.652657,-74.002356,Brooklyn,24
+3382.04,Troy Ave & Linden Blvd,40.6533,-73.93644,Brooklyn,19
+3385.06,Prospect Park SW & Greenwood Ave,40.652563,-73.972573,Brooklyn,27
+3388.02,41 St & 3 Ave,40.652512,-74.008906,Brooklyn,19
+3388.03,40 St & 3 Ave,40.6535,-74.00902,Brooklyn,19
+3391.1,E 34 St & Linden Blvd,40.65302,-73.94599,Brooklyn,20
+3394.03,McDonald Ave & Vanderbilt St,40.651654,-73.981231,Brooklyn,22
+3400.04,Rogers Ave & Lenox Rd,40.65378286163502,-73.95270188179111,Brooklyn,26
+3408.05,Ocean Ave & Crooke Ave,40.65326,-73.96172,Brooklyn,24
+3420.01,36 St & 4 Ave,40.654144,-74.00422,Brooklyn,29
+3423.1,Clarkson Ave & E 40 St,40.65592,-73.94068,Brooklyn,22
+3426.02,Prospect Ave & Vanderbilt St,40.653368,-73.976291,Brooklyn,24
+3428.02,42 St & 1 Ave,40.654798,-74.014372,Brooklyn,20
+3428.04,2 Ave & 43 St,40.65292829363811,-74.01286482810974,Brooklyn,15
+3431.02,New York Ave & Lenox Rd,40.65458,-73.94716,Brooklyn,24
+3439.03,Bedford Ave & Clarkson Ave,40.65519,-73.9564,Brooklyn,27
+3445.05,E 54 St & Linden Blvd,40.65417,-73.9268,Brooklyn,19
+3448.02,Parkside Ave & Ocean Ave,40.65485,-73.96217,Brooklyn,35
+3451.01,34 St & 5 Ave,40.654098,-74.001131,Brooklyn,23
+3454.01,Clarkson Ave & Troy Ave,40.65630069792407,-73.93647529780917,Brooklyn,20
+3457.03,Prospect Park SW & Vanderbilt St,40.65482,-73.973217,Brooklyn,28
+3460.01,2 Ave & 36 St,40.65708866668485,-74.00870203971863,Brooklyn,22
+3460.02,36 St & 3 Ave,40.655716,-74.006664,Brooklyn,27
+3460.04,2 Ave & 37 St,40.656326,-74.009627,Brooklyn,15
+3460.05,2 Ave & 39 St,40.655722167971554,-74.01000827550888,Brooklyn,15
+3460.06,2 Ave & 37 St,40.65624,-74.00933,Brooklyn,15
+3463.01,Clarkson Ave & E 37 St,40.65577,-73.9432,Brooklyn,24
+3472.03,Clarkson Ave & Nostrand Ave,40.6555,-73.94975,Brooklyn,25
+3480.04,Parkside Ave & Flatbush Ave,40.65563,-73.95968,Brooklyn,28
+3486.02,Clarkson Ave & Utica Ave,40.65666,-73.93109,Brooklyn,20
+3492.04,34 St & 4 Ave,40.655278,-74.003101,Brooklyn,15
+3495.08,Lenox Rd & E 43 St,40.65496,-73.93765,Brooklyn,20
+3498.09,Prospect Park SW & 16 St,40.657265,-73.974165,Brooklyn,29
+3501.01,39 St & 2 Ave,40.6553997745,-74.0106278658,Brooklyn,23
+3504.02,New York Ave & Hawthorne St,40.65794,-73.94735,Brooklyn,23
+3507.04,Prospect Park W & 20 St,40.656633,-73.983864,Brooklyn,24
+3512.03,Winthrop St & Rogers Ave,40.65686,-73.95331,Brooklyn,25
+3515.01,7 Ave & 22 St,40.658029,-73.989605,Brooklyn,24
+3518.04,Clarkson Ave & E 91 St,40.65809,-73.9247,Brooklyn,20
+3520.01,Flatbush Ave & Fenimore St,40.65798,-73.96051,Brooklyn,25
+3523.06,29 St & 5 Ave,40.656986,-73.998194,Brooklyn,20
+3526.04,Winthrop St & Schenectady Ave,40.6582,-73.9338,Brooklyn,19
+3532.02,2 Ave & 32 St,40.659176,-74.006584,Brooklyn,23
+3535.03,Winthrop St & Albany Ave,40.6577,-73.9398,Brooklyn,22
+3538.09,11 Ave & Prospect Ave,40.65629,-73.977335,Brooklyn,29
+3544.02,Winthrop St & Nostrand Ave,40.65707,-73.95005,Brooklyn,24
+3547.04,19 St & 8 Ave,40.658489,-73.985543,Brooklyn,22
+3552.09,Bedford Ave & Fenimore St,40.65815,-73.95674,Brooklyn,26
+3555.04,24 St & 5 Ave,40.659555,-73.995068,Brooklyn,27
+3558.01,E 52 St & Winthrop St,40.65831,-73.92919,Brooklyn,18
+3564.04,30 St & 4 Ave,40.657743,-74.001141,Brooklyn,22
+3567.05,Rutland Rd & E 45 St,40.66034,-73.93618,Brooklyn,19
+3576.1,Rutland Rd & Brooklyn Ave,40.65969,-73.94517,Brooklyn,23
+3579.04,Windsor Pl & Howard Pl,40.65949055893896,-73.98013919591904,Brooklyn,28
+3583.04,Riverdale Ave & E 98 St,40.65984,-73.91685,Brooklyn,15
+3585.06,Nostrand Ave & Rutland Rd,40.6595,-73.95041,Brooklyn,25
+3588.01,7 Ave & 20 St,40.659053,-73.98854,Brooklyn,25
+3591.05,E 93 St & Winthrop St,40.66069,-73.92491,Brooklyn,18
+3593.01,Maple St & Flatbush Ave,40.66026,-73.96045,Brooklyn,28
+3593.1,Flatbush Ave & Lincoln Rd,40.66131,-73.96091,Brooklyn,31
+3596.04,4 Ave & 26 St,40.660079,-73.998633,Brooklyn,27
+3599.01,Midwood St & Utica Ave,40.66124,-73.93164,Brooklyn,15
+3608.06,Maple St & Albany Ave,40.66155,-73.93974,Brooklyn,22
+3611.02,Prospect Park SW & 10 Ave,40.659945,-73.977504,Brooklyn,29
+3617.02,Maple St & New York Ave,40.66104,-73.94795,Brooklyn,25
+3620.02,Windsor Pl & 8 Ave,40.660906,-73.983074,Brooklyn,27
+3623.03,Kings Hwy & E 98 St,40.66169,-73.91948,Brooklyn,15
+3625.04,Bedford Ave & Maple St,40.66035,-73.95679,Brooklyn,24
+3625.07,Rogers Ave & Lincoln Rd,40.66127,-73.95352,Brooklyn,27
+3628.11,6 Ave & 21 St,40.66016,-73.990974,Brooklyn,31
+3631.05,E 92 St & Rutland Rd,40.66204,-73.92763,Brooklyn,19
+3633.08,Lincoln Rd & Ocean Ave,40.6605,-73.9626,Brooklyn,35
+3639.04,Schenectady Ave & Maple St,40.66178,-73.93445,Brooklyn,19
+3648.08,Kingston Ave & E New York Ave,40.66219,-73.94293,Brooklyn,26
+3651.04,West Drive & Prospect Park West,40.6610633719006,-73.97945255041122,Brooklyn,45
+3655.06,Livonia Ave & Saratoga Ave,40.66166,-73.91566,Brooklyn,15
+3657.06,Sterling St & Nostrand Ave,40.66318,-73.95076,Brooklyn,30
+3660.07,7 Ave & 17 St,40.66093779493168,-73.98680448532104,Brooklyn,27
+3663.01,Rockaway Pkwy & Winthrop St,40.66274,-73.92174,Brooklyn,19
+3665.06,Sterling St & Bedford Ave,40.6627059,-73.9569115,Brooklyn,25
+3668.04,21 St & 4 Ave,40.662584,-73.995554,Brooklyn,27
+3671.01,E New York Ave & Utica Ave,40.662686,-73.931755,Brooklyn,22
+3671.02,Utica Ave & E New York Ave,40.66304,-73.93141,Brooklyn,21
+3680.04,E New York Ave & Troy Ave,40.66227,-73.93762,Brooklyn,20
+3688.06,Brooklyn Ave & Lefferts Ave,40.662564,-73.945565,Brooklyn,25
+3694.08,Legion St & Blake Ave,40.66443,-73.91716,Brooklyn,15
+3696.05,Rogers Ave & Sterling St,40.6630619,-73.9538746,Brooklyn,26
+3699.07,17 St & 5 Ave,40.663493,-73.991007,Brooklyn,31
+3702.07,E 95 St & Rutland Rd,40.66323,-73.92529,Brooklyn,17
+3704.01,Washington Ave & Empire Blvd,40.66314,-73.9605695,Brooklyn,27
+3704.04,Flatbush Ave & Ocean Ave,40.663657,-73.963014,Brooklyn,32
+3707.01,23 St & 3 Ave,40.662611,-73.998623,Brooklyn,20
+3710.07,Lefferts Ave & Schenectady Ave,40.66343,-73.93472,Brooklyn,24
+3719.02,Lefferts Ave & Albany Ave,40.66288,-73.94019,Brooklyn,25
+3722.04,Prospect Park West & 8 St,40.66514681533792,-73.97637605667114,Brooklyn,38
+3728.04,Empire Blvd & New York Ave,40.66403,-73.94769,Brooklyn,21
+3728.05,New York Ave & Montgomery St,40.66509,-73.94824,Brooklyn,23
+3731.11,14 St & 7 Ave,40.663779,-73.98396846,Brooklyn,36
+3736.03,Bedford Ave & Montgomery St,40.665816,-73.956934,Brooklyn,26
+3736.04,Sullivan Pl & Bedford Ave,40.6642406,-73.9574686,Brooklyn,15
+3739.06,4 Ave & 17 St,40.665507,-73.993037,Brooklyn,27
+3742.11,Carroll St & Rochester Ave,40.66598,-73.9284,Brooklyn,22
+3751.05,Crown St & Troy Ave,40.66559,-73.93712,Brooklyn,25
+3759.07,Kingston Ave & Montgomery St,40.66481,-73.94269,Brooklyn,26
+3762.08,10 St & 7 Ave,40.6662078,-73.98199886,Brooklyn,30
+3768.02,Crown St & Rogers Ave,40.66639,-73.95346,Brooklyn,27
+3771.06,14 St & 5 Ave,40.666287,-73.98895053,Brooklyn,35
+3774.06,Rockaway Pkwy & Rutland Rd,40.66455,-73.92376,Brooklyn,20
+3776.05,Montgomery St & Franklin Ave,40.666439306870814,-73.9605563879013,Brooklyn,28
+3776.1,McKeever Pl & Sullivan Pl,40.66432331577469,-73.95921791486467,Brooklyn,24
+3779.02,3 Ave & 17 St,40.666168,-73.995549,Brooklyn,22
+3782.03,Carroll St & Utica Ave,40.66619,-73.93162,Brooklyn,23
+3791.02,Albany Ave & Carroll St,40.6667,-73.93972,Brooklyn,24
+3803.05,6 Ave & 12 St,40.6663181,-73.9854617,Brooklyn,32
+3803.09,6 Ave & 9 St,40.668127,-73.98377641,Brooklyn,38
+3811.05,16 St & 4 Ave,40.666197,-73.992466,Brooklyn,26
+3814.01,Buffalo Ave & E New York Ave,40.66591,-73.92602,Brooklyn,23
+3822.08,Schenectady Ave & President St,40.66732,-73.93398,Brooklyn,24
+3831.03,Kingston Ave & Carroll St,40.66688,-73.9425,Brooklyn,27
+3834.1,6 St & 7 Ave,40.6686627,-73.97988067,Brooklyn,35
+3839.02,President St & Nostrand Ave,40.66811,-73.9505,Brooklyn,28
+3842.08,10 St & 5 Ave,40.6686273,-73.98700053,Brooklyn,31
+3845.05,Eastern Pkwy & Ralph Ave,40.66852,-73.92284,Brooklyn,20
+3847.04,Carroll St & Franklin Ave,40.6679411,-73.9588,Brooklyn,26
+3850.03,3 Ave & 14 St,40.6685455,-73.99333264,Brooklyn,23
+3853.02,Eastern Pkwy & Rochester Ave,40.66846,-73.9282,Brooklyn,24
+3856.03,Flatbush Ave & Eastern Pkwy,40.668757,-73.966438,Brooklyn,24
+3862.07,Eastern Pkwy & Troy Ave,40.66929,-73.93679,Brooklyn,25
+3865.05,3 St & Prospect Park West,40.668132,-73.97363831,Brooklyn,38
+3871.02,Eastern Pkwy & Brooklyn Ave,40.66939,-73.94514,Brooklyn,27
+3874.01,5 St & 6 Ave,40.6704836,-73.98208968,Brooklyn,29
+3877.04,Pitkin Ave & Grafton St,40.66852,-73.91908,Brooklyn,21
+3879.04,Union St & Bedford Ave,40.6691783,-73.9554162,Brooklyn,31
+3882.01,12 St & 4 Ave,40.668603,-73.9904394,Brooklyn,29
+3882.05,10 St & 4 Ave,40.66967356370341,-73.98898908183764,Brooklyn,15
+3885.06,Buffalo Ave & St John's Pl,40.67015,-73.92538,Brooklyn,20
+3887.03,Carroll St & Washington Ave,40.6686744,-73.9618148,Brooklyn,26
+3893.03,Eastern Pkwy & Schenectady Ave,40.66876,-73.93376,Brooklyn,26
+3902.06,Eastern Pkwy & Kingston Ave,40.66959,-73.94237,Brooklyn,34
+3905.15,3 St & 7 Ave,40.6703837,-73.97839676,Brooklyn,38
+3911.05,Eastern Pkwy & Nostrand Ave,40.66967,-73.9503,Brooklyn,27
+3914.02,7 St & 5 Ave,40.6704922,-73.98541675,Brooklyn,31
+3917.03,St Johns Pl & Howard Ave,40.66992,-73.92002,Brooklyn,20
+3919.07,Eastern Pkwy & Franklin Ave (NE Corner),40.6707767,-73.9576801,Brooklyn,38
+3919.12,Eastern Pkwy & Franklin Ave (SW Corner),40.670529,-73.958222,Brooklyn,30
+3922.02,10 St & 2 Ave,40.671907,-73.993612,Brooklyn,27
+3925.03,Sterling Pl & Rochester Ave,40.67128,-73.92825,Brooklyn,21
+3928.08,Eastern Pkwy & Washington Ave,40.6716493,-73.9631145,Brooklyn,33
+3931.09,Bay St & Court St,40.671409,-74.001328,Brooklyn,15
+3934.06,Sterling Pl & Schenectady Ave,40.6716,-73.93378,Brooklyn,22
+3934.07,Troy Ave & Park Pl,40.67251,-73.93642,Brooklyn,24
+3940.04,Sigourney St & Columbia St,40.67267243410948,-74.0087952464819,Brooklyn,24
+3943.03,St Johns Pl & Kingston Ave,40.67113,-73.94222,Brooklyn,28
+3946.07,1 St & 6 Ave,40.672784,-73.979826,Brooklyn,32
+3950.03,Park Pl & Thomas S. Boyland St,40.67154,-73.91433,Brooklyn,23
+3952.07,Lincoln Pl & Nostrand Ave,40.67077,-73.9507,Brooklyn,30
+3955.05,4 Ave & 9 St,40.6705135,-73.98876585,Brooklyn,33
+3958.02,Sterling Pl & Ralph Ave,40.67095,-73.92222,Brooklyn,20
+3960.01,Lincoln Pl & Classon Ave,40.6721683,-73.9609,Brooklyn,30
+3966.01,St Johns Pl & Utica Ave,40.6705,-73.9308,Brooklyn,24
+3966.03,Park Pl & Utica Ave,40.67242,-73.93094,Brooklyn,22
+3972.08,Henry St & Bay St,40.6725058,-74.00494695,Brooklyn,24
+3975.02,Albany Ave & Park Pl,40.67297,-73.93896,Brooklyn,25
+3978.13,Garfield Pl & 8 Ave,40.6711978,-73.97484126,Brooklyn,35
+3981.1,Dwight St & Van Dyke St,40.67363551341504,-74.01195555925369,Brooklyn,24
+3982.01,Eastern Pkwy & St Marks Ave,40.67319,-73.91083,Brooklyn,21
+3984.02,Sterling Pl & New York Ave,40.67234,-73.94763,Brooklyn,30
+3987.06,5 Ave & 3 St,40.6728155,-73.98352355,Brooklyn,36
+3991.04,Prospect Pl & Howard Ave,40.67261,-73.91977,Brooklyn,21
+3993.03,Sterling Pl & Bedford Ave,40.672695,-73.954131,Brooklyn,33
+3996.01,7 St & 3 Ave,40.67260298150126,-73.98983001708984,Brooklyn,29
+3999.06,Park Pl & Buffalo Ave,40.67202,-73.92539,Brooklyn,22
+4001.09,St Johns Pl & Washington Ave,40.6737236,-73.9631611,Brooklyn,33
+4007.01,Schenectady Ave & Prospect Pl,40.67351,-73.93363,Brooklyn,25
+4010.01,Plaza St East & Flatbush Ave,40.673134,-73.969106,Brooklyn,41
+4010.13,Plaza St West & Flatbush Ave,40.6750207,-73.97111473,Brooklyn,38
+4010.15,Grand Army Plaza & Plaza St West,40.6729679,-73.97087984,Brooklyn,37
+4013.08,Columbia St & Lorraine St,40.6747055,-74.0075572,Brooklyn,24
+4014.01,Pacific St & Sackman St,40.67522,-73.9061,Brooklyn,20
+4016.03,Kingston Ave & Park Pl,40.67308,-73.94191,Brooklyn,28
+4019.06,Carroll St & 6 Ave,40.6740886,-73.9787282,Brooklyn,33
+4023.01,St Marks Ave & Thomas S. Boyland St,40.67313,-73.91387,Brooklyn,18
+4023.05,Pacific St & Thomas S. Boyland St,40.67568,-73.91396,Brooklyn,20
+4025.02,Prospect Pl & Nostrand Ave,40.67428,-73.9503,Brooklyn,32
+4028.03,3 St & 3 Ave,40.6750705,-73.98775226,Brooklyn,30
+4028.04,4 Ave & 3 St,40.673746,-73.985649,Brooklyn,32
+4031.05,St Marks Ave & Ralph Ave,40.67372,-73.92199,Brooklyn,20
+4033.06,Park Pl & Franklin Ave,40.6741806,-73.9564947,Brooklyn,15
+4033.16,Sterling Pl & Franklin Ave,40.67324785,-73.95689517,Brooklyn,15
+4033.18,Sterling Pl & Classon Ave,40.6739411,-73.96026,Brooklyn,31
+4033.19,Park Pl & Franklin Ave,40.67418106036449,-73.95655458212127,Brooklyn,36
+4039.04,St Marks Ave & Rochester Ave,40.67404,-73.92772,Brooklyn,22
+4042.08,Underhill Ave & Lincoln Pl,40.6740123,-73.9671457,Brooklyn,36
+4045.01,Clinton St & Centre St,40.67434,-74.00194698,Brooklyn,24
+4048.03,Bergen St & Troy Ave,40.67524,-73.93596,Brooklyn,22
+4051.01,Berkeley Pl & 7 Ave,40.675146838709786,-73.97523209452629,Brooklyn,41
+4054.02,Wolcott St & Dwight St,40.6753274,-74.0100698,Brooklyn,15
+4054.06,Dwight St & Dikeman St,40.67487503856169,-74.01048018571481,Brooklyn,23
+4055.04,Bergen St & Mother Gaston Blvd,40.67374,-73.90852,Brooklyn,20
+4057.04,Brooklyn Ave & Prospect Pl,40.67412,-73.94447,Brooklyn,29
+4060.09,Carroll St & 5 Ave,40.6751622,-73.9814832,Brooklyn,35
+4064.03,Bergen St & Saratoga Ave,40.67423,-73.91656,Brooklyn,20
+4066.15,Bedford Ave & Bergen St,40.676368,-73.952918,Brooklyn,33
+4072.02,Bergen St & Buffalo Ave,40.6747,-73.92512,Brooklyn,21
+4074.14,Classon Ave & St Marks Ave,40.676513,-73.959431,Brooklyn,33
+4077.04,Smith St & 9 St,40.6746957,-73.99785768,Brooklyn,33
+4077.07,Court St & Huntington St,40.67595768953126,-73.99894942833194,Brooklyn,33
+4080.01,Schenectady Ave & Pacific St,40.67686,-73.93327,Brooklyn,24
+4083.13,Park Pl & Vanderbilt Ave,40.6767,-73.969024,Brooklyn,33
+4086.05,Columbia St & W 9 St,40.6769993,-74.00647134,Brooklyn,23
+4086.06,Henry St & W 9 St,40.6763744,-74.00324957,Brooklyn,22
+4087.01,Van Sinderen Ave & Atlantic Ave,40.67621,-73.90351,Brooklyn,22
+4089.01,Bergen St & Kingston Ave,40.6756,-73.9415,Brooklyn,28
+4095.03,Van Brunt St & Wolcott St,40.6773429,-74.01275056,Brooklyn,31
+4095.1,Van Brunt St & Van Dyke St,40.6758329439129,-74.01472628116608,Brooklyn,31
+4096.08,Dean St & Rockaway Ave,40.67486,-73.91123,Brooklyn,20
+4098.06,New York Ave & St Marks Ave,40.67514,-73.94716,Brooklyn,30
+4101.17,President St & 4 Ave,40.676757,-73.983262,Brooklyn,15
+4101.18,President St & 4 Ave,40.676660243631495,-73.98327781669718,Brooklyn,30
+4105.01,Pacific St & Ralph Ave,40.67607,-73.92171,Brooklyn,22
+4107.05,Franklin Ave & St Marks Ave,40.6758324,-73.9561677,Brooklyn,32
+4107.13,Dean St & Franklin Ave,40.67759206937376,-73.955637216568,Brooklyn,37
+4110.1,3 St & Hoyt St,40.6777287,-73.99364123,Brooklyn,28
+4113.01,Pacific St & Rochester Ave,40.67639,-73.92748,Brooklyn,20
+4116.08,Prospect Pl & Underhill Ave,40.6769694,-73.96579,Brooklyn,32
+4116.09,Washington Ave & Park Pl,40.675832,-73.963308,Brooklyn,35
+4119.04,Clinton St & 4 Place,40.6783563,-74.00014502,Brooklyn,31
+4120.02,Fulton St & Williams Ave,40.67709,-73.9008,Brooklyn,22
+4122.03,Pacific St & Troy Ave,40.67686,-73.93607,Brooklyn,25
+4124.04,Verona Pl & Fulton St,40.6803560840434,-73.9476791024208,Brooklyn,26
+4125.07,7 Ave & Park Pl,40.6776147,-73.97324283,Brooklyn,39
+4125.13,Park Pl & Carlton Ave,40.677358,-73.97211,Brooklyn,34
+4128.08,Pioneer St & Richards St,40.6777748,-74.0094613,Manhattan,24
+4129.1,Herkimer St & Eastern Pkwy,40.67738,-73.90829,Brooklyn,21
+4131.03,Brooklyn Ave & Dean St,40.67669,-73.94437,Brooklyn,29
+4134.06,Berkeley Pl & 6 Ave,40.6765304,-73.97846879,Brooklyn,32
+4137.1,Coffey St & Conover St,40.677236,-74.015665,Manhattan,28
+4137.14,Coffey St & Ferris St,40.67818387977647,-74.0170168876648,Manhattan,28
+4138.04,Thomas S. Boyland St & Fulton St,40.67854,-73.91367,Brooklyn,23
+4140.03,Pacific St & Nostrand Ave,40.6776,-73.94963,Brooklyn,33
+4143.04,3 Ave & Carroll St,40.677027,-73.9865,Brooklyn,33
+4146.02,Columbus Pl & Atlantic Ave,40.67717,-73.92285,Brooklyn,23
+4148.07,Pacific St & Classon Ave,40.6791944,-73.9587903,Brooklyn,32
+4151.01,Smith St & 3 St,40.6787242,-73.99599099,Brooklyn,33
+4154.02,Pacific St & Utica Ave,40.6767,-73.93051,Brooklyn,22
+4157.1,Bergen St & Vanderbilt Ave,40.6794388,-73.9680438,Brooklyn,28
+4157.15,Prospect Pl & Vanderbilt Ave,40.67767534,-73.96902144,Brooklyn,40
+4161.01,Van Sinderen Ave & Truxton St,40.6786,-73.90369,Brooklyn,25
+4166.08,Prospect Pl & 6 Ave,40.6793307,-73.97519523,Brooklyn,33
+4169.04,Pioneer St & Van Brunt St,40.679043,-74.011169,Manhattan,31
+4170.08,Somers St & Rockaway Ave,40.67872,-73.91105,Brooklyn,22
+4172.04,Herkimer St & New York Ave,40.67955,-73.94709,Brooklyn,27
+4175.14,Douglass St & 4 Ave,40.6792788,-73.98154004,Brooklyn,36
+4175.15,Union St & 4 Ave,40.6772744,-73.98282002,Brooklyn,34
+4179.03,Fulton St & Saratoga Ave,40.67853,-73.91642,Brooklyn,22
+4181.1,Brevoort Pl & Bedford Ave,40.68012,-73.95362,Brooklyn,31
+4184.07,Carroll St & Bond St,40.6786115,-73.99037292,Brooklyn,28
+4184.08,President St & Hoyt St,40.680057,-73.991753,Brooklyn,29
+4187.04,Sumpter St & Fulton St,40.67923,-73.92588,Brooklyn,22
+4190.06,Grand Ave & Bergen St,40.678045,-73.962408,Brooklyn,33
+4193.14,1 Pl & Clinton St,40.6809591,-73.99905709,Brooklyn,31
+4196.01,Lewis Ave & Fulton St,40.67972,-73.93467,Brooklyn,23
+4196.05,Chauncey St & Stuyvesant Ave,40.68012,-73.93168,Brooklyn,30
+4199.12,Carlton Ave & Dean St,40.6809741,-73.9710097,Brooklyn,45
+4199.13,Carlton Ave & St Marks Ave,40.67911856082165,-73.97176265716553,Brooklyn,15
+4202.04,Richards St & Delavan St,40.6794327,-74.00785041,Manhattan,25
+4203.04,Somers St & Broadway,40.67945,-73.90474,Brooklyn,20
+4205.06,Kingston Ave & Herkimer St,40.67890679,-73.94142771,Brooklyn,29
+4208.01,Sterling Pl & 5 Ave,40.678970070475735,-73.97855266928671,Brooklyn,36
+4212.01,MacDougal St & Rockaway Ave,40.68018,-73.91136,Brooklyn,22
+4214.03,Macon St & Nostrand Ave,40.6809833854,-73.9500479759,Brooklyn,34
+4217.02,Douglass St & 3 Ave,40.6802133,-73.98432695,Brooklyn,33
+4217.06,Degraw St & 3 Ave,40.67977,-73.9847,Brooklyn,31
+4220.02,Ralph Ave & Fulton St,40.67922,-73.92192,Brooklyn,26
+4222.02,Lefferts Pl & Franklin Ave,40.680342423,-73.9557689392,Brooklyn,33
+4225.14,Carroll St & Smith St,40.680611,-73.99475825,Brooklyn,38
+4228.02,Fulton St & Utica Ave,40.6794268,-73.9298911,Brooklyn,28
+4228.06,Chauncey St & Malcolm X Blvd,40.68044,-73.92842,Brooklyn,28
+4231.04,Underhill Ave & Pacific St,40.6804836,-73.9646795,Brooklyn,37
+4237.01,Lewis Ave & Decatur St,40.6814598,-73.934903,Brooklyn,25
+4237.02,Albany Ave & Fulton St,40.6800105,-73.938475,Brooklyn,27
+4243.01,Commerce St & Van Brunt St,40.6812117,-74.00860912,Manhattan,27
+4244.06,Broadway & Furman Ave,40.68139,-73.90756,Brooklyn,22
+4246.02,MacDonough St & Marcy Ave,40.68078,-73.94613,Brooklyn,29
+4249.01,St Marks Pl & 4 Ave,40.68197,-73.98034,Brooklyn,30
+4249.1,St Marks Pl & 4 Ave,40.68177810928762,-73.97988975048065,Brooklyn,15
+4253.02,Thomas S. Boyland St & Marion St,40.6814658848122,-73.91415685415268,Brooklyn,25
+4255.05,Hancock St & Bedford Ave,40.68216564,-73.95399026,Brooklyn,34
+4258.07,Degraw St & Hoyt St,40.68199044270703,-73.99079024791718,Brooklyn,32
+4261.03,Patchen Ave & Bainbridge St,40.68143,-73.92565,Brooklyn,23
+4263.12,Fulton St & Irving Pl,40.68186,-73.959432,Brooklyn,36
+4266.03,Clinton St & Union St,40.6831164,-73.99785267,Brooklyn,33
+4278.03,Marcus Garvey Blvd & Macon St,40.682601,-73.938037,Brooklyn,30
+4281.08,Bergen St & Flatbush Ave,40.680944723477296,-73.97567331790923,Brooklyn,38
+4285.09,Rockaway Ave & Bainbridge St,40.68319988172761,-73.91166642308235,Brooklyn,26
+4290.06,Wyckoff St & 3 Ave,40.6827549,-73.98258555,Brooklyn,29
+4293.05,Chauncey St & Howard Ave,40.68158,-73.91959,Brooklyn,25
+4298.05,Degraw St & Smith St,40.6829151,-73.99318208,Brooklyn,34
+4301.04,Macon St & Patchen Ave,40.68374,-73.9261,Brooklyn,26
+4301.07,MacDonough St & Malcolm X Blvd,40.68273,-73.92926,Brooklyn,28
+4307.13,President St & Henry St,40.6828003,-73.99990419,Brooklyn,30
+4310.06,Macon St & Lewis Ave,40.68282,-73.93488,Brooklyn,29
+4317.05,Bushwick Ave & Furman Ave,40.68281,-73.90623,Brooklyn,24
+4319.07,Halsey St & Tompkins Ave,40.6823687,-73.944118,Brooklyn,36
+4322.06,Bergen St & 4 Ave,40.68256425759694,-73.9798977971077,Brooklyn,36
+4325.03,Thomas S. Boyland St & Macon St,40.68491,-73.91493,Brooklyn,24
+4327.09,Putnam Ave & Nostrand Ave,40.68402,-73.94977,Brooklyn,31
+4330.09,Hoyt St & Warren St,40.6843549,-73.98901629,Brooklyn,25
+4334.02,Halsey St & Ralph Ave,40.68494,-73.92299,Brooklyn,25
+4336.01,Monroe St & Classon Ave,40.6845683,-73.95881081,Brooklyn,28
+4339.01,Butler St & Court St,40.6849894,-73.99440329,Brooklyn,32
+4342.04,Hancock St & Malcolm X Blvd,40.68487,-73.9293,Brooklyn,29
+4345.11,Fulton St & Waverly Ave,40.68323865460341,-73.96599590778351,Brooklyn,39
+4348.07,Carroll St & Columbia St,40.6830456,-74.00348559,Manhattan,33
+4354.05,S Portland Ave & Hanson Pl,40.68539567,-73.97431458,Brooklyn,36
+4354.07,Atlantic Ave & Fort Greene Pl,40.68382604,-73.97632328,Brooklyn,39
+4357.01,Moffat St & Bushwick,40.68458,-73.90925,Brooklyn,26
+4362.04,Pacific St & Nevins St,40.6853761,-73.98302136,Brooklyn,32
+4366.01,Halsey St & Broadway,40.68565,-73.91564,Brooklyn,24
+4366.1,Decatur St & Saratoga Ave,40.68332,-73.91711,Brooklyn,26
+4368.05,Monroe St & Bedford Ave,40.6851443,-73.95380904,Brooklyn,37
+4371.01,Warren St & Smith St,40.68542400997018,-73.99127773940563,Brooklyn,33
+4374.01,Picnic Point,40.68512559515415,-74.02535319328308,Jersey City,23
+4375.02,Jefferson Ave & Patchen Ave,40.68609,-73.92628,Brooklyn,26
+4377.04,Cambridge Pl & Gates Ave,40.68488,-73.96304,Brooklyn,33
+4380.08,Henry St & Degraw St,40.6847514,-73.99917254,Brooklyn,33
+4383.06,Hancock St & Stuyvesant Ave,40.68454,-73.9322,Brooklyn,28
+4386.05,Fulton St & Clermont Ave,40.68415748,-73.96922273,Brooklyn,34
+4386.07,Carlton Ave & Greene Ave,40.685957,-73.971468,Brooklyn,33
+4392.04,Putnam Ave & Throop Ave,40.6851532,-73.94111,Brooklyn,32
+4395.07,Hanson Pl & Ashland Pl,40.68506807308177,-73.97790759801863,Brooklyn,48
+4399.03,Eldert St & Bushwick Ave,40.68652,-73.91321,Brooklyn,24
+4401.04,Marcy Ave & Gates Ave,40.686679,-73.947417,Brooklyn,29
+4404.1,Bond St & Bergen St,40.6849668,-73.98620772,Brooklyn,32
+4408.07,Macon St & Howard Ave,40.68452,-73.92011,Brooklyn,27
+4410.02,Franklin Ave & Quincy St,40.68636,-73.95678,Brooklyn,35
+4413.08,Warren St & Court St,40.686371,-73.99383324,Brooklyn,31
+4416.1,Madison St & Malcolm X Blvd,40.68713,-73.93008,Brooklyn,29
+4419.03,Washington Ave & Greene Ave,40.68650065,-73.96563307,Brooklyn,34
+4422.04,Columbia St & Degraw St,40.6859296,-74.00242364,Manhattan,30
+4422.05,Columbia St & Kane St,40.68763155,-74.0016256,Manhattan,27
+4425.02,Lewis Ave & Madison St,40.686312,-73.935775,Brooklyn,30
+4428.02,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Brooklyn,35
+4432.1,Central Ave & Decatur St,40.6882,-73.90798,Brooklyn,25
+4434.06,Monroe St & Tompkins Ave,40.686203,-73.944694,Brooklyn,33
+4437.01,3 Ave & Schermerhorn St,40.68683208,-73.9796772,Brooklyn,35
+4437.09,Nevins St & Schermerhorn St,40.68737247650719,-73.98176059126854,Brooklyn,35
+4440.02,Yankee Ferry Terminal,40.68706579875912,-74.01675585121666,Manhattan,28
+4441.06,Broadway & Hancock St,40.68661064950837,-73.91683218964889,Brooklyn,27
+4446.01,Bergen St & Smith St,40.6867443,-73.99063168,Brooklyn,36
+4446.03,Pacific St & Smith St,40.687880939612775,-73.98939281702042,Brooklyn,34
+4446.05,Dean St & Hoyt St,40.6864442,-73.98759104,Brooklyn,30
+4450.06,Putnam Ave & Ralph Ave,40.68705,-73.92338,Brooklyn,28
+4452.01,Lafayette Ave & Classon Ave,40.68900443,-73.96023854,Brooklyn,15
+4452.03,Lexington Ave & Classon Ave,40.68676793,-73.95928168,Brooklyn,34
+4455.1,Congress St & Clinton St,40.68825516598005,-73.99545192718506,Brooklyn,33
+4455.11,Kane St & Clinton St,40.6861758,-73.99645295,Brooklyn,30
+4458.06,Stuyvesant Ave & Gates Ave,40.68834,-73.93306,Brooklyn,25
+4461.01,Clermont Ave & Lafayette Ave,40.68764484,-73.96968902,Brooklyn,35
+4461.04,DeKalb Ave & Vanderbilt Ave,40.68940747,-73.96885458,Brooklyn,39
+4461.07,Waverly Ave & Lafayette Ave,40.688231,-73.966804,Brooklyn,15
+4467.03,Monroe St & Marcus Garvey Blvd,40.686722,-73.938988,Brooklyn,29
+4470.09,Lafayette Ave & Ft Greene Pl,40.68700231292619,-73.97664964199066,Brooklyn,42
+4474.01,Halsey St & Evergreen Ave,40.68858,-73.91227,Brooklyn,25
+4476.03,Marcy Ave & Lafayette Ave,40.6900815,-73.947915,Brooklyn,33
+4479.06,Bond St & Fulton St,40.6896218879,-73.9830426872,Brooklyn,40
+4479.1,Schermerhorn St & Hoyt St,40.6886263,-73.9851911,Brooklyn,43
+4483.1,Broadway & Madison St,40.68822,-73.91966,Brooklyn,30
+4485.1,Clifton Pl & Bedford Ave,40.688655,-73.955156,Brooklyn,31
+4488.08,Court St & State St,40.6902375,-73.99203074,Brooklyn,15
+4488.1,Amity St & Court St,40.68841885589487,-73.9931417101234,Brooklyn,38
+4491.09,Monroe St & Patchen Ave,40.68814,-73.92693,Brooklyn,28
+4494.04,Lafayette Ave & St James Pl,40.68851534,-73.9647628,Brooklyn,37
+4497.09,Congress St & Hicks St,40.6893952,-73.9995126,Brooklyn,29
+4500.07,Lexington Ave & Stuyvesant Ave,40.68973,-73.93353,Brooklyn,28
+4507.07,Wilson Ave & Moffat St,40.68906,-73.90506,Brooklyn,28
+4510.04,Greene Ave & Throop Ave,40.6894932,-73.942061,Brooklyn,32
+4513.06,DeKalb Ave & Hudson Ave,40.689888,-73.981013,Brooklyn,37
+4513.09,Ashland Pl & Dekalb Ave,40.690065,-73.978776,Brooklyn,34
+4517.03,Jefferson Ave & Evergreen Ave,40.68989,-73.91458,Brooklyn,27
+4519.02,Greene Ave & Nostrand Ave,40.6883337,-73.950916,Brooklyn,32
+4519.04,Kosciuszko St & Nostrand Ave,40.69072549,-73.95133465,Brooklyn,32
+4522.07,State St & Smith St,40.68917,-73.9886,Brooklyn,36
+4526.01,Grove St & Broadway,40.69047,-73.923511,Brooklyn,31
+4528.01,DeKalb Ave & Franklin Ave,40.69064807082943,-73.95746178925037,Brooklyn,15
+4528.03,Lafayette Ave & Franklin Ave,40.689271,-73.957324,Brooklyn,37
+4531.05,Henry St & Atlantic Ave,40.69089272,-73.99612349,Brooklyn,37
+4534.06,Lexington Ave & Patchen Ave,40.6904,-73.9277,Brooklyn,28
+4543.07,Lewis Ave & Greene Ave,40.68995,-73.9365,Brooklyn,31
+4546.04,DeKalb Ave & S Portland Ave,40.68981035,-73.97493121,Brooklyn,15
+4546.05,Washington Park,40.6917823,-73.9737299,Brooklyn,34
+4546.06,DeKalb Ave & S Portland Ave,40.68967018552252,-73.97527355121376,Brooklyn,36
+4550.05,Central Ave & Covert St,40.68929,-73.90951,Brooklyn,25
+4553.04,Kosciuszko St & Tompkins Ave,40.69128258,-73.9452416,Brooklyn,32
+4560.01,Madison St & Evergreen Ave,40.69122,-73.91693,Brooklyn,27
+4562.02,DeKalb Ave & Bedford Ave,40.690894,-73.955195,Brooklyn,15
+4565.07,Schermerhorn St & Court St,40.6910363748993,-73.99201065301895,Brooklyn,40
+4568.01,Van Buren St & Broadway,40.692,-73.92617,Brooklyn,27
+4576.11,Lafayette Ave & Stuyvesant Ave,40.6919925157634,-73.9325501024723,Brooklyn,27
+4582.08,Knickerbocker Ave & Moffat St,40.690434,-73.903737,Brooklyn,24
+4587.02,Willoughby St & Ashland Pl,40.69178,-73.97877,Brooklyn,32
+4590.01,Soissons Landing,40.69231660719192,-74.01486575603485,Manhattan,15
+4591.04,Central Ave & Weirfield St,40.69055,-73.91181,Brooklyn,27
+4593.05,Marcy Ave & Hart St,40.693022,-73.94868,Brooklyn,31
+4596.05,Duffield St & Willoughby St,40.69221589,-73.9842844,Brooklyn,38
+4596.09,Lawrence St & Willoughby St,40.69236178,-73.98631746,Brooklyn,39
+4600.09,Bushwick Ave & Linden St,40.69146,-73.92146,Brooklyn,30
+4605.04,Clinton St & Joralemon St,40.69239502,-73.99337909,Brooklyn,38
+4608.01,Broadway & Kosciuszko St,40.69329,-73.92852,Brooklyn,27
+4611.03,Willoughby Ave & Hall St,40.69196035,-73.96536851,Brooklyn,39
+4614.04,Atlantic Ave & Furman St,40.69165183,-73.9999786,Brooklyn,42
+4615.01,Wyckoff Ave & Cooper Ave,40.69338,-73.90061,Queens,25
+4617.01,Lewis Ave & Kosciuszko St,40.69237074,-73.93705428,Brooklyn,29
+4620.02,Adelphi St & Myrtle Ave,40.69308257,-73.97178913,Brooklyn,39
+4623.02,Knickerbocker Ave & Halsey St,40.693,-73.90824,Brooklyn,26
+4625.01,Pulaski St & Throop Ave,40.693115,-73.943149,Brooklyn,32
+4628.05,Willoughby St & Fleet St,40.69196566,-73.9813018,Brooklyn,38
+4628.07,Myrtle Ave & Fleet Pl,40.693534,-73.981909,Brooklyn,34
+4631.02,Soissons Landing,40.692566,-74.015936,Manhattan,30
+4632.1,Central Ave & Woodbine St,40.69296,-73.91605,Brooklyn,29
+4634.02,Willoughby Ave & Walworth St,40.69331716,-73.95381995,Brooklyn,30
+4637.06,Fulton St & Adams St,40.69241829257847,-73.98949474096298,Brooklyn,42
+4637.07,Johnson St & Brooklyn Bridge Blvd,40.695,-73.98917,Brooklyn,15
+4640.01,Bushwick Ave & Harman St,40.69356,-73.92524,Brooklyn,30
+4645.04,Henry St & Remsen St,40.69400964865994,-73.99465128779411,Brooklyn,31
+4645.09,Hicks St & Montague St,40.69512845,-73.99595065,Brooklyn,15
+4648.03,Malcolm X Blvd & DeKalb Ave,40.6938,-73.93114,Brooklyn,28
+4651.02,Clinton Ave & Myrtle Ave,40.693261,-73.968896,Brooklyn,39
+4654.01,Norman St & Wyckoff Ave,40.69517,-73.90311,Queens,29
+4656.03,Pulaski St & Marcus Garvey Blvd,40.6933982,-73.939877,Brooklyn,29
+4659.02,Myrtle Ave & St Edwards St,40.69327018,-73.97703874,Brooklyn,30
+4663.02,Knickerbocker Ave & Hancock St,40.69385,-73.90974,Brooklyn,26
+4663.06,Putnam Ave & Knickerbocker Ave,40.69545,-73.91164,Brooklyn,27
+4665.02,Willoughby Ave & Tompkins Ave,40.69425403,-73.94626915,Brooklyn,30
+4668.08,Johnson St & Gold St,40.69474881,-73.98362464,Brooklyn,32
+4672.01,Menahan St & Central Ave,40.69543,-73.9196,Brooklyn,27
+4677.01,Cadman Plaza E & Tillary St,40.69597683,-73.99014892,Brooklyn,31
+4677.06,Montague St & Clinton St,40.6942715,-73.9923272,Brooklyn,38
+4680.05,Bushwick Ave & Dekalb Ave,40.69502,-73.92825,Brooklyn,28
+4683.02,Emerson Pl & Myrtle Ave,40.69363137,-73.96223558,Brooklyn,38
+4687.03,Cypress Ave & St Felix Ave,40.69559,-73.89927,Queens,20
+4689.03,Suydam St & Broadway,40.69544,-73.93223,Brooklyn,31
+4689.08,Stuyvesant Ave & Hart St,40.69465,-73.9343,Brooklyn,29
+4692.01,Clermont Ave & Park Ave,40.69573398,-73.97129668,Brooklyn,30
+4695.04,Irving Ave & Halsey St,40.69467,-73.90663,Brooklyn,28
+4697.01,Throop Ave & Myrtle Ave,40.69622937,-73.94371094,Brooklyn,28
+4700.06,Park Ave & St Edwards St,40.69608941,-73.97803415,Brooklyn,24
+4707.03,Myrtle Ave & Marcy Ave,40.69539817,-73.94954908,Brooklyn,28
+4707.04,Nostrand Ave & Myrtle Ave,40.69527008,-73.95238108,Brooklyn,27
+4710.06,Jay St & Tech Pl,40.695065,-73.987167,Brooklyn,34
+4713.01,Central Ave & Himrod St,40.69676,-73.92302,Brooklyn,29
+4715.01,Franklin Ave & Myrtle Ave,40.694546087246025,-73.95801365375519,Brooklyn,28
+4718.08,Pierrepont St & Monroe Pl,40.69535693320225,-73.99344027042389,Brooklyn,31
+4718.11,Montague St & Hicks St,40.69522407512035,-73.99598850939152,Brooklyn,36
+4719.04,St Felix Ave & 61 St,40.69715,-73.8936,Queens,23
+4721.01,Cedar St & Evergreen Ave,40.69671,-73.92807,Brooklyn,28
+4724.03,Washington Ave & Park Ave,40.69610226,-73.96751037,Brooklyn,36
+4727.06,Summerfield St & Cypress Ave,40.69662,-73.90056,Queens,22
+4729.01,Myrtle Ave & Lewis Ave,40.69681963,-73.93756926,Brooklyn,33
+4732.04,Carlton Ave & Park Ave,40.69580705,-73.97355569,Brooklyn,30
+4732.08,Carlton Ave & Flushing Ave,40.697787,-73.973736,Brooklyn,30
+4735.03,Putnam Ave & Wyckoff Ave,40.69811,-73.90904,Brooklyn,27
+4735.16,Hancock St & Wyckoff Ave,40.6972,-73.90674,Queens,27
+4743.04,Linden St & Knickerbocker Ave,40.69714,-73.91566,Brooklyn,24
+4748.07,Clinton St & Tillary St,40.69623297129315,-73.99142056703568,Brooklyn,34
+4751.01,Cedar St & Myrtle Ave,40.697842,-73.926241,Brooklyn,28
+4756.04,Brooklyn Bridge Park - Pier 2,40.698458,-73.997178,Brooklyn,34
+4757.06,Seneca Ave & Decatur St,40.69723,-73.89811,Queens,20
+4759.02,Willoughby Ave & Myrtle Ave,40.69757,-73.93098,Brooklyn,33
+4762.04,Clinton Ave & Flushing Ave,40.69794,-73.96986848,Brooklyn,15
+4762.05,Flushing Ave & Vanderbilt Ave,40.69795031569544,-73.97077560424805,Brooklyn,33
+4765.07,Cypress Ave & George St,40.69812,-73.90271,Queens,22
+4768.02,Park Ave & Marcus Garvey Blvd,40.698617,-73.941342,Brooklyn,28
+4771.07,N Portland Ave & Flushing Ave,40.697926,-73.97663,Brooklyn,27
+4775.01,Irving Ave & Palmetto St,40.698,-73.9127,Brooklyn,22
+4778.03,Park Ave & Marcy Ave,40.697576,-73.948881,Brooklyn,22
+4781.03,Concord St & Bridge St,40.69766564,-73.98476437,Brooklyn,30
+4781.05,Nassau St & Duffield St,40.698477,-73.98384,Brooklyn,30
+4784.02,Greene Ave & Myrtle Ave,40.698568,-73.918877,Brooklyn,28
+4789.03,Clark St & Henry St,40.69760127,-73.99344559,Brooklyn,41
+4792.03,Central Ave & Starr St,40.700003,-73.92834,Brooklyn,31
+4798.02,Forest Ave & Summerfield St,40.69922,-73.89795,Queens,23
+4798.1,Stephen St & Seneca Ave,40.6988,-73.9007,Queens,21
+4801.04,Melrose St & Broadway,40.697481,-73.935877,Brooklyn,15
+4801.1,Arion Pl & Broadway,40.697891,-73.936642,Brooklyn,34
+4804.02,Dock 72 Way & Market St,40.69985,-73.97141,Brooklyn,31
+4804.03,Flushing Ave & Clermont Ave,40.69804052908624,-73.97148517679594,Brooklyn,29
+4807.02,Madison St & Cypress Ave,40.70068,-73.90742,Queens,26
+4812.02,Nassau St & Navy St,40.69839895,-73.98068914,Brooklyn,27
+4812.04,Sands St Gate,40.699569,-73.979827,Brooklyn,31
+4816.02,Myrtle Ave & Linden St,40.69943,-73.91337,Brooklyn,24
+4816.05,Myrtle Ave & Grove St,40.69905,-73.91516,Brooklyn,25
+4818.02,Nostrand Ave & Flushing Ave,40.69928,-73.953259,Brooklyn,25
+4818.03,Union Ave & Wallabout St,40.70029511,-73.95032283,Brooklyn,24
+4821.03,Sands St & Jay St,40.700119,-73.9862,Brooklyn,34
+4821.06,Cadman Plaza E & Red Cross Pl,40.69991755,-73.98971773,Brooklyn,31
+4821.1,Adams St & Prospect St,40.70076308326151,-73.98869812488556,Brooklyn,31
+4824.03,Stockholm St & Wilson Ave,40.699304,-73.923044,Brooklyn,32
+4826.04,Wallabout St & Kent Ave,40.6991049,-73.960633406,Brooklyn,27
+4829.01,Columbia Heights & Cranberry St,40.70037867,-73.99548059,Brooklyn,31
+4830.02,61 St & 60 Ln,40.70055,-73.8943,Queens,23
+4832.07,Central Ave & Melrose St,40.70112,-73.93039,Brooklyn,28
+4837.03,Centre St & Seneca Ave,40.69969,-73.9022,Queens,24
+4840.06,Beaver St & Fayette St,40.70099,-73.93921,Brooklyn,31
+4843.01,5 St & Market St,40.6999974843885,-73.97440128028393,Brooklyn,27
+4846.01,South St & Whitehall St,40.70122128,-74.01234218,Manhattan,37
+4847.03,Wyckoff Ave & Gates Ave,40.699871408829885,-73.91171872615814,Brooklyn,35
+4850.04,Tompkins Ave & Hopkins St,40.69957608,-73.94708417,Brooklyn,27
+4853.06,Bridge St & York St,40.70133448066992,-73.98471236228943,Brooklyn,28
+4856.05,Irving Ave & Harman St,40.70108,-73.9179,Brooklyn,29
+4861.05,Henry St & Middagh St,40.7003,-73.991581,Brooklyn,32
+4862.04,Myrtle Ave & 65 St,40.70117,-73.8904,Queens,23
+4862.07,Cooper Ave & 65 Pl,40.69953,-73.88873,Queens,21
+4864.09,Wilson Ave & Troutman St,40.70166,-73.92754,Brooklyn,31
+4871.02,71 Ave & Myrtle Ave,40.70067,-73.89907,Queens,26
+4873.08,Evergreen Ave & Noll St,40.70106,-73.93318,Brooklyn,32
+4880.11,Madison St & Seneca Ave,40.70183,-73.90625,Queens,25
+4883.03,Broadway & Whipple St,40.7016657,-73.9437303,Brooklyn,30
+4889.06,Bus Slip & State St,40.701907,-74.013942,Manhattan,33
+4890.11,Menahan St & Wyckoff Ave,40.70113,-73.91422,Brooklyn,26
+4892.02,Lorimer St & Harrison Ave,40.702726,-73.94984,Brooklyn,21
+4895.03,Front St & Jay St,40.702461,-73.986842,Brooklyn,37
+4895.09,Jay St & York St,40.70140317257725,-73.98672670125961,Brooklyn,40
+4895.15,Pearl St & York St,40.70140463410644,-73.98768022656441,Brooklyn,27
+4898.02,Irving Ave & DeKalb Ave,40.7027,-73.92095,Brooklyn,30
+4903.08,Old Fulton St,40.70277159,-73.99383605,Brooklyn,39
+4903.09,Dock St & Front St,40.702709,-73.99253,Brooklyn,31
+4904.03,Cypress Hills St & Otto Rd,40.70204,-73.89288,Queens,20
+4906.07,George St & Wilson Ave,40.702997,-73.92997,Brooklyn,28
+4912.1,Catalpa Ave & Woodward Ave,40.70229,-73.90145,Queens,29
+4914.03,Bushwick Ave & Forrest St,40.70076,-73.93641,Brooklyn,30
+4920.13,South St & Broad St,40.70188858913366,-74.01089876890182,Manhattan,24
+4921.04,Cypress Ave & Palmetto St,40.70157340873792,-73.90876293182373,Queens,24
+4927.04,Front St & Gold St,40.70224,-73.982578,Brooklyn,32
+4931.05,Wyckoff Ave & Stanhope St,40.703545,-73.917775,Brooklyn,34
+4933.03,Marcy Ave & Lynch St,40.702753,-73.953168,Brooklyn,19
+4933.04,Marcy Ave & Rutledge St,40.703681,-73.95427,Brooklyn,20
+4936.01,Front St & Washington St,40.70255088,-73.98940236,Brooklyn,40
+4936.21,Main St & Plymouth St,40.70378167354831,-73.99073392152786,Brooklyn,38
+4937.03,65 Pl & Central Ave,40.70264,-73.88981,Queens,21
+4939.07,Suydam St & Knickerbocker Ave,40.702013,-73.923769,Brooklyn,34
+4945.06,Fresh Pond Rd & 69 Ave,40.70311,-73.89547,Queens,24
+4947.04,Central Ave & Flushing Ave,40.702831,-73.9333,Brooklyn,27
+4953.04,South St & Gouverneur Ln,40.70355377,-74.00670227,Manhattan,34
+4953.08,Front St & Pine St,40.70531,-74.00613,Manhattan,29
+4954.07,Madison St & Woodward Ave,40.70408,-73.90408,Queens,25
+4956.02,Humboldt St & Varet St,40.7031724,-73.940636,Brooklyn,15
+4956.09,Seigel St & Humboldt St,40.704613,-73.940865,Brooklyn,29
+4962.01,Broadway & Battery Pl,40.70463334,-74.01361706,Manhattan,35
+4962.02,Whitehall St & Bridge St,40.70366170524135,-74.0131813287735,Manhattan,15
+4962.08,Broad St & Bridge St,40.70365182,-74.01167797,Manhattan,35
+4962.09,Pearl St & Whitehall St,40.703144,-74.013178,Manhattan,29
+4963.13,Menahan St & Seneca Ave,40.70461,-73.91054,Queens,26
+4965.01,Lorimer St & Broadway,40.70411791,-73.94818595,Brooklyn,28
+4968.03,Bridge St & Front St,40.70296934155272,-73.98469090461731,Brooklyn,37
+4971.01,Hart St & Wyckoff Ave,40.704876,-73.919911,Brooklyn,27
+4977.03,65 St & Otto Rd,40.70389,-73.89116,Queens,21
+4979.07,Knickerbocker Ave & George St,40.704425,-73.92836,Brooklyn,29
+4982.02,Taylor St & Bedford Ave,40.705774,-73.963252,Brooklyn,24
+4985.09,60 Pl & 67 Ave,40.70497,-73.89965,Queens,20
+4987.06,White St & Moore St,40.704508,-73.9351,Brooklyn,28
+4990.02,Railroad Ave & Kay Ave,40.70514807698391,-73.97078096866608,Brooklyn,21
+4993.02,Pearl St & Hanover Square,40.7047177,-74.00926027,Manhattan,36
+4993.13,Old Slip & South St,40.70336686695866,-74.007867872715,Manhattan,31
+4993.15,Water St & Gouverneur Ln,40.70469667894968,-74.00803416967392,Manhattan,31
+4994.1,Onderdonk Ave & Gates Ave,40.70413,-73.90737,Queens,27
+4996.08,McKibbin St & Manhattan Ave,40.70510918,-73.94407279,Brooklyn,31
+5001.08,Little West St & 1 Pl,40.70569254,-74.01677685,Manhattan,39
+5002.09,Harman St & Seneca Ave,40.70577,-73.91292,Brooklyn,26
+5004.02,Boerum St & Broadway,40.70538077,-73.94976519,Brooklyn,30
+5010.02,Willoughby Ave & Wyckoff Ave,40.705614,-73.92153,Brooklyn,34
+5018.06,Knickerbocker Ave & Thames St,40.70539,-73.92976,Brooklyn,29
+5021.05,Kent Ave & Division Ave,40.706563674670925,-73.9683187007904,Brooklyn,38
+5024.1,Water St & Fletcher St,40.706410755236135,-74.00559738278389,Manhattan,40
+5025.02,Madison St & Forest Ave,40.70555,-73.90245,Queens,26
+5027.02,Bushwick Ave & McKibbin St,40.705517,-73.93936,Brooklyn,27
+5033.01,Broadway & Morris St,40.705945132708806,-74.01321887969969,Manhattan,34
+5034.03,Menahan St & Onderdonk Ave,40.70553,-73.9096,Queens,27
+5036.06,Leonard St & Boerum St,40.70583339,-73.94644578,Brooklyn,30
+5043.06,Suydam St & St Nicholas Ave,40.70636,-73.91945,Brooklyn,25
+5045.05,Division Ave & Hooper St,40.70684203101325,-73.9544353965357,Brooklyn,31
+5051.01,Wyckoff Ave & Jefferson St,40.707165,-73.923711,Brooklyn,33
+5051.02,Irving Ave & Jefferson St,40.70538,-73.92535,Brooklyn,30
+5053.01,Lee Ave & Taylor St,40.706732,-73.961241,Brooklyn,22
+5057.07,67 Ave & Fresh Pond Rd,40.70575,-73.89676,Queens,25
+5057.09,64 St & Woodbine St,40.70809,-73.89549,Queens,23
+5059.02,McKibbin St & Bogart St,40.706237,-73.933871,Brooklyn,33
+5065.04,John St & William St,40.70862144,-74.00722156,Manhattan,34
+5065.1,Maiden Ln & Pearl St,40.70706456,-74.00731853,Manhattan,34
+5065.12,William St & Pine St,40.70717936,-74.00887308,Manhattan,36
+5065.14,Cliff St & Fulton St,40.70838,-74.00495,Manhattan,37
+5066.03,Fairview Ave & Linden St,40.70694,-73.90632,Queens,26
+5068.02,Montrose Ave & Bushwick Ave,40.70767788,-73.94016171,Brooklyn,40
+5073.07,Greenwich St & Rector St,40.70806582380646,-74.0135595202446,Manhattan,15
+5073.07_Pillar,Pillar Greenwich St & Rector St,40.70817,-74.01346,Manhattan,15
+5073.08,Greenwich St & Rector St,40.708351,-74.013493,Manhattan,34
+5074.08,Woodward Ave & Harman St,40.70793,-73.91092,Queens,26
+5076.04,Scholes St & Lorimer St,40.708323,-73.948732,Brooklyn,32
+5082.08,Jefferson St & Cypress Ave,40.70907,-73.92157,Brooklyn,30
+5084.03,Division Ave & Marcy Ave,40.70708701,-73.95796783,Brooklyn,26
+5090.06,Harrison Pl & Porter Ave,40.70686,-73.92851,Brooklyn,24
+5093.01,Bedford Ave & S 9 St,40.70853074,-73.96408963,Brooklyn,29
+5096.12,Peck Slip & South St,40.7075188830923,-74.00108054280281,Manhattan,36
+5097.02,60 Pl & Linden St,40.70886,-73.90182,Queens,23
+5099.02,Waterbury St & Stagg St,40.71019,-73.93734,Brooklyn,31
+5099.03,White St & Johnson Ave,40.707174,-73.93581,Brooklyn,24
+5105.01,Liberty St & Broadway,40.70905623,-74.01043382,Manhattan,41
+5105.09,Liberty St & Nassau St,40.70858894,-74.00935482,Manhattan,32
+5106.04,Greene Ave & Grandview Ave,40.709697,-73.907856,Queens,26
+5108.01,Scholes St & Manhattan Ave,40.70870368,-73.9448625,Brooklyn,38
+5114.06,West Thames St,40.70834698,-74.01713445,Manhattan,36
+5114.08,South End Ave & Albany St,40.709957,-74.016538,Manhattan,38
+5115.01,Onderdonk Ave & Dekalb Ave,40.70863,-73.91497,Brooklyn,26
+5115.05,Willoughby Ave & Onderdonk Ave,40.7098,-73.91727,Brooklyn,26
+5117.05,Stagg St & Union Ave,40.70877084,-73.95095259,Brooklyn,38
+5123.07,Stewart Ave & Johnson Ave,40.70869,-73.92587,Brooklyn,26
+5125.03,S 5 Pl & S 5 St,40.710451,-73.960876,Brooklyn,37
+5125.07,Broadway & Roebling St,40.70924826276157,-73.96063148975372,Brooklyn,36
+5128.04,Catherine St & Monroe St,40.71117444,-73.99682619,Manhattan,32
+5129.01,Palmetto St & Traffic Ave,40.70929,-73.89441,Queens,20
+5134.09,Broadway & Kent Ave,40.710888,-73.968329,Brooklyn,43
+5137.1,Spruce St & Nassau St,40.71146364,-74.00552427,Manhattan,38
+5137.11,Fulton St & William St,40.70960089363537,-74.00655090808868,Manhattan,39
+5137.12,Gold St & Frankfort St,40.71069995,-74.00354147,Manhattan,29
+5137.13,Spruce St & Gold St,40.7103231,-74.0043228,Manhattan,15
+5138.03,60 Pl & Bleecker St,40.71107,-73.903,Queens,21
+5140.06,Bushwick Ave & Stagg St,40.709897,-73.94008,Brooklyn,26
+5145.02,Albany St & Greenwich St,40.709267,-74.013247,Manhattan,37
+5146.03,Stanhope St & Fairview Ave,40.70998,-73.91116,Queens,26
+5148.03,Leonard St & Maujer St,40.7103685423523,-73.94705951213837,Brooklyn,36
+5156.05,S 4 St & Rodney St,40.70934,-73.95608,Brooklyn,37
+5159.04,Pike St & Monroe St,40.71173107,-73.99193043,Brooklyn,32
+5159.07,South St & Pike St,40.70991806921533,-73.99161100387573,Brooklyn,31
+5160.01,Metropolitan Ave & 65 Ln,40.71225,-73.89111,Queens,21
+5164.05,Broadway & Berry St,40.71036129922581,-73.96530389785767,Brooklyn,39
+5167.06,St James Pl & Pearl St,40.71117416,-74.00016545,Manhattan,29
+5168.04,Grove St & Fresh Pond Rd,40.71032,-73.89955,Queens,23
+5170.01,Stagg St & Morgan Ave,40.710681,-73.93372,Brooklyn,28
+5175.08,Fulton St & Broadway,40.711066,-74.009447,Manhattan,44
+5176.04,Bleecker St & Forest Ave,40.7107,-73.90525,Queens,23
+5178.06,Graham Ave & Grand St,40.711863,-73.944024,Brooklyn,39
+5181.04,Cherry St,40.71219906,-73.97948148,Brooklyn,34
+5184.08,West St & Liberty St,40.711444,-74.014847,Manhattan,48
+5187.03,Hope St & Union Ave,40.71167351,-73.95141312,Brooklyn,42
+5190.07,Madison St & Clinton St,40.71269042,-73.98776323,Brooklyn,29
+5190.09,Clinton St & Cherry St,40.711471394469264,-73.98672603070736,Brooklyn,34
+5195.06,S 4 St & Roebling St,40.710709,-73.959724,Brooklyn,41
+5198.04,Market St & Cherry St,40.71076228,-73.99400398,Brooklyn,31
+5199.01,65 Ln & Metropolitan Ave,40.7123,-73.89397,Queens,20
+5204.05,S 4 St & Wythe Ave,40.71285887,-73.96590294,Brooklyn,50
+5207.01,Centre St & Chambers St,40.71273266,-74.0046073,Manhattan,42
+5210.01,Powers St & Olive St,40.71323,-73.93894,Brooklyn,29
+5216.04,Barclay St & Church St,40.71291224,-74.01020234,Manhattan,40
+5216.06,Vesey St & Church St,40.71221958009051,-74.01047229766846,Manhattan,15
+5216.07,Vesey St & Greenwich St,40.71254669463547,-74.01113051087516,Manhattan,15
+5217.03,Amory Ct & Metropolitan Ave,40.71301,-73.90968,Queens,24
+5219.05,Manhattan Ave & Devoe St,40.713532,-73.9459867,Brooklyn,36
+5225.02,Flushing Ave & Woodward Ave,40.71246,-73.91873,Brooklyn,26
+5225.04,Metropolitan Ave & Flushing Ave,40.71334,-73.91572,Queens,24
+5225.09,Woodward Ave & Starr St,40.71147,-73.91694,Brooklyn,15
+5230.02,Rutgers St & Henry St,40.71332151208186,-73.99009689688683,Manhattan,34
+5235.05,S 3 St & Bedford Ave,40.71260486,-73.96264403,Brooklyn,43
+5235.1,Driggs Ave & S 2 St,40.712628,-73.960575,Brooklyn,38
+5238.05,St James Pl & Oliver St,40.71307916,-73.99851193,Manhattan,38
+5241.02,Metropolitan Ave & Vandervoort Ave,40.71429,-73.93323,Brooklyn,21
+5247.1,Reade St & Broadway,40.71450451,-74.00562789,Manhattan,35
+5248.05,Eliot Ave & 60 Ln,40.71391,-73.90299,Queens,20
+5250.05,Bushwick Ave & Powers St,40.71247661,-73.94100005,Brooklyn,37
+5256.06,Vesey St & West St,40.714063,-74.014432,Manhattan,43
+5257.01,53 St & Flushing Ave,40.71435,-73.91405,Queens,25
+5259.06,Devoe St & Lorimer St,40.71335226222875,-73.9491033554077,Brooklyn,36
+5262.09,Madison St & Montgomery St,40.713126,-73.984844,Brooklyn,32
+5267.08,Grand St & Havemeyer St,40.71286844,-73.95698119,Brooklyn,42
+5267.09,Roebling St & N 4 St,40.71469,-73.95739,Brooklyn,38
+5270.05,Pike St & E Broadway,40.71406667,-73.99293911,Manhattan,36
+5270.07,Forsyth St & Canal St,40.7158155,-73.99422366,Manhattan,39
+5270.08,Division St & Bowery,40.714193,-73.996732,Manhattan,39
+5270.09,Market St & Henry St,40.71310702305908,-73.99446353316307,Manhattan,41
+5273.01,Metropolitan Ave & Stewart Ave,40.71401,-73.92793,Brooklyn,24
+5276.04,S 2 St & Kent Ave,40.714731,-73.966612,Brooklyn,50
+5279.03,Centre St & Worth St,40.71494807,-74.00234482,Manhattan,38
+5280.02,Fresh Pond Rd & Eliot Ave,40.71453,-73.90105,Queens,15
+5280.03,Fresh Pond Rd & Eliot Ave,40.71442,-73.90097,Queens,22
+5282.02,Devoe St & Morgan Ave,40.713811,-73.93515,Brooklyn,28
+5283.02,78 Ave & Queens Blvd S,40.7149,-73.83247,Queens,21
+5288.08,Park Pl & Church St,40.71334184275907,-74.00935515761375,Manhattan,37
+5288.09,Warren St & W Broadway,40.71473993,-74.00910627,Manhattan,39
+5288.12,Murray St & Greenwich St,40.71485150526251,-74.01122331619263,Manhattan,37
+5289.05,56 St & Arnold Ave,40.71484,-73.909,Queens,20
+5291.05,Graham Ave & Conselyea St,40.715143,-73.944507,Brooklyn,41
+5294.04,Henry St & Grand St,40.714211,-73.981095,Brooklyn,44
+5297.02,Vesey Pl & River Terrace,40.7153379,-74.01658354,Manhattan,45
+5300.05,Metropolitan Ave & Meeker Ave,40.71413311,-73.95234386,Brooklyn,42
+5300.06,Union Ave & Jackson St,40.7160751,-73.952029,Brooklyn,33
+5303.06,Clinton St & Grand St,40.71559509,-73.9870295,Manhattan,46
+5303.06_,Clinton St & Grand St,40.71573792143338,-73.98698994965027,Manhattan,30
+5303.08,Canal St & Rutgers St,40.71427487,-73.98990025,Manhattan,49
+5308.04,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Brooklyn,53
+5321.08,60 Ave & Fresh Pond Rd,40.71693,-73.90198,Queens,20
+5323.06,Sharon St & Olive St,40.71534162042448,-73.93865078687668,Brooklyn,31
+5324.03,Austin St & 76 Ave,40.71612,-73.83735,Queens,19
+5326.06,Stanton St & Mangin St,40.71782143,-73.97628939,Brooklyn,29
+5329.03,West St & Chambers St,40.71754834,-74.01322069,Manhattan,15
+5329.08,Murray St & West St,40.71503,-74.01246,Manhattan,40
+5329.09,Murray St & West St (NW Corner),40.715438,-74.014077,Manhattan,48
+5332.1,Jackson St & Leonard St,40.71638031973561,-73.94821286201477,Brooklyn,31
+5335.03,Bialystoker Pl & Delancey St,40.71622644,-73.98261206,Brooklyn,34
+5335.07,Grand St & Samuel Dickstein Plaza,40.71511871996496,-73.98417055606842,Brooklyn,37
+5340.01,N 7 St & Driggs Ave,40.716967,-73.956388,Brooklyn,51
+5342.1,Allen St & Hester St,40.71605866,-73.99190759,Manhattan,45
+5343.11,Orchard St & Grand St,40.717318403855785,-73.99067759513855,Manhattan,46
+5348.02,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Brooklyn,15
+5348.06,Kent Ave & N 3 St,40.71797940978296,-73.96427449047715,Brooklyn,48
+5348.06_old,Kent Ave & N 3 St,40.7188,-73.961,Brooklyn,15
+5348.1,Grand St & Wythe Ave,40.71575,-73.96433,Brooklyn,38
+5351.03,Bayard St & Baxter St,40.71602118,-73.99974372,Manhattan,41
+5351.07,Walker St & Baxter St,40.717411,-73.999573,Manhattan,40
+5354.01,Morgan Ave & Maspeth Ave,40.716657,-73.93637,Brooklyn,24
+5355.06,Queens Blvd N & 78 Ave,40.71532,-73.83226,Queens,22
+5359.1,Hudson St & Reade St,40.71625008,-74.0091059,Manhattan,38
+5359.11,Leonard St & Church St,40.717571,-74.005549,Manhattan,36
+5359.12,Duane St & Hudson St,40.71703,-74.00925,Manhattan,34
+5359.13,Church St & Worth St,40.71688538495366,-74.00650128722191,Manhattan,34
+5360.02,60 St & 60 Rd,40.71592232709503,-73.90601366758347,Queens,20
+5362.08,Withers St & Kingsland Ave,40.71773,-73.94051,Brooklyn,26
+5365.02,Columbia St & Rivington St,40.71739973,-73.98016555,Brooklyn,34
+5368.03,River Ter & Warren St,40.71759894980997,-74.01587963104248,Manhattan,46
+5369.01,Grand Ave & 55 St,40.71888,-73.91427,Queens,21
+5371.07,Frost St & Meeker Ave,40.71766197083994,-73.94880026578903,Brooklyn,33
+5374.01,Norfolk St & Broome St,40.7172274,-73.98802084,Manhattan,52
+5379.09,Berry St & N 8 St,40.7190095,-73.95852515,Brooklyn,42
+5379.1,N 6 St & Bedford Ave,40.71745169,-73.95850939,Brooklyn,49
+5382.06,Grand St & Elizabeth St,40.718822,-73.99596,Manhattan,50
+5382.07,Forsyth St & Grand St,40.71779817737835,-73.99316132068634,Manhattan,47
+5388.01,Kent Ave & Grand St,40.716425,-73.96594,Brooklyn,41
+5391.06,Lispenard St & Broadway,40.71939226,-74.00247214,Manhattan,39
+5392.04,63 St & 59 Dr,40.71832,-73.90128,Queens,19
+5395.08,Queens Blvd S & 76 Rd,40.7172,-73.83524,Queens,21
+5400.05,Harrison St & Hudson St,40.71870987,-74.0090009,Manhattan,33
+5401.03,59 St & 59 Rd,40.71790852734058,-73.908454477787,Queens,18
+5403.04,Graham Ave & Withers St,40.7169811,-73.94485918,Brooklyn,33
+5403.05,Graham Ave & Herbert St,40.71929301,-73.94500379,Brooklyn,30
+5406.02,Rivington St & Ridge St,40.71850211,-73.98329859,Manhattan,41
+5406.04,Pitt St & Stanton St,40.71926081,-73.98178024,Manhattan,30
+5409.02,Page Pl & Grand Ave,40.71798,-73.91818,Queens,20
+5411.07,Union Ave & N 12 St,40.71924,-73.95242,Brooklyn,38
+5411.08,Driggs Ave & N 9 St,40.71816969454208,-73.95520135760307,Brooklyn,43
+5414.06,Allen St & Rivington St,40.72019576,-73.98997825,Manhattan,47
+5414.07,Delancey St & Eldridge St,40.719383,-73.991479,Manhattan,35
+5419.04,N 5 St & Wythe Ave,40.718389,-73.961501,Brooklyn,40
+5422.04,Howard St & Lafayette St,40.71910537,-73.99973337,Manhattan,39
+5422.09,Lafayette St & Grand St,40.72028,-73.99879,Manhattan,42
+5430.08,Franklin St & W Broadway,40.71911552,-74.00666661,Manhattan,34
+5430.1,6 Ave & Walker St,40.7197920901383,-74.0052238852195,Manhattan,38
+5431.01,60 Pl & Flushing Ave,40.71988,-73.90556,Queens,19
+5433.03,Richardson St & N Henry St,40.71907891179564,-73.94223690032959,Brooklyn,28
+5433.04,Frost St & Debevoise Ave,40.71882,-73.93948,Brooklyn,22
+5434.07,Queens Blvd N & 72 Rd,40.7202,-73.84044,Queens,21
+5434.08,Queens Blvd N & 75 Ave,40.71894,-73.8377,Queens,22
+5436.09,Pillar Ave D & E 3 St,40.72083,-73.97793,Manhattan,35
+5436.11,E Houston St & Columbia St,40.71978635452822,-73.97871628403664,Manhattan,30
+5440.05,57 St & Grand Ave,40.71921,-73.9124,Queens,19
+5442.05,Bayard St & Leonard St,40.71915571696044,-73.94885390996933,Brooklyn,38
+5442.09,Manhattan Ave & Leonard St,40.72084,-73.94844,Brooklyn,30
+5443.02,Austin St & 70 Rd,40.72047,-73.84576,Queens,24
+5445.02,Suffolk St & Stanton St,40.72066442,-73.98517977,Manhattan,45
+5445.07,Stanton St & Norfolk St,40.720747,-73.986274,Manhattan,41
+5450.01,N 10 St & Berry St,40.720253,-73.957082,Brooklyn,39
+5450.04,N 12 St & Bedford Ave,40.72079821,-73.95484712,Brooklyn,44
+5453.01,Rivington St & Chrystie St,40.72110063,-73.9919254,Manhattan,43
+5453.05,Forsyth St & Broome St,40.71893904,-73.99266288,Manhattan,35
+5453.06,Kenmare St & Elizabeth St,40.72054,-73.9949,Manhattan,45
+5458.02,N 5 St & Northside Piers,40.719876,-73.963865,Brooklyn,40
+5470.02,N Moore St & Hudson St,40.71996118117138,-74.00844320654869,Manhattan,15
+5470.1,Greenwich St & Hubert St,40.721319,-74.010065,Manhattan,38
+5470.12,North Moore St & Greenwich St,40.72019521437465,-74.0103006362915,Manhattan,46
+5470.13,Hudson St & N Moore St,40.719887998,-74.0086269379,Manhattan,35
+5471.04,Grand Ave & 58 Ave,40.72098,-73.90701,Queens,20
+5473.03,Engert Ave & McGuinness Blvd,40.72158,-73.94546,Brooklyn,29
+5473.06,Monitor St & Meeker Ave,40.721226,-73.941845,Brooklyn,29
+5474.06,Queens Blvd N & 71 Ave,40.72144,-73.84363,Queens,25
+5476.03,E 2 St & Ave C,40.7208736,-73.98085795,Manhattan,42
+5481.04,Driggs Ave & Lorimer St,40.72179134,-73.9504154,Brooklyn,37
+5484.09,Allen St & Stanton St,40.722055,-73.989111,Manhattan,44
+5489.03,Kent Ave & N 7 St,40.72036775298455,-73.96165072917938,Brooklyn,43
+5489.04,N 11 St & Kent Ave,40.72248188638219,-73.95921930670738,Brooklyn,32
+5489.06,N 9 St & Wythe Ave,40.72054,-73.959,Brooklyn,34
+5492.05,Cleveland Pl & Spring St,40.722103786686034,-73.99724900722504,Manhattan,53
+5500.02,Grand St & Greene St,40.72170005235607,-74.00238141417502,Manhattan,40
+5500.07,6 Ave & Canal St,40.72243797,-74.00566443,Manhattan,15
+5501.06,Fresh Pond Rd & Flushing Ave,40.72155,-73.90295,Queens,20
+5503.01,Morgan Ave & Lombardy St,40.72226,-73.93889,Brooklyn,28
+5504.05,72 Rd & 113 St,40.7213,-73.8371,Queens,20
+5506.1,Ave D & E 8 St,40.72368361,-73.97574813,Brooklyn,34
+5506.14,E 6 St & Ave D,40.72228087,-73.97668709,Brooklyn,35
+5509.02,Washington St & Laight St,40.72231,-74.0106,Manhattan,35
+5510.02,57 Rd & 59 St,40.72249,-73.90854,Queens,18
+5510.05,57 Rd & 58 St,40.72235,-73.91215,Queens,19
+5513.11,Queens Blvd S & 71 Ave,40.72146,-73.84431,Queens,25
+5515.02,E 2 St & Ave B,40.72217444,-73.98368779,Manhattan,45
+5515.08,E 4 St & Ave B,40.72334683218016,-73.98265913128853,Manhattan,37
+5520.09,N 15 St & Wythe Ave,40.724055,-73.955736,Brooklyn,36
+5523.02,Stanton St & Chrystie St,40.72229346,-73.99147535,Manhattan,43
+5532.01,Mercer St & Spring St,40.72362738,-73.99949601,Manhattan,40
+5539.06,Laight St & Hudson St,40.72185379,-74.00771779,Manhattan,29
+5539.08,Varick St & Watts St,40.723635749203936,-74.006020305859,Manhattan,34
+5540.06,56 Dr & 61 St,40.72368,-73.90458,Queens,19
+5542.04,Driggs Ave & N Henry St,40.72325,-73.94308,Brooklyn,40
+5543.03,71 Ave & 110 St,40.72232,-73.8417,Queens,20
+5543.05,70 Rd & 112 St,40.72371,-73.83959,Queens,18
+5545.01,E 7 St & Ave C,40.72412944090093,-73.97901266813278,Manhattan,40
+5545.04,E 5 St & Ave C,40.72299208,-73.97995466,Manhattan,36
+5548.01,58 St & 56 Dr,40.72419,-73.91244,Queens,20
+5550.05,Bedford Ave & Nassau Ave,40.72311651,-73.95212324,Brooklyn,44
+5550.09,Leonard St & Nassau Ave,40.7239567849954,-73.94984364509583,Brooklyn,36
+5551.12,69 Ave & Queens Blvd N,40.72398,-73.84872,Queens,20
+5551.14,Queens Blvd S & Yellowstone Blvd,40.72261,-73.84721,Queens,24
+5553.03,E 3 St & 1 Ave,40.72467721,-73.98783413,Manhattan,39
+5553.1,E 2 St & Ave A,40.72307749068673,-73.98583620786667,Manhattan,44
+5553.21,E 3 St & Ave A,40.723537,-73.985112,Manhattan,15
+5558.04,Wythe Ave & N 13 St,40.722767,-73.957021,Brooklyn,38
+5561.04,Mott St & Prince St,40.72317958,-73.99480012,Manhattan,49
+5561.06,Lafayette St & Jersey St,40.72456089,-73.99565293,Manhattan,15
+5561.08,Lafayette St & Jersey St,40.72430527,-73.99600983,Manhattan,47
+5569.06,W Broadway & Spring St,40.72494672359416,-74.00165855884552,Manhattan,42
+5569.07,W Broadway & Watts St,40.72323,-74.00314,Manhattan,40
+5570.04,Grand Ave & Remsen Pl,40.72353,-73.89967,Queens,22
+5572.07,Van Dam St & Meeker Ave,40.72532,-73.9368,Brooklyn,27
+5575.08,Ave D & E 12 St,40.72580614,-73.97422494,Brooklyn,27
+5575.13,Ave D & E 10 St,40.72506551015475,-73.97515833377838,Brooklyn,29
+5578.02,Watts St & Greenwich St,40.72405549,-74.00965965,Manhattan,39
+5579.02,56 Dr & 59 St,40.72403,-73.90853,Queens,19
+5579.04,55 Dr & Maurice Ave,40.7261,-73.90917,Queens,22
+5581.01,Nassau Ave & Russell St,40.72557,-73.94434,Brooklyn,43
+5582.06,108 St & Jewel Ave,40.72374,-73.8448,Queens,21
+5584.04,E 6 St & Ave B,40.72453734,-73.98185424,Manhattan,39
+5584.05,E 7 St & Ave B,40.7251285241158,-73.98131668567657,Manhattan,41
+5591.08,Booth St & 68 Dr,40.72392,-73.85102,Queens,20
+5593.01,E 1 St & 1 Ave,40.72335597960796,-73.98864984512329,Manhattan,49
+5593.02,E 2 St & 2 Ave,40.72502876,-73.99069656,Manhattan,38
+5593.04,E 4 St & 2 Ave,40.7262807,-73.98978041,Manhattan,40
+5600.01,Austin St & 66 Ave,40.72499,-73.85787,Queens,22
+5602.06,Greene St & Prince St,40.72511734422387,-73.99930492043495,Manhattan,39
+5610.09,6 Ave & Broome St,40.72431,-74.00473,Manhattan,43
+5611.04,61 St & Borden Ave,40.72558,-73.90417,Queens,19
+5611.05,63 St & Borden Ave,40.72655,-73.90321,Queens,19
+5613.04,Kingsland Ave & Nassau Ave,40.72577,-73.94173,Brooklyn,15
+5614.03,113 St & Jewel Ave,40.72521,-73.83928,Queens,18
+5616.01,E 9 St & Ave C,40.72521311,-73.97768752,Manhattan,39
+5616.08,E 12 St & Ave C,40.727243,-73.976831,Manhattan,33
+5623.03,Nassau Ave & Newell St,40.724812564400175,-73.94752621650696,Brooklyn,38
+5626.06,E 5 St & Ave A,40.72479007746337,-73.98430064320564,Manhattan,42
+5626.07,E 7 St & Ave A,40.72621788,-73.98379855,Manhattan,46
+5626.13,St Marks Pl & 1 Ave,40.72779126,-73.98564945,Manhattan,43
+5626.15,1 Ave & E 6 St,40.72633085971696,-73.98616880178452,Manhattan,45
+5633.04,Banker St & Meserole Ave,40.72606,-73.95621,Brooklyn,35
+5634.01,67 Ave & Queens Blvd S,40.72672,-73.85393,Queens,23
+5634.03,Queens Blvd N & 67 Rd,40.72667,-73.85223,Queens,22
+5636.11,Great Jones St,40.72743423,-73.99379025,Manhattan,46
+5636.13,E 1 St & Bowery,40.72486122254819,-73.99213135242462,Manhattan,42
+5644.05,W Broadway & W Houston St,40.726378,-74.000472,Manhattan,37
+5653.12,Spring St & Hudson St,40.72583996792375,-74.0076532959938,Manhattan,43
+5656.03,N Henry St & Norman Ave,40.7277,-73.94395,Brooklyn,27
+5657.06,68 Dr & 112 St,40.72704,-73.84128,Queens,18
+5659.05,E 10 St & Ave A,40.72740794,-73.98142006,Manhattan,46
+5659.11,E 11 St & Ave B,40.72746420692392,-73.97950418293476,Manhattan,41
+5666.04,Meserole Ave & Manhattan Ave,40.72708584,-73.95299117,Brooklyn,38
+5666.11,Norman Ave & Leonard St,40.725819,-73.950815,Brooklyn,36
+5667.03,Yellowstone Blvd & 67 Rd,40.72782,-73.84924,Queens,20
+5667.08,Yellowstone Blvd & 68 Ave,40.7263,-73.84841,Queens,20
+5669.1,St Marks Pl & 2 Ave,40.7284186,-73.98713956,Manhattan,43
+5669.12,E 6 St & 2 Ave,40.72737869323223,-73.98840844631195,Manhattan,40
+5676.04,Calyer St & West St,40.72693,-73.95863,Brooklyn,42
+5677.04,Queens Blvd S & 65 Rd,40.72853,-73.85832,Queens,21
+5679.05,Mercer St & Bleecker St,40.72706363348306,-73.99662137031554,Manhattan,42
+5679.08,Bleecker St & Crosby St,40.72615604980408,-73.99510189890862,Manhattan,53
+5685.06,Austin St & 63 Dr,40.7273,-73.86398,Queens,21
+5687.04,MacDougal St & Prince St,40.72710258,-74.00297088,Manhattan,46
+5687.11,King St & Varick St,40.72789701409023,-74.00536268949507,Manhattan,42
+5688.02,64 St & 53 Dr,40.72897,-73.90115,Queens,20
+5696.03,Pier 40 - Hudson River Park,40.7277140777778,-74.01129573583603,Manhattan,49
+5701.01,110 St & 68 Ave,40.72774,-73.84429,Queens,19
+5703.13,Ave A & E 11 St,40.72854745023944,-73.98175925016403,Manhattan,42
+5703.13_Pillar,Pillar Ave A & E 11 St,40.72861,-73.98178,Manhattan,15
+5709.03,Calyer St & Guernsey St,40.72755807335852,-73.95505852997303,Brooklyn,15
+5709.04,Lorimer St & Calyer St,40.72795,-73.95414,Brooklyn,36
+5710.04,66 Rd & 102 St,40.72849,-73.85187,Queens,21
+5712.03,Cooper Square & Astor Pl,40.72951496224949,-73.99075269699097,Manhattan,57
+5712.10,Lafayette St & Astor Pl,40.729738,-73.991618,Manhattan,15
+5712.12,E 5 St & Cooper Sq,40.72769,-73.990993,Manhattan,39
+5721.01,Pillar Sullivan St & Washington Sq,40.73048,-73.99906,Manhattan,41
+5721.07,Thompson St & Bleecker St,40.72840059450829,-73.99968780577183,Manhattan,45
+5721.14,LaGuardia Pl & W 3 St,40.72917025,-73.99810231,Manhattan,41
+5730.08,Greenwich St & W Houston St,40.728846,-74.008591,Manhattan,46
+5731.03,Maurice Ave & 53 Dr,40.73028,-73.90421,Queens,18
+5736.09,E 14 St & Ave B,40.72938685,-73.97772429,Manhattan,40
+5743.02,Calyer St & Jewel St,40.72984,-73.94839,Brooklyn,31
+5744.07,108 St & 66 Rd,40.72951,-73.84794,Queens,21
+5746.02,E 10 St & 2 Ave,40.72970805644994,-73.9865979552269,Manhattan,45
+5746.14,E 11 St & 1 Ave,40.72953837,-73.98426726,Manhattan,43
+5752.07,Milton St & Franklin St,40.72906,-73.95779,Brooklyn,47
+5752.09,Greenpoint Ave & West St,40.729803,-73.959099,Brooklyn,40
+5753.02,99 St & 65 Rd,40.72903,-73.85536,Queens,21
+5755.01,Washington Pl & Broadway,40.72903917,-73.99404649,Manhattan,35
+5755.09,Pillar Washington Square E,40.73049,-73.99572,Manhattan,15
+5755.14,University Pl & E 8 St,40.73143724085228,-73.99490341544151,Manhattan,43
+5755.15,Washington Pl & Greene St,40.72980619180496,-73.99546380915461,Manhattan,34
+5761.05,Queens Blvd N & 63 Rd,40.73016,-73.86207,Queens,23
+5761.06,63 Dr & Booth St,40.72857,-73.86342,Queens,21
+5763.03,Carmine St & 6 Ave,40.73038599,-74.00214988,Manhattan,53
+5764.02,65 Pl & 53 Ave,40.73145,-73.90022,Queens,22
+5769.06,Ave C & E 16 St,40.72984830346529,-73.97455215454102,Brooklyn,34
+5772.05,Morton St & Greenwich St,40.731135726910246,-74.00815155572697,Manhattan,42
+5777.03,112 St & 67 Rd,40.72955,-73.84263,Queens,18
+5779.08,1 Ave & E 16 St,40.73221853,-73.98165557,Manhattan,42
+5779.09,E 13 St & Ave A,40.72966729392978,-73.98067966103554,Manhattan,41
+5779.1,E 14 St & 1 Ave,40.73139303364151,-73.98286700248718,Manhattan,43
+5779.11,Ave A & E 14 St,40.73031071000895,-73.98047178983688,Manhattan,49
+5785.05,Greenpoint Ave & Manhattan Ave,40.73026,-73.95394,Brooklyn,38
+5785.1,Kent St & McGuinness Blvd,40.73124,-73.95161,Brooklyn,32
+5786.02,Yellowstone Blvd & 65 Ave,40.73103,-73.85128,Queens,20
+5788.12,E 12 St & 3 Ave,40.73223272,-73.98889957,Manhattan,42
+5788.13,Lafayette St & E 8 St,40.73020660529954,-73.99102628231049,Manhattan,15
+5788.15,4 Ave & E 12 St,40.732647,-73.99011,Manhattan,26
+5788.16,E 11 St & 3 Ave,40.73127,-73.98849,Manhattan,43
+5794.05,India St Pier,40.731734785883454,-73.9612390102593,Brooklyn,44
+5795.07,98 St & 64 Rd,40.72973,-73.85817,Queens,20
+5797.01,MacDougal St & Washington Sq,40.73226398,-73.99852205,Manhattan,38
+5803.03,62 Ave & Queens Blvd,40.73161,-73.8669,Queens,20
+5805.05,Barrow St & Hudson St,40.73172428,-74.00674436,Manhattan,44
+5805.07,7 Ave S & Bleecker St,40.73213896287381,-74.00363802909851,Manhattan,49
+5806.01,53 Ave & 62 St,40.73169,-73.90159,Queens,21
+5818.07,110 St & 66 Rd,40.73017,-73.84568,Queens,19
+5820.08,E 13 St & 2 Ave,40.73153937464073,-73.9853024482727,Manhattan,46
+5820.08_Pillar,Pillar E 13 St & 2 Ave,40.73139,-73.98501,Manhattan,15
+5826.02,India St & Manhattan Ave,40.73232194,-73.9550858,Brooklyn,45
+5827.01,63 Dr & 102 St,40.73244,-73.85404,Queens,20
+5829.12,E 11 St & Broadway,40.73261787,-73.99158043,Manhattan,37
+5836.08,62 Dr & 97 St,40.73236,-73.86256,Queens,22
+5836.09,62 Dr & 97 Pl,40.73282,-73.86065,Queens,20
+5838.09,Washington Pl & 6 Ave,40.73224119,-74.00026394,Manhattan,41
+5845.02,Woodhaven Blvd & Hoffman Dr,40.73303,-73.871,Queens,24
+5847.01,Christopher St & Greenwich St,40.73291553,-74.00711384,Manhattan,15
+5847.06,W 10 St & Washington St,40.73342399437081,-74.00851495563984,Manhattan,42
+5847.08,Washington St & Barrow St,40.73191132323174,-74.008769094944,Manhattan,39
+5847.09,Washington St & W 10 St,40.7333,-74.00858,Manhattan,15
+5847.1,Greenwich St & Christopher St,40.7326,-74.00767,Manhattan,42
+5851.01,Greenpoint Ave & Monitor St,40.73224,-73.94383,Brooklyn,22
+5854.09,1 Ave & E 18 St,40.73381219196632,-73.98054420948029,Manhattan,44
+5854.1,Stuyvesant Walk & 1 Ave Loop,40.732339777151054,-73.97898383438587,Manhattan,23
+5860.02,Green St & McGuinness Blvd,40.73396,-73.95204,Brooklyn,27
+5861.04,64 Ave & 108 St,40.73305,-73.84942,Queens,21
+5863.07,E 15 St & 3 Ave,40.734232,-73.986923,Manhattan,43
+5869.04,Huron St & Franklin St,40.73266,-73.95826,Brooklyn,15
+5870.05,63 Ave & 99 St,40.73302,-73.85714,Queens,20
+5872.08,E 10 St & 5 Ave,40.73331967,-73.99510132,Manhattan,38
+5872.1,E 9 St & 5 Ave,40.73275887045087,-73.99581670761108,Manhattan,15
+5878.02,60 Ave & Junction Blvd,40.73466,-73.86501,Queens,21
+5880.02,W 4 St & 7 Ave S,40.73401143,-74.00293877,Manhattan,50
+5881.01,Tyler Ave & Maurice Ave,40.73394,-73.90128,Queens,19
+5883.06,Van Dam St & Greenpoint Ave,40.73443564069459,-73.93790781497955,Queens,15
+5883.08,Review Ave & Greenpoint Ave,40.73424679613554,-73.93776814411713,Queens,23
+5886.13,E 20 St & FDR Dr,40.733208626522426,-73.9756813647,Brooklyn,42
+5887.03,Queens Blvd & 56 Ave,40.73481,-73.87431,Queens,24
+5894.01,64 Rd & Grand Central Pkwy,40.73362,-73.84494,Queens,20
+5896.01,E 17 St & 2 Ave,40.73431166276575,-73.98372530937195,Manhattan,39
+5902.07,Eagle St & Manhattan Ave,40.735217,-73.954926,Brooklyn,39
+5903.06,108 St & 62 Dr,40.73551,-73.85102,Queens,20
+5905.12,Broadway & E 14 St,40.73454567,-73.99074142,Manhattan,55
+5905.14,University Pl & E 14 St,40.734814,-73.992085,Manhattan,54
+5914.03,W 11 St & 6 Ave,40.73532427,-73.99800419,Manhattan,43
+5914.08,Greenwich Ave & Charles St,40.735238,-74.000271,Manhattan,42
+5917.02,Bradley Ave & Greenpoint Ave,40.73565914819229,-73.93478840589523,Queens,23
+5920.03,94 St & 57 Ave,40.73628,-73.86752,Queens,21
+5922.04,Greenwich St & Perry St,40.73498,-74.00697,Manhattan,42
+5922.07,Perry St & Bleecker St,40.73535398,-74.00483091,Manhattan,38
+5922.08,Bank St & Hudson St,40.73652889,-74.00618026,Manhattan,35
+5923.02,51 Ave & 61 St,40.73568,-73.90387,Queens,21
+5929.01,E 23 St & 1 Ave,40.736502,-73.97809472,Manhattan,40
+5929.07,E 23 St & FDR Dr,40.736,-73.97605,Manhattan,32
+5930.02,Queens Blvd & Broadway,40.73672,-73.87728,Queens,24
+5936.06,62 Dr & 110 St,40.73632,-73.84904,Queens,20
+5938.01,E 19 St & 3 Ave,40.73624527,-73.98473765,Manhattan,37
+5938.11,E 16 St & Irving Pl,40.735367055605394,-73.98797392845154,Manhattan,40
+5944.01,Franklin St & Dupont St,40.73564,-73.95866,Brooklyn,47
+5945.01,60 Ave & Otis Ave,40.73715,-73.85614,Queens,19
+5945.03,62 Ave & 102 St,40.73568,-73.8564,Queens,18
+5947.04,W 13 St & 5 Ave,40.735445,-73.99431,Manhattan,38
+5947.06,E 15 St & 5 Ave,40.736592,-73.992949,Manhattan,36
+5953.03,97 St & 57 Ave,40.73727,-73.86415,Queens,21
+5955.12,Perry St & Greenwich Ave,40.735918,-74.000939,Manhattan,39
+5956.04,64 St & 51 Ave,40.73577,-73.90184,Queens,21
+5956.05,50 Ave & 65 St,40.73707,-73.90077,Queens,23
+5962.04,56 Ave & 92 St,40.73649,-73.86995,Queens,21
+5964.01,Bank St & Washington St,40.7361967,-74.00859207,Manhattan,37
+5971.08,E 20 St & 2 Ave,40.73587678,-73.98205027,Manhattan,39
+5971.09,E 22 St & 2 Ave,40.73716919369882,-73.98122549057007,Manhattan,42
+5977.01,McGuinness Blvd & Eagle St,40.73555,-73.95284,Brooklyn,35
+5980.07,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan,15
+5980.1,E 17 St & Broadway,40.737006,-73.990134,Manhattan,55
+5980.11,Broadway & E 19 St,40.73829,-73.99006,Manhattan,46
+5983.04,43 St & 50 Ave,40.73787237950538,-73.92264068126678,Queens,25
+5987.03,99 St & 58 Ave,40.73761,-73.85959,Queens,20
+5989.02,W 15 St & 6 Ave,40.738046142482766,-73.99642959237099,Manhattan,49
+5992.02,36 St & Hunters Point Ave,40.73781699881193,-73.93024072051048,Queens,21
+5995.07,56 Ave & Junction Blvd,40.73716,-73.86625,Queens,19
+5997.1,W 12 St & Hudson St,40.73752993301071,-74.00558933615685,Manhattan,45
+5998.09,61 St & Laurel Hill Blvd,40.7388,-73.90338,Queens,22
+6001.01,Borden Ave & Review Ave,40.73866345465306,-73.94093804061413,Queens,23
+6004.06,E 27 St & 1 Ave,40.739445,-73.976806,Manhattan,41
+6004.07,E 25 St & 1 Ave,40.7381765,-73.97738662,Manhattan,33
+6005.04,55 Ave & 90 St,40.73676,-73.87318,Queens,20
+6011.04,Grand Central Pkwy & 62 Dr,40.73694,-73.84601,Queens,21
+6013.12,Gramercy Park N & Gramercy Park E,40.73795,-73.98509,Manhattan,43
+6014.01,St James Ave & 51 Ave,40.73813,-73.88104,Queens,20
+6016.06,48 St & 50 Ave,40.73737,-73.91803,Queens,25
+6019.04,Ash St & Manhattan Ave,40.738095,-73.954867,Brooklyn,35
+6020.02,Waldron St & 108 St,40.73916,-73.8526,Queens,18
+6022.04,Pillar E 16 St & 5 Ave,40.73726,-73.99239,Manhattan,41
+6025.08,39 St & 50 Ave,40.73824937345944,-73.92737478017807,Queens,25
+6028.01,57 Ave & 98 Pl,40.73802,-73.86103,Queens,21
+6030.04,W 13 St & 7 Ave,40.73781509,-73.99994661,Manhattan,44
+6030.06,W 15 St & 7 Ave,40.73935542,-73.99931783,Manhattan,15
+6033.01,31 Pl & Hunters Point Ave,40.74021356884924,-73.93537044525146,Queens,21
+6037.02,53 Ave & 94 St,40.73921,-73.86887,Queens,20
+6039.06,Washington St & Gansevoort St,40.739323,-74.008119,Manhattan,51
+6046.02,E 25 St & 2 Ave,40.73912601,-73.97973776,Manhattan,41
+6047.03,51 Ave & Van Loon St,40.73832,-73.87913,Queens,20
+6053.01,Corona Ave & 111 St,40.7408,-73.84978,Queens,21
+6055.08,E 20 St & Park Ave,40.73827428,-73.98751968,Manhattan,41
+6056.02,Queens Blvd & Albion Ave,40.73856,-73.88553,Queens,21
+6058.08,44 St & 48 Ave,40.73941387498411,-73.92131969332695,Queens,26
+6062.03,103 St & Martense Ave,40.74046,-73.8565,Queens,20
+6064.08,W 18 St & 6 Ave,40.73971301,-73.99456405,Manhattan,47
+6067.01,48 Ave & 37 St,40.74034668087185,-73.92886072397232,Queens,21
+6070.05,55 Ave & 97 Pl,40.73892,-73.86367,Queens,18
+6072.06,Greenwich Ave & 8 Ave,40.7390169121,-74.0026376103,Manhattan,53
+6072.11,8 Ave & W 16 St,40.740983,-74.001702,Manhattan,49
+6072.16,Gansevoort St & Hudson St,40.73937600789778,-74.00520807425661,Manhattan,40
+6076.02,30 St & 48 Ave,40.7413272,-73.937999,Queens,22
+6079.03,1 Ave & E 30 St,40.74144387,-73.97536082,Manhattan,40
+6080.07,90 St & 51 Ave,40.73937,-73.87411,Queens,21
+6086.02,Borden Ave & 25 St,40.7396139,-73.945151,Queens,20
+6089.07,Lexington Ave & E 24 St,40.74025878,-73.98409214,Manhattan,41
+6089.08,Lexington Ave & E 26 St,40.741459,-73.983293,Manhattan,37
+6089.11,E 26 St & 3 Ave,40.74069317733043,-73.98160636425018,Manhattan,43
+6090.03,South Railroad Ave & Broadway,40.741,-73.88027,Queens,24
+6092.01,47 Ave & 48 St,40.74086,-73.91708,Queens,22
+6096.01,Van Cleef St & 108 St,40.74096,-73.85357,Queens,19
+6098.02,W 20 St & 5 Ave,40.73972989238724,-73.99103969335556,Manhattan,41
+6098.1,Broadway & E 21 St,40.73988840858996,-73.98958593606949,Manhattan,51
+6098.12,Broadway & E 19 St,40.73866091428551,-73.98987293243407,Manhattan,15
+6099.02,76 St & 45 Ave,40.7411,-73.88837,Queens,22
+6101.11,48 Ave & 41 St,40.73985995699164,-73.92400324344635,Queens,26
+6104.01,55 Ave & Center Blvd,40.740288,-73.960697,Brooklyn,36
+6105.02,100 St & Lewis Ave,40.73988,-73.86012,Queens,19
+6107.08,W 17 St & 7 Ave,40.74056423633952,-73.99852573871613,Manhattan,42
+6108.03,69 St & 43 Ave,40.74179,-73.89564,Queens,22
+6110.01,34 St & 48 Ave,40.740821207823245,-73.93147185444832,Queens,21
+6113.07,51 Ave & Junction Blvd,40.74087,-73.86772,Queens,20
+6115.06,Hudson St & W 13 St,40.74005708567285,-74.0052741765976,Manhattan,45
+6115.09,W 15 St & 10 Ave,40.74275382865903,-74.00747358798981,Manhattan,15
+6116.03,61 St & Queens Blvd,40.74091,-73.90273,Queens,27
+6119.01,49 Ave & 27 St,40.74113,-73.942518,Queens,20
+6122.09,2 Ave & E 29 St,40.74172351097472,-73.97809267044067,Manhattan,46
+6123.02,Corona Ave & 90 St,40.74154,-73.87484,Queens,20
+6128.04,49 Ave & 21 St,40.74252,-73.948852,Queens,28
+6131.1,E 24 St & Park Ave S,40.74096374,-73.98602213,Manhattan,44
+6131.12,Madison Ave & E 26 St,40.742684734875695,-73.98671329021454,Manhattan,42
+6131.13,E 27 St & Park Ave S,40.74275179648995,-73.9847157150507,Manhattan,42
+6132.01,82 St & Broadway,40.74281,-73.88296,Queens,25
+6134.03,Greenpoint Ave & 47 St,40.7424,-73.91808,Queens,27
+6134.13,44 St & Greenpoint Ave,40.741119944681465,-73.92103672027588,Queens,26
+6137.04,5 St & 51 Ave,40.7423737,-73.9566,Queens,29
+6138.02,Martense Ave & 108 St,40.74214,-73.85418,Queens,19
+6138.07,108 St & 52 Ave,40.74310053056842,-73.85466891367044,Queens,21
+6140.05,W 21 St & 6 Ave,40.74173969,-73.99415556,Manhattan,59
+6141.02,72 St & Woodside Ave,40.74288,-73.89283,Queens,21
+6143.01,36 St & 47 Ave,40.74221834996096,-73.92935156822205,Queens,20
+6143.05,39 St & 47 Ave,40.74215636827728,-73.92662644386292,Queens,24
+6146.01,99 St & 50 Ave,40.74278,-73.86226,Queens,19
+6148.02,W 17 St & 8 Ave,40.74177603,-74.00149746,Manhattan,38
+6149.02,65 Pl & Woodside Ave,40.74334,-73.89903,Queens,21
+6151.03,47 Ave & 31 St,40.743,-73.93561,Queens,23
+6155.03,Corona Ave & 92 St,40.7424,-73.87251,Queens,21
+6157.04,10 Ave & W 14 St,40.74198159994023,-74.00831580162048,Manhattan,54
+6158.02,Queens Blvd & 56 St,40.74193,-73.90913,Queens,22
+6158.06,57 St & 43 Ave,40.74324,-73.908,Queens,23
+6164.09,Lexington Ave & E 29 St,40.74311555376486,-73.98215353488922,Manhattan,37
+6165.06,Whitney Ave & Ketcham Pl,40.74249,-73.87809,Queens,22
+6167.03,51 St & Queens Blvd,40.7429,-73.91395,Queens,21
+6170.02,Vernon Blvd & 50 Ave,40.74232744,-73.95411749,Queens,41
+6170.09,Jackson Ave & 49 Ave,40.7429302,-73.952037,Queens,15
+6170.1,Jackson Ave & 50 Ave,40.74234,-73.95312,Queens,40
+6171.02,111 St & 53 Ave,40.74336,-73.85129,Queens,22
+6173.08,Pillar Broadway & W 25 St,40.74287,-73.98919,Manhattan,52
+6174.03,79 St & Woodside Ave,40.74364,-73.88622,Queens,24
+6176.11,40 St & Queens Blvd,40.743540273428685,-73.92435193061829,Queens,30
+6179.07,Center Blvd & 51 Ave,40.74336608027021,-73.95960688591003,Queens,34
+6180.05,51 Ave & Alstyne Ave,40.74311,-73.85715,Queens,15
+6182.02,W 20 St & 7 Ave,40.74238787,-73.99726235,Manhattan,46
+6183.03,Woodside Ave & 69 St,40.7428,-73.89584,Queens,20
+6185.04,33 St & 47 Ave,40.74283,-73.9321,Queens,22
+6185.07,33 St & Queens Blvd,40.7443653191867,-73.93172398209572,Queens,25
+6188.04,Corona Ave & 98 St,40.74448,-73.86516,Queens,19
+6190.03,W 18 St & 9 Ave,40.7435337324616,-74.00367558002472,Manhattan,30
+6190.08,9 Ave & W 18 St,40.74317449,-74.00366443,Manhattan,43
+6191.04,62 St & 43 Ave,40.74261,-73.903,Queens,22
+6191.06,61 St & Woodside Ave,40.74501,-73.9036,Queens,29
+6194.06,29 St & Skillman Ave,40.744831,-73.938411,Queens,22
+6197.02,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan,15
+6197.08,E 33 St & 1 Ave,40.74322681432173,-73.97449783980846,Manhattan,51
+6197.11,2 Ave & E 31 St,40.74299,-73.97711,Manhattan,47
+6198.03,Forley St & Lamont Ave,40.74463,-73.87386,Queens,22
+6200.03,53 St & Roosevelt Ave,40.74462,-73.91143,Queens,22
+6203.02,Jackson Ave & 46 Rd,40.74524768,-73.94733276,Queens,31
+6206.08,E 30 St & Park Ave S,40.74444921,-73.98303529,Manhattan,41
+6207.06,Judge St & Britton Ave,40.74454,-73.88112,Queens,22
+6209.05,43 Ave & 47 St,40.7448062877224,-73.91728967428207,Queens,25
+6209.08,46 St & Queens Blvd,40.74349759836971,-73.91860529780388,Queens,28
+6212.04,48 Ave & 5 St,40.74436328706688,-73.9558732509613,Queens,30
+6212.08,Vernon Blvd & 47 Rd,40.7449067,-73.9534573,Queens,30
+6213.01,51 Ave & Corona Ave,40.74373,-73.85583,Queens,15
+6215.04,W 25 St & 6 Ave,40.74395411,-73.99144871,Manhattan,42
+6215.07,W 27 St & 6 Ave,40.74526,-73.99062,Manhattan,45
+6216.01,74 St & Woodside Ave,40.74325,-73.89079,Queens,22
+6218.04,39 St & Queens Blvd,40.74431,-73.92601,Queens,25
+6222.04,Corona Ave & 102 St,40.74419,-73.8619,Queens,20
+6224.03,W 22 St & 8 Ave,40.74475148,-73.99915362,Manhattan,43
+6224.05,W 20 St & 8 Ave,40.74345335,-74.00004031,Manhattan,44
+6224.06,8 Ave & W 24 St,40.74591072834279,-73.99807110428809,Manhattan,42
+6225.03,41 Ave & 67 St,40.74446,-73.89764,Queens,22
+6227.02,31 St & Thomson Ave,40.74469738,-73.93540375,Queens,23
+6230.02,1 Ave & E 38 St,40.746202,-73.971822,Manhattan,50
+6230.04,FDR Drive & E 35 St,40.744219,-73.97121214,Manhattan,45
+6231.01,46 Ave & Junction Blvd,40.74399,-73.86781,Queens,20
+6233.04,Pier 61 at Chelsea Piers,40.746872,-74.00821,Manhattan,60
+6233.05,W 16 St & The High Line,40.74334935,-74.00681753,Manhattan,46
+6233.11,W 19 St & 11 Ave,40.74598211712387,-74.00784343705081,Manhattan,15
+6234.01,57 St & Woodside Ave,40.74578861252213,-73.9072778339874,Queens,15
+6234.03,Woodside Ave & Roosevelt Ave,40.74549,-73.90605,Queens,24
+6234.04,Woodside Ave & 60 St,40.74521,-73.90462,Queens,25
+6234.08,59 St & 41 Ave,40.744577,-73.905986,Queens,15
+6237.01,47 Ave & Skillman Ave,40.7437524099784,-73.94176483154297,Queens,20
+6239.08,E 31 St & 3 Ave,40.74394314,-73.97966069,Manhattan,49
+6240.05,Elmhurst Ave & Forley St,40.74615,-73.87763,Queens,22
+6242.1,51 St & 43 Ave,40.74451,-73.91412,Queens,25
+6245.08,46 Rd & 11 St,40.745805,-73.950752,Queens,26
+6247.06,Pillar W 27 St & 7 Ave,40.74665,-73.99392,Manhattan,41
+6248.06,5 Ave & E 29 St,40.7451677,-73.98683077,Manhattan,15
+6248.08,5 Ave & E 30 St,40.7459849,-73.98629487,Manhattan,44
+6249.02,41 Ave & 80 St,40.74586,-73.88539,Queens,22
+6251.06,43 Ave & 42 St,40.74534682580983,-73.9219419658184,Queens,27
+6254.06,Center Blvd & 48 Ave,40.745038,-73.957539,Queens,30
+6255.02,49 Ave & 108 St,40.74535,-73.8558,Queens,20
+6257.03,W 24 St & 7 Ave,40.74487634,-73.99529885,Manhattan,52
+6258.02,72 St & Broadway,40.74751,-73.89372,Queens,26
+6258.03,72 St & 41 Ave,40.7448,-73.89377,Queens,21
+6260.04,36 St & Queens Blvd,40.74408,-73.92901,Queens,23
+6264.06,National St & 45 Ave,40.74582,-73.86433,Queens,19
+6266.06,9 Ave & W 22 St,40.7454973,-74.00197139,Manhattan,47
+6267.08,65 St & Roosevelt Ave,40.74589,-73.89915,Queens,22
+6273.03,Case St & 94 St,40.74619,-73.87193,Queens,21
+6276.02,Woodside Ave & 55 St,40.74679,-73.90893,Queens,22
+6276.05,Skillman Ave & 54 St,40.745502,-73.909887,Queens,25
+6278.05,Davis St & Jackson Ave,40.745627,-73.945661,Queens,34
+6280.12,E 32 St & Park Ave,40.7457121,-73.98194829,Manhattan,42
+6280.13,E 33 St & Park Ave,40.74652543,-73.98214281,Manhattan,36
+6281.01,Gleane St & Britton Ave,40.74646,-73.87996,Queens,20
+6283.05,48 St & Skillman Ave,40.74622874694195,-73.91616314649582,Queens,27
+6286.02,46 Ave & 5 St,40.74731,-73.95451,Queens,38
+6287.02,111 St & 49 Ave,40.74612,-73.85272,Queens,22
+6289.06,Broadway & W 29 St,40.7462009,-73.98855723,Manhattan,49
+6290.06,41 Ave & 77 St,40.74557,-73.8882,Queens,25
+6290.13,79 St & Roosevelt Ave,40.74718,-73.88675,Queens,23
+6292.03,43 Ave & 40 St,40.74562,-73.92402,Queens,25
+6295.07,47 Ave & 104 St,40.7458,-73.85945,Queens,20
+6297.02,W 26 St & 8 Ave,40.74734825,-73.99723551,Manhattan,35
+6297.07,8 Ave & W 27 St,40.747968,-73.996637,Manhattan,42
+6297.08,W 25 St & 8 Ave,40.74649996333341,-73.99732626293645,Manhattan,33
+6298.04,69 St & 38 Ave,40.74694504524519,-73.89650255441666,Queens,21
+6300.04,Skillman Ave & 43 Ave,40.74653761978055,-73.93215849995613,Queens,24
+6303.01,1 Ave & E 39 St,40.74714,-73.97113,Manhattan,15
+6303.02,1 Ave & E 42 St,40.7487575,-73.970127,Manhattan,33
+6304.04,98 St & 41 Ave,40.74773,-73.86649,Queens,21
+6306.01,W 20 St & 10 Ave,40.745686,-74.005141,Manhattan,42
+6306.06,Pillar W 22 St & 10 Ave,40.74692,-74.00452,Manhattan,48
+6306.07,W 20 St & 11 Ave,40.746745,-74.007756,Manhattan,39
+6307.07,61 St & 39 Ave,40.7471,-73.9028,Queens,28
+6310.06,27 St & Hunter St,40.7485,-73.941275,Queens,36
+6313.1,Lexington Ave & E 36 St,40.7475739589548,-73.9788007736206,Manhattan,42
+6314.02,Elmhurst Ave & Roosevelt Ave,40.74864,-73.87619,Queens,24
+6314.09,Benham St & Roosevelt Ave,40.74841,-73.8751,Queens,19
+6316.05,39 Dr & 52 St,40.74732,-73.91197,Queens,25
+6319.01,45 Rd & 11 St,40.74708586,-73.94977234,Queens,26
+6319.03,44 Dr & 21 St,40.748036,-73.946705,Queens,34
+6319.04,11 St & 44 Rd,40.749207,-73.949373,Queens,28
+6319.07,45 Ave & 21 St,40.74737075646803,-73.94777297973631,Queens,28
+6322.01,E 33 St & 5 Ave,40.74765947,-73.98490707,Manhattan,41
+6323.04,84 St & Roosevelt Ave,40.74797,-73.88204,Queens,24
+6323.11,Ithaca St & Baxter Ave,40.74638,-73.88322,Queens,26
+6325.01,43 St & Skillman Ave,40.74692675687384,-73.9208248257637,Queens,26
+6329.06,47 Ave & 109 St,40.74713,-73.85502,Queens,18
+6331.01,W 31 St & 7 Ave,40.749156,-73.9916,Manhattan,56
+6332.06,74 St & 37 Ave,40.74908,-73.89172,Queens,29
+6332.09,75 St & Roosevelt Ave,40.7468,-73.89038,Queens,15
+6332.1,Broadway & 74 St,40.74653,-73.89121,Queens,34
+6334.03,Skillman Ave & Honeywell St,40.7471482490328,-73.92902433872223,Queens,21
+6337.09,103 St & 41 Ave,40.74875,-73.86285,Queens,21
+6339.06,W 25 St & 9 Ave,40.74783260583772,-74.0005722643582,Manhattan,43
+6340.09,37 Ave & 63 St,40.74893,-73.89981,Queens,21
+6345.08,E 39 St & 2 Ave,40.74803319428767,-73.973827958107,Manhattan,15
+6346.02,Warren St & Roosevelt Ave,40.74919,-73.87043,Queens,15
+6346.07,Warren St & Roosevelt Ave,40.74919,-73.87054,Queens,24
+6349.03,39 Ave & 56 St,40.74838,-73.90699,Queens,22
+6352.01,44 Dr & Jackson Ave,40.74718234,-73.9432635,Queens,38
+6356.01,87 St & Roosevelt Ave,40.74825,-73.87936,Queens,21
+6358.05,48 St & Barnett Ave,40.75001640425933,-73.91540944576263,Queens,22
+6361.03,9 St & 44 Rd,40.74966,-73.9521,Queens,26
+6364.07,6 Ave & W 33 St,40.74901271,-73.98848395,Manhattan,53
+6364.1,6 Ave & W 34 St,40.74964,-73.98805,Manhattan,54
+6365.1,79 St & 37 Ave,40.74937,-73.88714,Queens,26
+6371.03,42 Ave & 108 St,40.74944,-73.85792,Queens,19
+6373.07,W 30 St & 8 Ave,40.74964702898657,-73.99506707345266,Manhattan,38
+6374.05,71 St & 37 Ave,40.7488,-73.89451,Queens,21
+6379.03,1 Ave & E 44 St,40.75001986,-73.96905301,Manhattan,34
+6380.1,39 Ave & 99 St,40.74962,-73.86677,Queens,21
+6382.05,W 26 St & 10 Ave,40.749717753,-74.002950346,Manhattan,39
+6383.02,60 St & 37 Ave,40.74958,-73.90256,Queens,15
+6383.06,60 St & 37 Ave,40.74952,-73.90265,Queens,22
+6389.09,E 39 St & Lexington Ave,40.7494985460252,-73.97729203113158,Manhattan,45
+6390.05,93 St & Roosevelt Ave,40.74888,-73.87368,Queens,20
+6392.02,39 Ave & 54 St,40.74891,-73.90899,Queens,20
+6395.01,21 St & 43 Ave,40.75052534,-73.94594845,Queens,25
+6398.06,W 37 St & 5 Ave,40.75038009,-73.98338988,Manhattan,41
+6398.08,E 35 St & Madison Ave,40.74848023448579,-73.98255586624146,Manhattan,38
+6399.06,86 St & 37 Ave,40.75,-73.88062,Queens,23
+6401.01,43 St & 37 Ave,40.750181,-73.919998,Queens,19
+6401.03,39 Ave & 45 St,40.74947822183477,-73.91826465725897,Queens,23
+6405.03,43 Ave & 111 St,40.74955,-73.85464,Queens,19
+6408.08,75 St & 35 Ave,40.75091,-73.89111,Queens,24
+6414.07,Roosevelt Ave & 104 St,40.74984,-73.86156,Queens,20
+6416.06,W 29 St & 9 Ave,40.7500727,-73.99839279,Manhattan,41
+6417.04,65 St & 35 Ave,40.75053,-73.8977,Queens,19
+6417.11,65 St & Broadway,40.7493722738996,-73.89738768339157,Queens,21
+6422.08,E 43 St & 2 Ave,40.75022392,-73.97121414,Manhattan,37
+6422.09,E 44 St & 2 Ave,40.75118387463277,-73.97138714790344,Manhattan,37
+6423.03,99 St & 38 Ave,40.75055,-73.86725,Queens,19
+6425.04,11 Ave & W 27 St,40.751396,-74.005226,Manhattan,47
+6426.05,57 St & 37 Ave,40.75048,-73.90513,Queens,19
+6429.01,Queens Plaza North & Crescent St,40.75110165,-73.94073717,Queens,41
+6432.08,Park Ave & E 41 St,40.751581,-73.97791,Manhattan,39
+6432.09,Park Ave & E 42 St,40.751873,-73.977706,Manhattan,54
+6432.1,E 41 St & Madison Ave (SE corner),40.752049,-73.979635,Manhattan,15
+6432.10_Pillar,Pillar E 41 St & Madison Ave (SE Corner),40.7521,-73.97968,Manhattan,15
+6432.11,E 40 St & Park Ave,40.750756,-73.978326,Manhattan,39
+6432.15,Park Ave & E 40 St,40.75112,-73.97851,Manhattan,37
+6433.01,92 St & 37 Ave,40.75085,-73.87509,Queens,21
+6435.02,48 St & 37 Ave,40.751555,-73.915026,Queens,27
+6435.03,50 St & Barnett Ave,40.750097682094825,-73.91349703073502,Queens,25
+6438.04,11 St & 43 Ave,40.7519071,-73.9479119,Queens,15
+6438.05,11 St & 43 Ave,40.75177,-73.94821,Queens,25
+6441.01,Broadway & W 36 St,40.75097711,-73.98765428,Manhattan,15
+6441.02,Broadway & W 37 St,40.75172632,-73.98753523,Manhattan,30
+6441.06,W 37 St & Broadway,40.75227093837409,-73.98770570755005,Manhattan,32
+6441.11,Broadway & W 36 St,40.751226078126,-73.98772201748262,Manhattan,34
+6442.08,81 St & 35 Ave,40.75179,-73.88568,Queens,24
+6448.07,111 St & Roosevelt Ave,40.75147,-73.8557,Queens,24
+6450.05,8 Ave & W 31 St,40.7505853470215,-73.9946848154068,Manhattan,51
+6450.12,8 Ave & W 33 St,40.75156757136795,-73.99376901480953,Manhattan,47
+6451.07,34 Ave & 74 St,40.75297,-73.89236,Queens,26
+6453.02,34 St & 38 Ave,40.752443,-73.929737,Queens,26
+6457.06,104 St & 38 Ave,40.75138,-73.86242,Queens,20
+6459.04,10 Ave & W 28 St,40.75066386,-74.00176802,Manhattan,47
+6459.07,W 30 St & 10 Ave,40.752694,-74.002353,Manhattan,53
+6460.06,62 St & 34 Ave,40.75201,-73.89986,Queens,21
+6462.05,40 Ave & Crescent St,40.7535992020056,-73.93795609474182,Queens,25
+6462.09,29 St & 40 Ave,40.75217,-73.93588,Queens,15
+6462.19,28 St & 41 Ave,40.751047,-73.93797,Queens,33
+6464.08,E 45 St & 3 Ave,40.75255434,-73.97282625,Manhattan,33
+6464.09,E 44 St & Lexington Ave,40.752643,-73.974996,Manhattan,43
+6465.04,95 St & 35 Ave,40.75301,-73.87266,Queens,22
+6468.01,54 St & 37 Ave,40.75098,-73.90799,Queens,20
+6471.02,21 St & Queens Plaza North,40.75325964,-73.94335788,Queens,28
+6474.11,E 40 St & 5 Ave,40.752062307,-73.9816324043,Manhattan,45
+6475.07,86 St & 35 Ave,40.7523,-73.88093,Queens,23
+6483.06,W 36 St & 7 Ave,40.752149,-73.989539,Manhattan,40
+6486.07,38 St & Northern Blvd,40.752372,-73.925384,Queens,24
+6490.02,108 St & 39 Ave,40.75165,-73.85915,Queens,20
+6492.04,W 33 St & 10 Ave,40.75377336836039,-73.99937599897385,Manhattan,41
+6492.08,9 Ave & W 33 St,40.752568,-73.996765,Manhattan,56
+6493.03,34 Ave & 71 St,40.75257,-73.89538,Queens,25
+6495.17,31 St & Northern Blvd,40.75186951421875,-73.93349289894103,Queens,29
+6498.09,E 47 St & 1 Ave,40.75206862,-73.96784384,Manhattan,37
+6498.1,E 47 St & 2 Ave,40.75323098,-73.97032517,Manhattan,42
+6499.06,100 St & 37 Ave,40.75243,-73.86717,Queens,19
+6502.01,55 St & Northern Blvd,40.75326,-73.90585,Queens,24
+6505.01,24 St & 41 Ave,40.7527085,-73.9397405,Queens,27
+6505.09,24 St & 41 Ave,40.752474,-73.939991,Queens,15
+6509.07,92 St & 35 Ave,40.7529,-73.87536,Queens,21
+6511.03,50 St & Northern Blvd,40.753441,-73.912402,Queens,25
+6514.08,Vernon Blvd & 41 Rd,40.7552433,-73.9485678,Queens,27
+6515.01,Mets Plaza at Citi Field,40.75521,-73.84672,Queens,25
+6517.08,W 42 St & 6 Ave,40.75492,-73.98455,Manhattan,43
+6517.08_,W 42 St & 6 Ave,40.75496980175467,-73.98468096052407,Manhattan,21
+6518.08,34 Ave & 83 St,40.75375,-73.88423,Queens,15
+6518.13,34 Ave & 83 St,40.75393500483023,-73.88390148299196,Queens,27
+6520.06,43 St & 35 Ave,40.754139,-73.919543,Queens,24
+6520.07,42 Pl & Northern Blvd,40.753091,-73.920603,Queens,24
+6524.01,114 St & 39 Ave,40.7532,-73.853,Queens,19
+6524.09,37 Ave & 113 St,40.75475,-73.8549,Queens,19
+6526.01,W 35 St & 8 Ave,40.752762088742045,-73.99280458705107,Manhattan,37
+6526.05,8 Ave & W 38 St,40.75461,-73.99177,Manhattan,50
+6527.07,75 St & Northern Blvd,40.75473,-73.8918,Queens,20
+6529.02,37 Ave & 35 St,40.7531106,-73.9279917,Queens,24
+6532.06,E 51 St & 1 Ave,40.75455731,-73.96592976,Queens,37
+6533.02,37 Ave & 106 St,40.75397,-73.862,Queens,20
+6535.04,W 34 St & Hudson Blvd E,40.75516719072139,-74.00059908628464,Manhattan,45
+6535.05,10 Ave & W 34 St,40.75476986284269,-73.99914588449698,Manhattan,38
+6536.02,62 St & Northern Blvd,40.754176,-73.900318,Queens,21
+6538.11,38 Ave & 29 St,40.75473,-73.93367,Queens,28
+6541.03,E 48 St & 3 Ave,40.7546011026,-73.971878855,Manhattan,40
+6542.05,99 St & 35 Ave,40.75404,-73.86887,Queens,20
+6545.07,Broadway & 51 St,40.754164,-73.908906,Queens,24
+6551.02,W 44 St & 5 Ave,40.75500254,-73.98014437,Manhattan,40
+6551.11,E 43 St & Madison Ave,40.75354681867074,-73.97896572947502,Manhattan,44
+6551.16,E 46 St & Madison Ave,40.755393,-73.977601,Manhattan,37
+6552.07,34 Ave & 89 St,40.75437,-73.87833,Queens,27
+6554.05,34 Ave & 48 St,40.75388,-73.914952,Queens,24
+6560.01,Broadway & W 41 St,40.75513557,-73.98658032,Manhattan,40
+6560.14,W 40 St & 7 Ave,40.754818,-73.988154,Manhattan,37
+6560.15,Broadway & W 38 St,40.7529728216068,-73.98734897375107,Manhattan,43
+6561.01,81 St & 34 Ave,40.75374,-73.88604,Queens,27
+6563.12,35 Ave & 37 St,40.7557327,-73.9236611,Queens,29
+6566.01,Southpoint Park,40.75370225419114,-73.95865201950072,Queens,26
+6567.03,111 St & 37 Ave,40.75397,-73.85748,Queens,19
+6569.07,W 36 St & 9 Ave,40.75462324029105,-73.99516761302948,Manhattan,38
+6569.08,W 35 St & Dyer Ave,40.754691750226016,-73.99740189313889,Manhattan,15
+6569.09,W 35 St & 9 Ave,40.75414519263519,-73.9960889518261,Manhattan,36
+6569.09_,W 35 St & 9 Ave,40.75425585988168,-73.99645123326621,Manhattan,18
+6570.06,72 St & Northern Blvd,40.75473,-73.89458,Queens,23
+6572.08,36 Ave & 31 St,40.75654005185898,-73.929555582706,Queens,32
+6575.03,E 51 St & 2 Ave,40.755293,-73.967641,Manhattan,39
+6576.07,102 St & 34 Ave,40.75584,-73.86621,Queens,21
+6578.01,W 34 St & 11 Ave,40.75594159,-74.0021163,Manhattan,43
+6579.03,58 St & 32 Ave,40.75574,-73.903427,Queens,22
+6581.14,24 St & 38 Ave,40.756351,-73.936515,Queens,23
+6584.12,E 47 St & Park Ave,40.75510267,-73.97498696,Manhattan,42
+6585.11,34 Ave & Junction Blvd,40.75502,-73.87285,Queens,24
+6587.04,Broadway & 49 St,40.755389,-73.911517,Queens,21
+6593.14,W 43 St & 6 Ave,40.75527307,-73.98316936,Manhattan,34
+6593.15,6 Ave & W 45 St,40.756951,-73.982631,Manhattan,43
+6594.02,85 St & Northern Blvd,40.75601,-73.88266,Queens,24
+6596.1,34 Ave & 45 St,40.754795,-73.917014,Queens,27
+6599.01,Roosevelt Island Tramway,40.757284,-73.9536,Queens,32
+6602.03,Pillar W 41 St & 8 Ave,40.75641,-73.99003,Manhattan,51
+6602.05,W 42 St & 8 Ave,40.7575699,-73.99098507,Manhattan,43
+6603.06,32 Ave & 77 St,40.75727,-73.89024,Queens,21
+6603.07,78 St & Northern Blvd,40.75499,-73.88905,Queens,26
+6605.08,34 St & 35 Ave,40.7569332,-73.9262231,Queens,27
+6608.09,E 54 St & 1 Ave,40.756265,-73.964179,Queens,40
+6609.03,34 Ave & 108 St,40.75614,-73.86084,Queens,21
+6611.02,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan,48
+6611.07,Hudson Blvd W & W 36 St,40.75676475086503,-73.99971440439913,Manhattan,36
+6612.09,71 St & 32 Ave,40.75675,-73.89595,Queens,23
+6614.01,28 St & 36 Ave,40.757186,-73.932719,Queens,28
+6617.02,E 53 St & 3 Ave,40.75763227739443,-73.96930575370789,Manhattan,40
+6617.09,E 53 St & Lexington Ave,40.75828065,-73.97069431,Manhattan,38
+6618.02,100 St & Northern Blvd,40.75748,-73.86843,Queens,21
+6621.06,31 Ave & 57 St,40.757357,-73.904726,Queens,22
+6626.01,E 48 St & 5 Ave,40.75724567911726,-73.97805914282799,Manhattan,40
+6626.11,W 48 St &  Rockefeller Plaza,40.75776935448309,-73.97929430007935,Manhattan,35
+6627.12,93 St & Northern Blvd,40.7564,-73.87504,Queens,22
+6629.06,48 St & Broadway,40.755763,-73.912715,Queens,29
+6633.01,Shea Rd & Boat Basin Pl,40.75777,-73.84887,Queens,23
+6636.04,32 Ave & 84 St,40.75793,-73.88401,Queens,20
+6638.01,34 Ave & 38 St,40.756913,-73.921631,Queens,15
+6638.08,34 Ave & 38 St,40.75717,-73.92175,Queens,28
+6642.08,34 Ave & 113 St,40.75696,-73.85612,Queens,20
+6644.04,W 39 St & 9 Ave,40.75645824,-73.99372222,Manhattan,42
+6644.07,W 42 St & Dyer Ave,40.75898481399634,-73.99379968643188,Manhattan,38
+6644.08,9 Ave & W 39 St,40.756403523272496,-73.99410143494606,Manhattan,15
+6645.06,32 Ave & 75 St,40.75704,-73.8924,Queens,21
+6650.07,E 55 St & 2 Ave,40.75797322,-73.96603308,Manhattan,42
+6651.01,104 St & Northern Blvd,40.75755,-73.86454,Queens,20
+6654.05,31 Ave & 61 St,40.757525,-73.901614,Queens,23
+6656.05,21 St & 38 Ave,40.7576314,-73.9391224,Queens,22
+6659.01,E 51 St & Lexington Ave,40.75714758,-73.97207836,Manhattan,36
+6659.03,E 53 St & Madison Ave,40.7597108,-73.97402311,Manhattan,35
+6659.09,Madison Ave & E 51 St,40.75863,-73.97513,Manhattan,33
+6659.1,E 50 St & Park Ave,40.757334,-73.974235,Manhattan,33
+6660.05,99 St & 32 Ave,40.75896,-73.86976,Queens,20
+6660.07,96 St & Northern Blvd,40.75712,-73.8722,Queens,22
+6662.01,49 St & 31 Ave,40.758057,-73.909831,Queens,25
+6662.09,51 St & Hobart St,40.75767234025041,-73.90769943594933,Queens,23
+6664.05,40 Ave & 9 St,40.75742,-73.945133,Queens,25
+6667.04,W 47 St & 6 Ave,40.758397,-73.98255,Manhattan,15
+6667.12,W 47 St & 6 Ave,40.758154,-73.981957,Manhattan,37
+6668.06,90 St & 32 Ave,40.75836,-73.87824,Queens,22
+6670.03,43 St & Broadway,40.7577284,-73.9166368,Queens,28
+6676.02,W 45 St & 8 Ave,40.75929124,-73.98859651,Manhattan,46
+6677.03,32 Ave & 81 St,40.75763,-73.88682,Queens,22
+6679.11,35 St & 34 Ave,40.7580583,-73.9242751,Queens,26
+6682.03,E 58 St & 1 Ave (NE Corner),40.75892386377695,-73.96226227283478,Manhattan,33
+6682.08,E 60 St & York Ave,40.759107,-73.959223,Manhattan,31
+6683.01,112 St & Northern Blvd,40.75788,-73.85763,Queens,18
+6686.07,72 St & 31 Ave,40.7584,-73.89531,Queens,22
+6688.01,Crescent St & 35 Ave,40.7596276,-73.9321455,Queens,25
+6691.11,E 56 St & 3 Ave,40.75934501,-73.96759673,Manhattan,39
+6692.03,104 St & 32 Ave,40.75951,-73.86491,Queens,20
+6700.01,W 52 St & 5 Ave,40.75992262,-73.97648516,Manhattan,38
+6700.14,W 51 St & Rockefeller Plaza,40.75973805251143,-73.97811613976955,Manhattan,32
+6701.05,Jackson Mill Rd & 93 St,40.75874,-73.87535,Queens,22
+6703.06,46 St & 30 Rd,40.76072,-73.910989,Queens,23
+6708.04,Broadway & W 48 St,40.76017739537783,-73.98486793041229,Manhattan,46
+6709.01,31 Ave & 84 St,40.75947,-73.88431,Queens,20
+6709.05,31 Ave & 86 St,40.75958,-73.88219,Queens,20
+6711.13,Steinway St & Broadway,40.75905795418586,-73.91897544264793,Queens,36
+6717.01,W 44 St & 9 Ave,40.75963216910053,-73.99155429633757,Manhattan,42
+6717.06,9 Ave & W 45 St,40.76019252,-73.9912551,Manhattan,15
+6718.02,77 St & 31 Ave,40.75886,-73.89081,Queens,24
+6720.07,34 Ave & 31 St,40.759604471387945,-73.92714411020279,Queens,28
+6723.1,E 58 St & 1 Ave (NW Corner),40.759125,-73.962658,Manhattan,39
+6724.01,107 St & 32 Ave,40.75996,-73.86224,Queens,19
+6726.01,11 Ave & W 41 St,40.76030096,-73.99884222,Manhattan,55
+6727.02,30 Ave & 70 St,40.76013,-73.89741,Queens,22
+6729.02,21 St & 36 Ave,40.7601853,-73.9362726,Queens,23
+6732.01,E 56 St & Madison Ave,40.761573,-73.972628,Manhattan,36
+6733.01,99 St & Astoria Blvd,40.76196,-73.87042,Queens,21
+6735.03,50 St & 30 Ave,40.760083,-73.907107,Queens,25
+6737.03,36 Ave & 10 St,40.7614376,-73.9411265,Queens,25
+6740.01,W 52 St & 6 Ave,40.76132983124814,-73.97982001304626,Manhattan,35
+6740.1,W 51 St & 6 Ave,40.7606597,-73.98042047,Manhattan,40
+6741.03,91 St & 31 Ave,40.76022,-73.87774,Queens,21
+6743.06,Newton Rd & 44 St,40.7595701,-73.9142678,Queens,26
+6747.06,W 49 St & 8 Ave,40.76227205,-73.98788205,Manhattan,38
+6747.07,8 Ave & W 49 St,40.76171227910671,-73.98655101656914,Manhattan,50
+6748.04,82 St & 30 Ave,40.76109,-73.88632,Queens,21
+6750.16,35 St & Broadway,40.760339,-73.9222427,Queens,28
+6753.08,1 Ave & E 62 St,40.7612274,-73.96094022,Manhattan,48
+6756.01,W 43 St & 10 Ave,40.76009437,-73.99461843,Manhattan,50
+6756.05,W 44 St & 11 Ave,40.762009,-73.996975,Manhattan,44
+6757.03,73 St & 25 Ave,40.76205,-73.895,Queens,21
+6759.15,Crescent St & 34 Ave,40.76108,-73.930562,Queens,27
+6762.02,E 58 St & 3 Ave,40.76095756,-73.96724467,Manhattan,44
+6762.04,3 Ave & E 62 St,40.76312584,-73.96526895,Manhattan,40
+6763.08,31 Ave & 103 St,40.76134,-73.86666,Queens,20
+6765.01,12 Ave & W 40 St,40.76087502,-74.00277668,Manhattan,52
+6766.03,Bulova Ave & Brooklyn Queens Expressway W,40.762507,-73.902534,Queens,27
+6771.13,W 54 St & 6 Ave,40.761865,-73.977242,Manhattan,34
+6772.11,30 Ave & 96 St,40.76086,-73.87308,Queens,20
+6774.13,30 Ave & 47 St,40.761294,-73.909562,Queens,26
+6779.04,Broadway & W 51 St,40.76228826,-73.98336183,Manhattan,15
+6779.05,Broadway & W 53 St,40.76344058,-73.98268129,Manhattan,43
+6779.07,W 51 St & 7 Ave,40.76167,-73.98256,Manhattan,38
+6780.06,87 St & 30 Ave,40.76156,-73.88167,Queens,20
+6782.01,31 Ave & Steinway St,40.7611488,-73.9170071,Queens,33
+6786.02,W 47 St & 9 Ave,40.76153045158114,-73.99007007479668,Manhattan,43
+6787.02,30 Ave & 80 St,40.76109,-73.88838,Queens,21
+6789.04,31 St & Broadway,40.761584,-73.925921,Queens,15
+6789.08,Broadway & 31 St,40.76194,-73.92513,Queens,39
+6789.2,31 St & Broadway,40.76211,-73.92523,Queens,15
+6793.01,Ditmars Blvd & 31 Dr,40.76138,-73.86035,Queens,18
+6795.01,W 46 St & 11 Ave,40.76341379,-73.99667444,Manhattan,40
+6798.01,34 Ave & 21 St,40.7628138,-73.9342862,Queens,24
+6801.01,E 59 St & Madison Ave,40.76350532,-73.97109243,Manhattan,15
+6801.16,E 61 St & Madison Ave,40.764752828526326,-73.97037800510203,Manhattan,37
+6804.01,49 St & 25 Ave,40.764496,-73.904632,Queens,21
+6806.06,35 Ave & 10 St,40.76315481910373,-73.93985509872437,Queens,28
+6809.07,W 56 St & 6 Ave,40.76340613,-73.97722479,Manhattan,41
+6809.09,W 55 St & 6 Ave,40.763189,-73.978434,Manhattan,35
+6810.01,92 St & Astoria Blvd,40.76313,-73.8772,Queens,20
+6812.06,30 Ave & 41 St,40.763422,-73.914142,Queens,32
+6814.01,Motorgate,40.7639089,-73.9477213,Manhattan,31
+6816.07,8 Ave & W 52 St,40.76370739,-73.9851615,Manhattan,44
+6817.15,25 Ave & 85 St,40.76328,-73.88404,Queens,21
+6819.15,31 Ave & 34 St,40.763154,-73.920827,Queens,34
+6822.09,1 Ave & E 68 St,40.76500525,-73.95818491,Manhattan,51
+6824.07,W 47 St & 10 Ave,40.76269882,-73.99301222,Manhattan,43
+6825.03,77 St & 24 Ave,40.76428,-73.89156,Queens,22
+6827.11,Crescent St & Broadway,40.7633589,-73.9286471,Queens,33
+6830.02,E 63 St & 3 Ave,40.763954,-73.9646,Manhattan,38
+6836.07,34 Ave & 13 St,40.7638753,-73.9364848,Queens,22
+6839.04,E 58 St & Madison Ave,40.76302594280519,-73.97209525108337,Manhattan,42
+6839.1,Grand Army Plaza & Central Park S,40.7643971,-73.97371465,Manhattan,15
+6839.15,Central Park S & Grand Army Plaza,40.764555,-73.973473,Manhattan,15
+6840.02,98 St & 25 Ave,40.76454,-73.87171,Queens,18
+6842.02,46 St & 28 Ave,40.763328,-73.908782,Queens,24
+6847.02,Broadway & W 56 St,40.7652654,-73.98192338,Manhattan,15
+6847.05,7 Ave & W 55 St,40.764126,-73.980973,Manhattan,42
+6848.04,88 St & Astoria Blvd,40.76424,-73.8812,Queens,20
+6850.01,38 St & 30 Ave,40.764174520197685,-73.91583994030952,Queens,33
+6854.05,W 50 St & 9 Ave,40.76360467795863,-73.98917958140373,Manhattan,40
+6855.02,81 St & 24 Ave,40.76466,-73.88803,Queens,20
+6857.09,31 Ave & 30 St,40.7647,-73.9240312,Queens,32
+6860.12,E 65 St & 2 Ave,40.76471851944339,-73.96222069859505,Manhattan,37
+6865.03,21 St & 31 Dr,40.7659,-73.930819,Queens,28
+6869.06,Butler St & 27 Ave,40.76521,-73.86483,Queens,20
+6869.1,Gillmore St & 27 Ave,40.76399,-73.8669,Queens,19
+6873.01,34 Ave & Vernon Blvd,40.76535380385866,-73.93986314535141,Queens,29
+6876.04,Central Park S & 6 Ave,40.76590936,-73.97634151,Manhattan,55
+6877.05,Jackson Mill Rd & 24 Ave,40.76619,-73.87561,Queens,20
+6877.06,25 Ave & 96 St,40.76447,-73.87369,Queens,19
+6879.04,28 Ave & 44 St,40.76408932350688,-73.91065120697021,Queens,26
+6884.03,W 56 St & 8 Ave,40.765959181657976,-73.98313522338867,Manhattan,37
+6884.06,8 Ave & W 55 St,40.765591,-73.983846,Manhattan,44
+6885.01,24 Ave & 87 St,40.7654,-73.88256,Queens,18
+6887.03,35 St & 30 Ave,40.76547569244953,-73.91811579465866,Queens,30
+6889.12,E 72 St & York Ave,40.76663814,-73.95348296,Manhattan,44
+6890.01,W 53 St & 10 Ave,40.76669671,-73.99061728,Manhattan,41
+6890.06,W 50 St & 10 Ave,40.76473420006519,-73.99194359779358,Manhattan,40
+6893.1,31 Ave & Crescent St,40.7658346,-73.9265474,Queens,30
+6896.16,E 68 St & 3 Ave,40.76712840349542,-73.96224617958069,Manhattan,38
+6901.01,Broadway & 12 St,40.7668,-73.9347774,Queens,25
+6904.06,5 Ave & E 63 St,40.766368,-73.971518,Manhattan,40
+6905.02,100 St & Humphreys St,40.76574,-73.87012,Queens,19
+6907.03,46 St & 25 Ave,40.765753,-73.90676,Queens,23
+6912.01,Pillar 7 Ave & Central Park S,40.76674,-73.97907,Manhattan,56
+6913.03,24 Ave & 92 St,40.76589,-73.87789,Queens,19
+6915.02,Steinway St & 28 Ave,40.7656251,-73.9136695,Queens,32
+6920.03,W 54 St & 9 Ave,40.76584941,-73.98690506,Manhattan,15
+6920.05,W 54 St & 9 Ave,40.76604,-73.98737,Manhattan,43
+6921.04,23 Ave & 83 St,40.76646,-73.88674,Queens,20
+6923.2,31 St & Newtown Ave,40.7675487799971,-73.9209334552288,Queens,37
+6925.09,2 Ave & E 72 St,40.7687620293096,-73.95840793848038,Manhattan,43
+6926.01,W 52 St & 11 Ave,40.76727216,-73.99392888,Manhattan,40
+6927.03,Ditmars Blvd & 76 St,40.768442,-73.893531,Queens,21
+6929.01,23 St & 31 Ave,40.76663971723091,-73.9286595582962,Queens,28
+6932.14,E 67 St & Park Ave,40.76780080148132,-73.96592080593109,Manhattan,33
+6932.15,E 68 St & Madison Ave,40.7691572,-73.96703464,Manhattan,15
+6935.01,Ditmars Blvd & 48 St,40.769219,-73.901001,Queens,22
+6937.07,Vernon Blvd & 10 St,40.7671863,-73.9373554,Queens,28
+6941.03,97 St & 23 Ave,40.7683,-73.87331,Queens,20
+6943.07,25 Ave & 41 St,40.767666,-73.910963,Queens,29
+6948.1,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan,55
+6949.03,91 St & 23 Ave,40.76768,-73.87899,Queens,18
+6949.04,91 St & 23 Ave,40.76769,-73.8791,Queens,15
+6951.03,28 Ave & 35 St,40.7671,-73.9169858,Queens,29
+6953.08,E 74 St & 1 Ave,40.7689738,-73.95482273,Manhattan,43
+6955.01,W 56 St & 10 Ave,40.768254,-73.988639,Manhattan,39
+6955.05,W 54 St & 11 Ave,40.768333,-73.992573,Manhattan,46
+6958.06,Crescent St & 30 Ave,40.768692,-73.9249574,Queens,33
+6960.1,3 Ave & E 71 St,40.76873687,-73.96119945,Manhattan,15
+6960.12,3 Ave & E 71 St,40.76879,-73.9614,Manhattan,35
+6964.05,Ditmars Blvd & 73 St,40.76817,-73.896293,Queens,19
+6966.04,31 Ave & 14 St,40.7682,-73.9322662,Queens,28
+6969.08,E 66 St & Madison Ave,40.76800889305947,-73.96845281124115,Manhattan,33
+6970.02,Ditmars Blvd & 102 St,40.76894,-73.86832,Queens,21
+6978.04,Ditmars Blvd & 94 St,40.7702,-73.87587,Queens,22
+6981.16,37 St & 24 Ave,40.7701477,-73.9120938,Queens,25
+6986.07,Columbus Ave & W 59 St,40.76931,-73.98464,Manhattan,42
+6989.07,31 St & Astoria Blvd,40.7699176,-73.9184057,Queens,30
+6991.12,E 75 St & 3 Ave,40.77112927,-73.95772297,Manhattan,35
+6994.06,Ditmars Blvd & 79 St,40.768728,-73.890745,Queens,20
+6996.01,30 Ave & 21 St,40.7703743,-73.9286078,Queens,24
+6998.08,E 72 St & Park Ave,40.77118287540658,-73.96409422159195,Manhattan,33
+7003.06,Vernon Blvd & 31 Ave,40.7692475,-73.9354504,Queens,31
+7009.02,Steinway St & 23 Ave,40.7713937,-73.9077436,Queens,24
+7009.06,43 St & 23 Ave,40.769673,-73.906018,Queens,24
+7014.12,Broadway & W 61 St,40.77003010255044,-73.9819684624672,Manhattan,45
+7018.01,31 St & Hoyt Ave N,40.7711528,-73.9170074,Queens,27
+7020.02,E 77 St & 1 Ave,40.77095553869235,-73.95356208096926,Manhattan,15
+7020.09,1 Ave & E 78 St,40.77140426,-73.9535166,Manhattan,45
+7023.04,W 59 St & 10 Ave,40.770513,-73.988038,Manhattan,43
+7023.09,Amsterdam Ave & W 60 St,40.77114812219016,-73.98699113854883,Manhattan,15
+7026.08,Newtown Ave & 23 St,40.7713615,-73.9246145,Queens,29
+7028.04,3 Ave & E 72 St,40.7699426,-73.96060712,Manhattan,36
+7032.02,76 St & 21 Ave,40.77028,-73.893675,Queens,21
+7032.06,Hazen St & 20 Ave,40.772092,-73.895166,Queens,21
+7034.09,30 Ave & 12 St,40.77171710520828,-73.93159255385399,Queens,25
+7036.07,E 70 St & Madison Ave,40.77059,-73.96655,Manhattan,34
+7039.03,Ditmars Blvd & 43 St,40.771203,-73.903865,Queens,26
+7047.07,35 St & 23 Ave,40.77301508291382,-73.91119033098221,Queens,24
+7049.04,E 82 St & East End Ave,40.7724607,-73.9468208,Manhattan,32
+7052.01,W 63 St & Broadway,40.77163851,-73.98261428,Manhattan,42
+7057.07,E 78 St & 2 Ave,40.7727966,-73.95577801,Manhattan,34
+7059.01,11 Ave & W 59 St,40.77149671054441,-73.99046033620834,Manhattan,42
+7059.08,West End Ave & W 60 St,40.77237,-73.99005,Manhattan,44
+7060.02,21 Ave & 80 St,40.770888,-73.889914,Queens,20
+7062.07,18 St & 27 Ave,40.772768286288304,-73.92743647098541,Queens,27
+7066.01,20 Ave & 48 St,40.772899,-73.896849,Queens,21
+7068.07,8 St & Astoria Blvd,40.7725996921817,-73.93266275525093,Queens,25
+7074.01,Steinway St & Ditmars Blvd,40.772717,-73.906127,Queens,25
+7079.06,Central Park W & W 68 St,40.7734066,-73.97782542,Manhattan,46
+7082.08,23 Ave & 31 St,40.77423301703027,-73.91274864321404,Queens,30
+7082.14,23 Rd & 31 St,40.77336750284339,-73.91382560133934,Queens,22
+7084.12,E 81 St & York Ave,40.7728384,-73.94989233,Manhattan,37
+7092.06,E 77 St & 3 Ave,40.77314236,-73.95856158,Manhattan,39
+7098.05,27 Ave & 9 St,40.7739825,-73.9309134,Queens,26
+7100.07,5 Ave & E 72 St,40.77282817,-73.96685276,Manhattan,48
+7111.1,36 St & Ditmars Blvd,40.774306,-73.908335,Queens,27
+7113.08,East End Ave & E 86 St,40.77518615,-73.94446054,Manhattan,31
+7116.04,W 67 St & Broadway,40.77492513,-73.98266566,Manhattan,45
+7119.04,24 Ave & 29 St,40.7729,-73.916142,Queens,27
+7121.02,E 80 St & 2 Ave,40.77391390238118,-73.9543953537941,Manhattan,36
+7121.13,E 81 St & 1 Ave,40.77377781072322,-73.95197331905365,Manhattan,15
+7123.04,W 64 St & Thelonious Monk Circle,40.77515953434235,-73.98918695747852,Manhattan,41
+7126.01,21 St & Hoyt Ave S,40.774645,-73.923706,Queens,29
+7128.08,E 76 St & Park Ave,40.773763,-73.96222088,Manhattan,37
+7132.08,27 Ave & 3 St,40.77485,-73.9342,Queens,23
+7137.04,Steinway St & 21 Ave,40.774798,-73.903787,Queens,25
+7141.07,Central Park W & W 72 St,40.77579376683666,-73.9762057363987,Manhattan,44
+7144.02,31 St & Ditmars Blvd,40.776168,-73.910485,Queens,35
+7146.04,E 85 St & York Ave,40.77536905,-73.94803392,Manhattan,34
+7149.05,Amsterdam Ave & W 66 St,40.7746671,-73.98470567,Manhattan,37
+7152.1,24 Ave & 26 St,40.774591,-73.918544,Queens,26
+7154.07,E 81 St & 3 Ave,40.77573034,-73.9567526,Manhattan,15
+7154.1,3 Ave & E 82 St,40.775744,-73.9563752,Manhattan,43
+7159.08,Astoria Park S & Shore Blvd,40.7767,-73.927631,Queens,31
+7161.08,5 Ave & E 78 St,40.77632142182271,-73.96427392959595,Manhattan,41
+7163.07,20 Ave & 42 St,40.775415,-73.900063,Queens,21
+7165.01,26 Ave & 2 St,40.77684387,-73.93463418,Queens,26
+7170.04,35 St & 21 Ave,40.776745,-73.906558,Queens,23
+7175.05,Columbus Ave & W 72 St,40.7770575,-73.97898475,Manhattan,50
+7178.02,23 Ave & 27 St,40.776165,-73.9153175,Queens,24
+7180.02,E 84 St & 1 Ave,40.77565541,-73.95068615,Manhattan,37
+7183.03,Riverside Blvd & W 67 St,40.777507027547976,-73.98888587951659,Manhattan,46
+7186.15,19 St & 24 Ave,40.7774552,-73.9225403,Queens,29
+7188.1,E 81 St & Park Ave,40.77677702,-73.9590097,Manhattan,32
+7188.13,Madison Ave & E 82 St,40.7781314,-73.96069399,Manhattan,37
+7196.04,20 Ave & 38 St,40.777112,-73.902382,Queens,24
+7202.07,31 St & 21 Ave,40.77813,-73.90842,Queens,25
+7204.08,E 89 St & York Ave,40.7779453,-73.946041,Manhattan,36
+7207.08,W 70 St & Amsterdam Ave,40.77748046,-73.98288594,Manhattan,44
+7210.07,21 St & 23 Ave,40.778557,-73.919046,Queens,23
+7212.05,E 85 St & 3 Ave,40.77801203,-73.95407149,Manhattan,45
+7220.01,Steinway St & 19 Ave,40.778089,-73.899558,Queens,22
+7230.1,W 74 St & Columbus Ave,40.7785669,-73.97754961,Manhattan,36
+7233.05,Crescent St & Ditmars Blvd,40.7787185,-73.9145645,Queens,24
+7235.13,E 88 St & 1 Ave,40.778301,-73.9488134,Manhattan,37
+7243.04,E 84 St & Park Ave,40.77862688,-73.95772073,Manhattan,36
+7253.04,Central Park W & W 76 St,40.77896784,-73.97374737,Manhattan,39
+7256.01,20 Ave & 31 St,40.78001336610564,-73.90667617321014,Queens,21
+7260.09,Amsterdam Ave & W 73 St,40.77966809007312,-73.98093044757842,Manhattan,47
+7265.1,E 89 St & 3 Ave,40.7806284,-73.9521667,Manhattan,36
+7271.01,Shore Blvd & Astoria Park,40.77977,-73.923162,Queens,28
+7281.09,W 76 St & Columbus Ave,40.7801839724239,-73.97728532552719,Manhattan,39
+7284.01,21 Ave & Crescent St,40.780478,-73.912212,Queens,28
+7286.01,E 91 St & 2 Ave,40.78115276427915,-73.94963040947914,Manhattan,39
+7286.02,E 93 St & 2 Ave,40.782454175279874,-73.9489196240902,Manhattan,32
+7286.05,1 Ave & E 94 St,40.7817212,-73.94594,Manhattan,30
+7288.04,Riverside Dr & W 72 St,40.78057799010334,-73.98562431335449,Manhattan,40
+7291.06,Ditmars Blvd & 19 St,40.78145,-73.9183302,Queens,27
+7293.1,E 88 St & Park Ave,40.781410700190015,-73.95595908164978,Manhattan,35
+7304.08,W 82 St & Central Park W,40.78275,-73.97137,Manhattan,38
+7311.02,Amsterdam Ave & W 79 St,40.7829391,-73.9786517,Manhattan,44
+7311.07,W 78 St & Broadway,40.78339981,-73.98093133,Manhattan,36
+7314.03,21 St & 21 Ave,40.782465,-73.914527,Queens,26
+7323.09,5 Ave & E 87 St,40.78232260730881,-73.95987510681152,Manhattan,44
+7327.01,Wards Meadow Comfort Station,40.78294,-73.93077,Queens,28
+7338.02,2 Ave & E 96 St,40.7839636,-73.9471673,Manhattan,35
+7340.06,Riverside Dr & W 78 St,40.78414472,-73.98362492,Manhattan,32
+7342.01,21 Ave & Shore Blvd,40.783956,-73.916894,Queens,24
+7344.01,E 94 St & Madison Ave,40.78585105291389,-73.95482444378061,Manhattan,31
+7344.05,E 91 St & Park Ave,40.7835016,-73.955327,Manhattan,34
+7354.01,Central Park W & W 85 St,40.78476,-73.969862,Manhattan,41
+7360.1,Amsterdam Ave & W 82 St,40.78524672,-73.97667321,Manhattan,47
+7363.03,21 St & 20 Ave,40.78393602019729,-73.91273114065842,Queens,20
+7363.04,20 Ave & 21 St,40.784003,-73.912297,Queens,18
+7365.08,E 97 St & 3 Ave,40.7859201,-73.94860294,Manhattan,28
+7365.13,E 95 St & 3 Ave,40.7849032,-73.950503,Manhattan,32
+7372.1,5 Ave & E 93 St,40.7857851,-73.957481,Manhattan,15
+7382.04,W 84 St & Columbus Ave,40.78499979,-73.97283406,Manhattan,37
+7386.1,2 Ave & E 99 St,40.7862586,-73.94552579,Manhattan,28
+7388.1,Riverside Dr & W 82 St,40.78720869,-73.98128127,Manhattan,37
+7391.02,20 Ave & Shore Blvd,40.785994,-73.915098,Queens,20
+7393.09,E 97 St & Madison Ave,40.787801,-73.953559,Manhattan,35
+7407.13,E 102 St & 1 Ave,40.7869946,-73.94164802,Queens,31
+7409.04,W 84 St & Amsterdam Ave,40.78621,-73.9756,Manhattan,36
+7409.08,W 84 St & Broadway,40.7867947,-73.977112,Manhattan,23
+7414.17,3 Ave & E 100 St,40.7877214,-73.94728331,Manhattan,27
+7432.04,W 90 St & Amsterdam Ave,40.79017948095081,-73.97288918495178,Manhattan,33
+7432.09,W 89 St & Columbus Ave,40.7882213,-73.97041561,Manhattan,39
+7436.11,2 Ave & E 104 St,40.7892105,-73.94370784,Manhattan,15
+7436.16,E 103 St & 2 Ave,40.78864,-73.9436,Manhattan,30
+7443.01,Madison Ave & E 99 St,40.78948541553215,-73.95242929458618,Manhattan,31
+7443.17,E 98 St & Park Ave,40.78813,-73.95206,Manhattan,29
+7450.05,Pleasant Ave & E 116 St,40.7949879,-73.9333349,Bronx,32
+7453.01,Central Park W & W 91 St,40.78866499127883,-73.96680057048798,Manhattan,33
+7453.08,W 94 St & Central Park W,40.790431,-73.965894,Manhattan,30
+7456.03,E 106 St & 1 Ave,40.7892529,-73.93956237,Queens,27
+7458.03,W 87 St & Amsterdam Ave,40.78839,-73.9747,Manhattan,37
+7463.09,E 103 St & Lexington Ave,40.7903051,-73.94755757,Manhattan,30
+7482.15,E 106 St & 2 Ave,40.790586067792006,-73.94195795059204,Queens,15
+7484.05,W 87 St & West End Ave,40.789622,-73.97757,Manhattan,37
+7488.24,E 102 St & Park Ave,40.7904828,-73.95033068,Manhattan,29
+7502.01,W 92 St & Broadway,40.7921,-73.9739,Manhattan,36
+7504.18,E 106 St & Lexington Ave,40.791976,-73.945993,Manhattan,27
+7504.19,3 Ave & E 109 St,40.79338,-73.94329,Manhattan,26
+7511.19,5 Ave & E 103 St,40.7922553,-73.95249933,Manhattan,37
+7514.01,Icahn Stadium,40.79346,-73.92389,Bronx,15
+7514.06,Icahn Stadium Plaza,40.79322,-73.92396,Bronx,27
+7520.07,Columbus Ave & W 95 St,40.7919557,-73.968087,Manhattan,43
+7522.02,1 Ave & E 110 St,40.7923272,-73.9383,Bronx,33
+7524.09,West End Ave & W 94 St,40.7941654,-73.974124,Manhattan,33
+7524.16,Riverside Dr & W 91 St,40.79313480986663,-73.97700369358063,Manhattan,34
+7528.31,E 106 St & Madison Ave,40.7934337,-73.94945003,Manhattan,29
+7538.14,W 100 St & Manhattan Ave,40.795,-73.9645,Manhattan,37
+7538.18,Central Park W & W 97 St,40.79249519495111,-73.96417066463071,Manhattan,40
+7540.02,E 114 St & 1 Ave,40.7945663,-73.9362541,Bronx,27
+7541.01,W 95 St & Broadway,40.7937704,-73.971888,Manhattan,39
+7543.15,3 Ave & E 112 St,40.795508,-73.941606,Bronx,26
+7563.06,E 116 St & 2 Ave,40.796879,-73.937261,Bronx,15
+7563.07,E 116 St & 1 Ave,40.796179352474965,-73.93560531337829,Bronx,26
+7567.06,Lexington Ave & E 111 St,40.7954121,-73.9441232,Manhattan,30
+7571.01,Sunken Meadow Comfort Station,40.79558,-73.91906,Bronx,24
+7575.01,Randall's Island - Field 10,40.795098,-73.923734,Bronx,15
+7577.27,Central Park W & W 103 St,40.79558954105342,-73.96188408136368,Manhattan,35
+7579.01,Pleasant Ave & E 120 St,40.7974772,-73.9311847,Bronx,24
+7579.11,E 117 St & 1 Ave,40.79656826080296,-73.93459528684616,Bronx,15
+7580.01,W 100 St & Broadway,40.7973721,-73.97041192,Manhattan,40
+7587.16,W 111 St & 5 Ave,40.79752078124755,-73.9489397406578,Manhattan,34
+7595.17,Columbus Ave & W 103 St,40.7969347,-73.9643412291,Manhattan,28
+7596.1,E 118 St & 1 Ave,40.79747,-73.93504,Bronx,15
+7596.11,1 Ave & E 118 St,40.797459,-73.934499,Bronx,30
+7599.02,E 115 St & Madison Ave,40.7989445,-73.944846,Manhattan,27
+7599.09,E 115 St & Lexington Ave,40.797911,-73.9423,Manhattan,29
+7602.05,Lenox Ave & W 111 St,40.7987859,-73.9523,Manhattan,39
+7606.01,W 106 St & Central Park W,40.7981856,-73.9605909006,Manhattan,38
+7610.13,W 104 St & Amsterdam Ave,40.79904139288298,-73.96649479866028,Manhattan,33
+7611.02,E 118 St & 3 Ave,40.799139,-73.9389152,Bronx,28
+7613.04,E 134 St & Walnut Ave,40.800425,-73.911034,Bronx,17
+7617.07,Central Park North & Adam Clayton Powell Blvd,40.799484,-73.955613,Manhattan,39
+7618.01,Bronx Shore Comfort Station,40.80046,-73.92404,Bronx,22
+7619.05,W 107 St & Columbus Ave,40.7997568,-73.9621128676,Manhattan,32
+7622.12,2 Ave & E 122 St,40.8006721,-73.9349,Bronx,25
+7623.13,Riverside Dr & W 104 St,40.8013434,-73.9711457439,Manhattan,36
+7625.18,E 118 St & Park Ave,40.8005385,-73.9419949,Manhattan,15
+7625.22,E 118 St & Park Ave,40.80069087251806,-73.94255424184108,Manhattan,24
+7626.02,Willow Ave & E 133 St,40.800933,-73.913863,Bronx,21
+7627.1,Lenox Ave & W 115 St,40.8011939,-73.9500739,Manhattan,29
+7631.23,Frederick Douglass Blvd & W 112 St,40.801694,-73.957145,Manhattan,36
+7634.01,W 106 St & Amsterdam Ave,40.8008363,-73.9664492472,Manhattan,34
+7636.05,E 123 St & Lexington Ave,40.8029263,-73.9379,Bronx,27
+7639.06,Walnut Ave & E 136 St,40.801657,-73.909513,Bronx,19
+7640.04,E 118 St & Madison Ave,40.8014866,-73.9442507,Manhattan,27
+7642.04,E 133 St & Cypress Pl,40.80262,-73.9174,Bronx,19
+7643.18,Adam Clayton Powell Blvd & W 115 St,40.802535,-73.9532423,Manhattan,28
+7646.04,W 110 St & Amsterdam Ave,40.802692,-73.96295,Manhattan,36
+7648.16,2 Ave & E 125 St,40.802554,-73.933509,Bronx,28
+7650.05,West End Ave & W 107 St,40.8021174,-73.9681805305,Manhattan,34
+7652.04,Lexington Ave & E 120 St,40.8013066,-73.9398167,Manhattan,26
+7654.04,E 138 St & Willow Ave,40.804168,-73.911545,Bronx,21
+7655.22,Lenox Ave & W 117 St,40.8025566,-73.9490782,Manhattan,34
+7657.03,St Ann's Ave & Bruckner Blvd,40.803399,-73.919763,Bronx,24
+7658.13,Frederick Douglass Blvd & W 115 St,40.8038654,-73.9559308,Manhattan,33
+7662.13,Lexington Ave & E 127 St,40.805726,-73.936322,Bronx,26
+7667.04,Madison Ave & E 120 St,40.80295,-73.942954,Manhattan,28
+7669.1,E 138 St & Cypress Ave,40.805559,-73.914718,Bronx,23
+7670.09,Adam Clayton Powell Blvd & W 118 St,40.804372,-73.951475,Manhattan,30
+7680.03,Cathedral Pkwy & Broadway,40.804213,-73.96699104,Manhattan,38
+7682.01,Park Ave & E 124 St,40.8045555,-73.9396861,Manhattan,39
+7685.14,Mt Morris Park W & W 120 St,40.804038,-73.945925,Manhattan,30
+7687.05,E 135 St & St Ann's Ave,40.805089,-73.918889,Bronx,21
+7688.12,Frederick Douglass Blvd & W 117 St,40.805159,-73.954692,Manhattan,36
+7691.05,Willis Ave & Bruckner Blvd,40.805701,-73.925177,Bronx,24
+7692.11,W 116 St & Amsterdam Ave,40.8067581,-73.9607082,Manhattan,31
+7696.07,E 128 St & 3 Ave,40.805631,-73.934077,Bronx,22
+7701.21,5 Ave & W 126 St,40.80722,-73.9418,Manhattan,32
+7703.14,E 141 St & Jackson Ave,40.806896,-73.911837,Bronx,22
+7704.04,Adam Clayton Powell Blvd & W 123 St,40.8078316,-73.949373,Manhattan,31
+7707.08,Brook Ave & E 138 St,40.807408,-73.91924,Bronx,24
+7712.04,Alexander Ave & E 134 St,40.807466,-73.927107,Bronx,24
+7712.06,Lincoln Ave & E 134 St,40.808484,-73.928803,Bronx,26
+7713.01,W 113 St & Broadway,40.805973,-73.964928,Manhattan,35
+7713.11,W 116 St & Broadway,40.8082,-73.9641,Manhattan,32
+7716.19,Lexington Ave & E 128 St,40.806414,-73.936085,Bronx,22
+7719.13,Southern Blvd & E 142 St,40.807347437082,-73.90809774398804,Bronx,19
+7720.03,Lenox Ave & W 126 St,40.808442,-73.9452087,Manhattan,38
+7722.06,E 141 St & St Ann's Ave,40.808633,-73.916124,Bronx,22
+7723.01,St Nicholas Ave & Manhattan Ave,40.809725,-73.953149,Manhattan,37
+7726.02,Willis Ave & E 137 St,40.808384,-73.923604,Bronx,25
+7727.07,Amsterdam Ave & W 119 St,40.8086249,-73.9596214,Manhattan,31
+7727.08,Amsterdam Ave & W 119 St,40.80863218,-73.9595861,Manhattan,15
+7735.05,5 Ave & W 131 St,40.81014,-73.93973,Manhattan,29
+7735.23,E 128 St & Madison Ave,40.80756,-73.939182,Manhattan,26
+7737.06,St Mary's St & Jackson Ave,40.808891,-73.91081,Bronx,22
+7738.04,Adam Clayton Powell Blvd & W 126 St,40.80949534777948,-73.94776493310928,Manhattan,37
+7740.08,Brook Ave & E 141 St,40.809619,-73.917875,Bronx,22
+7741.01,Morningside Ave & W 123 St,40.81,-73.9551508,Manhattan,28
+7741.04,Morningside Dr & Amsterdam Ave,40.81028506306003,-73.95736455917358,Manhattan,28
+7744.06,Lincoln Ave & E 138 St,40.810893,-73.927311,Bronx,27
+7745.07,W 120 St & Claremont Ave,40.8109494,-73.9634,Manhattan,30
+7748.02,E 132 St & Madison Ave,40.810224,-73.937195,Manhattan,26
+7751.05,Wales Ave & E 147 St,40.811314,-73.907729,Bronx,21
+7753.13,Lenox Ave & W 130 St,40.8107922,-73.9430681,Manhattan,29
+7755.03,St Ann's Ave & E 144 St,40.811112,-73.914932,Bronx,22
+7756.1,St Nicholas Ave & W 126 St,40.8114323,-73.9518776,Manhattan,38
+7759.08,Willis Ave & E 141 St,40.81093,-73.921606,Bronx,23
+7767.06,Southern Blvd & Ave St John,40.812769,-73.901583,Bronx,22
+7769.06,5 Ave & E 135 St,40.812191,-73.937838,Manhattan,26
+7774.02,Adam Clayton Powell Blvd & W 130 St,40.812346,-73.946168,Manhattan,27
+7777.02,E 144 St & Brook Ave,40.811675,-73.917037,Bronx,22
+7781.1,E 142 St & 3 Ave,40.812735,-73.923697,Bronx,24
+7783.18,Broadway & W 122 St,40.8120562,-73.9612547,Manhattan,28
+7788.13,Southern Blvd & E 149 St,40.811892,-73.904192,Bronx,24
+7790.04,Lenox Ave & W 133 St,40.81296,-73.941878,Manhattan,27
+7793.02,E 149 St & Eagle Ave,40.814046,-73.91186,Bronx,21
+7795.09,Frederick Douglass Blvd & W 129 St,40.8125511,-73.9492286,Manhattan,27
+7798.02,Willis Ave & E 143 St,40.812299,-73.92037,Bronx,21
+7800.03,Amsterdam Ave & W 125 St,40.813358,-73.956461,Manhattan,28
+7803.02,E 138 St & Park Ave,40.81263616769319,-73.92924964427948,Bronx,25
+7803.08,E 138 St & Grand Concourse,40.813224,-73.930605,Bronx,22
+7807.04,Beck St & Leggett Ave,40.815077,-73.899939,Bronx,23
+7809.13,E 138 St & 5 Ave,40.81449,-73.936153,Manhattan,26
+7812.01,E 149 St & Jackson Ave,40.8131677595068,-73.90923197581881,Bronx,23
+7814.01,Adam Clayton Powell Blvd & W 132 St,40.813539,-73.94521,Manhattan,29
+7816.14,Brook Ave & E 148 St,40.814383,-73.915368,Bronx,22
+7818.17,W 129 St & Convent Ave,40.814394437915816,-73.95324736833572,Manhattan,17
+7820.05,Hunts Point Ave & Bryant Ave,40.813991,-73.8855,Bronx,21
+7821.01,Morris Ave & E 142 St,40.814469,-73.924963,Bronx,23
+7823.03,Broadway & Moylan Pl,40.8143256,-73.9590255,Manhattan,29
+7830.03,Prospect Ave & E 151 St,40.814232,-73.903927,Bronx,21
+7832.04,W 135 St & Lenox Terrace Pl,40.813619,-73.939336,Manhattan,26
+7835.1,St Ann's Ave & Westchester Ave,40.815887,-73.911918,Bronx,21
+7837.3,St Nicholas Ave & W 134 St,40.816234,-73.948222,Manhattan,30
+7840.05,Courtlandt Ave & E 149 St,40.816402,-73.919549,Bronx,26
+7840.11,E 147 St & Bergen Ave,40.814673,-73.91839,Bronx,22
+7842.16,Amsterdam Ave & W 131 St,40.816355,-73.954295,Manhattan,26
+7844.05,Barry St & Tiffany St,40.816126,-73.891559,Bronx,20
+7845.06,Grand Concourse & E 144 St,40.816576,-73.927987,Bronx,25
+7849.1,Longwood Ave & Southern Blvd,40.816343,-73.896447,Bronx,23
+7851.04,5 Ave & W 139 St,40.815484,-73.935856,Manhattan,25
+7853.01,Westchester Ave & Jackson Ave,40.816124,-73.908116,Bronx,26
+7855.03,Adam Clayton Powell Blvd & W 138 St,40.81695971032464,-73.9422959089279,Manhattan,31
+7858.02,Bergen Ave & E 152 St,40.817166,-73.914737,Bronx,26
+7860.08,Convent Ave & W 135 St,40.818215,-73.950988,Manhattan,26
+7863.03,E 149 St & Morris Ave,40.81734,-73.922962,Bronx,26
+7865.09,Broadway & W 131 St,40.817555,-73.957163,Manhattan,26
+7867.04,Southern Blvd & Tiffany St,40.818185,-73.894143,Bronx,21
+7868.05,Gerard Ave & E 146 St,40.817755,-73.92965,Bronx,25
+7870.02,Prospect Ave & Longwood Ave,40.81899,-73.90202,Bronx,21
+7872.03,Lenox Ave & W 140 St,40.817245,-73.938787,Manhattan,27
+7876.07,Frederick Douglass Blvd & W 139 St,40.81900581806558,-73.94476890563965,Manhattan,15
+7879.01,Melrose Ave & E 150 St,40.816827,-73.917338,Bronx,30
+7881.09,Old Broadway & W 133 St,40.818212,-73.955277,Manhattan,22
+7883.06,Lafayette Ave & Hunts Point Ave,40.816567,-73.888161,Bronx,15
+7883.09,Seneca Ave & Irvine St,40.81872569990116,-73.88862490653992,Bronx,22
+7883.1,Seneca Ave & Irvine St,40.81885,-73.88821,Bronx,15
+7884.04,E 149 St & Park Ave,40.818154,-73.925294,Bronx,26
+7886.02,12 Ave & W 125 St,40.818299,-73.960405,Manhattan,30
+7888.1,Dawson St & Intervale Ave,40.819999,-73.897263,Bronx,19
+7891.06,Westchester Ave & E 156 St,40.817802,-73.905203,Bronx,21
+7893.05,Adam Clayton Powell Blvd & W 141 St,40.819241,-73.941057,Manhattan,26
+7896.11,E 156 St & Brook Ave,40.819823,-73.912411,Bronx,24
+7898.03,St Nicholas Ave & W 137 St,40.818477,-73.947568,Manhattan,27
+7901.04,Morris Ave & E 153 St,40.820036,-73.921411,Bronx,23
+7903.02,Broadway & W 133 St,40.8190344,-73.956156,Manhattan,27
+7905.05,Garrison Ave & Manida St,40.818743,-73.890247,Bronx,20
+7906.13,E 150 St & Gerard Ave,40.820089,-73.928947,Bronx,15
+7909.07,Westchester Ave & Longwood Ave,40.819701,-73.901311,Bronx,24
+7910.01,Lenox Ave & W 144 St,40.819783,-73.936521,Manhattan,26
+7910.1,Lenox Ave & W 146 St,40.821111,-73.935971,Manhattan,24
+7913.15,Cauldwell Ave & E 158 St,40.81989,-73.908351,Bronx,23
+7915.11,Edgecombe Ave & W 141 St,40.820681,-73.945144,Manhattan,29
+7918.12,Melrose Ave & E 154 St,40.819609,-73.916071,Bronx,22
+7920.05,Amsterdam Ave & W 136 St,40.819746,-73.951819,Manhattan,27
+7922.01,Faile St & Garrison Ave,40.820578,-73.888271,Bronx,18
+7925.04,W 133 St & 12 Ave,40.820003,-73.959089,Manhattan,24
+7927.08,E 163 St & Tiffany St,40.821075,-73.895069,Bronx,21
+7931.05,E 160 St & Tinton Ave,40.820302,-73.903944,Bronx,20
+7932.1,W 144 St & Adam Clayton Powell Blvd,40.820877,-73.939249,Manhattan,26
+7935.07,Brook Ave & E 157 St,40.820713,-73.911759,Bronx,22
+7937.15,St Nicholas Terrace & Convent Ave,40.821294,-73.947868,Manhattan,25
+7940.02,E 155 St & Courtlandt Ave,40.82057,-73.917579,Bronx,20
+7940.04,E 156 St & Courtlandt Ave,40.82123860172,-73.9173299074173,Bronx,22
+7942.07,Broadway & W 138 St,40.82182,-73.95353,Manhattan,27
+7942.21,Riverside Dr & W 138 St,40.823168,-73.955857,Manhattan,28
+7944.12,Bruckner Blvd & Faile St,40.820992,-73.889992,Bronx,24
+7945.03,Walton Ave & E 151 St,40.82090903827738,-73.92753845245076,Bronx,23
+7945.07,Walton Ave & E 153 St,40.822351,-73.926907,Bronx,20
+7948.1,Intervale Ave & Westchester Ave,40.821967,-73.896752,Bronx,22
+7952.02,Cauldwell Ave & E 161 St,40.82188,-73.907521,Bronx,23
+7954.12,Frederick Douglass Blvd & W 145 St,40.823061,-73.941928,Manhattan,27
+7957.11,E 158 St & Melrose Ave,40.822215,-73.914688,Bronx,23
+7959.18,Hamilton Pl & W 140 St,40.822756,-73.951346,Manhattan,27
+7962.01,Concourse Village West & E 156 St,40.823162,-73.923267,Bronx,23
+7966.02,E 165 St & Fox St,40.82394,-73.894025,Bronx,22
+7967.04,River Ave & E 151 St,40.822217,-73.928939,Bronx,29
+7970.05,E 163 St & Union Ave,40.822545,-73.901824,Bronx,22
+7971.07,W 147 St & Adam Clayton Powell Blvd,40.82281,-73.937413,Manhattan,26
+7974.01,3 Ave & E 163 St,40.823872,-73.908699,Bronx,23
+7976.08,Edgecombe Ave & W 145 St,40.823498,-73.94386,Manhattan,30
+7979.17,E 161 St & Park Ave,40.824811,-73.916407,Bronx,23
+7981.16,Broadway & W 142 St,40.824686,-73.951947,Manhattan,25
+7981.27,W 140 St & Riverside Dr,40.824013,-73.954743,Manhattan,21
+7983.02,Longfellow Ave & Aldus St,40.82319448542357,-73.88762910982096,Bronx,15
+7983.04,Longfellow Ave & E 165 St,40.825322,-73.887729,Bronx,20
+7984.04,Grand Concourse & E 156 St,40.823429,-73.924689,Bronx,22
+7987.14,Rogers Pl & E 165 St,40.82388366441761,-73.8974027708582,Bronx,20
+7991.01,Tinton Ave & E 165 St,40.824796,-73.90242,Bronx,23
+7992.04,Bradhurst Ave & W 148 St,40.825125,-73.941616,Manhattan,25
+7995.04,Washington Ave & E 163 St,40.824,-73.91089,Bronx,26
+7997.08,W 145 St & Amsterdam Ave,40.825244,-73.947257,Manhattan,27
+8000.02,Concourse Village East & E 158 St,40.823732,-73.919379,Bronx,26
+8004.03,Westchester Ave & Southern Blvd,40.824956,-73.891677,Bronx,26
+8005.03,E 157 St & River Ave,40.825737,-73.927311,Bronx,24
+8005.08,River Ave & E 153 St,40.82441,-73.92818,Bronx,22
+8008.03,Prospect Ave & E 167 St,40.826303,-73.898751,Bronx,22
+8009.05,Adam Clayton Powell Blvd & W 151 St,40.825289,-73.936232,Manhattan,25
+8012.04,3 Ave & Franklin Ave,40.82696,-73.907451,Bronx,23
+8013.07,St Nicholas Ave & W 150 St,40.827212,-73.942722,Manhattan,25
+8016.07,Park Ave & E 162 St,40.825716,-73.915585,Bronx,24
+8018.04,Riverside Dr & W 145 St,40.827305,-73.951989,Manhattan,27
+8018.09,W 146 St & Broadway,40.826969,-73.949738,Manhattan,28
+8020.01,Home St & Westchester Ave,40.827629,-73.886659,Bronx,24
+8021.11,Grand Concourse & E 161 St,40.82713380423556,-73.9227358996868,Bronx,29
+8024.05,E 169 St & Fox St,40.827184,-73.893721,Bronx,19
+8025.01,E 153 St & E 157 St,40.826677,-73.929327,Bronx,23
+8029.28,Macombs Pl & W 152 St,40.826406,-73.937948,Manhattan,26
+8033.09,W 148 St & Amsterdam Ave,40.827075,-73.945909,Manhattan,26
+8036.05,Morris Ave & E 163 St,40.827230499624726,-73.91765579597632,Bronx,26
+8040.03,E 167 St & Bryant Ave,40.82675430693443,-73.88871818097057,Bronx,20
+8041.07,E 161 St & River Ave,40.827883,-73.927111,Bronx,32
+8044.09,Intervale Ave & Kelly St,40.827301,-73.896372,Bronx,21
+8048.01,E 167 St & Franklin Ave,40.82895,-73.90521,Bronx,21
+8048.04,Boston Rd & E 167 St,40.828199,-73.903719,Bronx,23
+8049.05,Edgecombe Ave & W 150 St,40.826881,-73.941427,Manhattan,21
+8049.1,Convent Ave & W 151 St,40.82831,-73.942924,Manhattan,22
+8052.01,Webster Ave & E 166 St,40.828975,-73.911259,Bronx,20
+8052.02,E 165 St & Clay Ave,40.82809,-73.91288,Bronx,23
+8054.04,Riverside Dr & W 148 St,40.829114,-73.950426,Manhattan,23
+8057.02,Grand Concourse & E 164 St,40.829608,-73.921461,Bronx,24
+8060.01,Freeman St & Southern Blvd,40.830051,-73.892103,Bronx,23
+8061.01,Jerome Ave & Anderson Ave,40.830179,-73.928747,Bronx,21
+8064.03,Union Ave & E 169 St,40.82995,-73.898802,Bronx,21
+8065.13,W 155 St & Frederick Douglass Blvd,40.82923,-73.936996,Manhattan,24
+8068.01,Washington Ave & E 167 St,40.829896,-73.907618,Bronx,24
+8069.01,Amsterdam Ave & W 152 St,40.829523,-73.944279,Manhattan,25
+8072.06,Sherman Ave & E 166 St,40.83130549267296,-73.91744792461395,Bronx,23
+8076.08,West Farms Rd & Boone Ave,40.8301283948092,-73.88630211353302,Bronx,19
+8077.07,Gerard Ave & E 164 St,40.830262,-73.923391,Bronx,22
+8080.01,Freeman St & Reverend James A Polite Ave,40.830529,-73.894717,Bronx,20
+8081.01,Jerome Ave & Ogden Ave,40.829797,-73.931015,Bronx,21
+8084.03,Fulton Ave & E 168 St,40.830471,-73.904556,Bronx,21
+8085.05,St Nicholas Ave & W 155 St,40.830663,-73.941323,Manhattan,23
+8085.09,St Nicholas Ave & W 157 St,40.832314,-73.94102,Manhattan,22
+8085.13,Harlem River Dr & W 155 St,40.830476,-73.939929,Manhattan,22
+8088.01,E 167 St & Clay Ave,40.83094,-73.91125,Bronx,24
+8089.05,Broadway & W 153 St,40.831327,-73.946665,Manhattan,25
+8092.06,Grand Concourse & E 166 St,40.83196,-73.91956,Bronx,24
+8095.06,Hoe Ave & Jennings St,40.832171,-73.889686,Bronx,20
+8096.02,Jerome Ave & E 164 St,40.831444,-73.926226,Bronx,23
+8096.03,Anderson Ave & W 164 St,40.832057,-73.927421,Bronx,15
+8099.04,Prospect Ave & Jennings St,40.831762,-73.896853,Bronx,19
+8100.01,Frederick Douglass Blvd & Harlem River Dr,40.830702,-73.936371,Manhattan,22
+8103.05,3 Ave & E 169 St,40.832678,-73.905158,Bronx,25
+8104.1,Amsterdam Ave & W 156 St,40.832081,-73.942386,Manhattan,23
+8107.1,Morris Ave & McClellan St,40.831584,-73.9149,Bronx,23
+8108.02,Riverside Dr & W 153 St,40.832164,-73.949702,Manhattan,24
+8110.04,Boone Ave & E 172 St,40.832649,-73.885272,Bronx,22
+8111.04,Gerard Ave & E 165 St,40.83173,-73.922394,Bronx,22
+8111.07,River Ave & McClellan St,40.83406,-73.92243,Bronx,25
+8114.02,Louis Nine Blvd & Intervale Ave,40.831998,-73.892686,Bronx,22
+8115.01,Ogden Ave & W 164 St,40.832812,-73.929372,Bronx,24
+8118.02,Franklin Ave & E 169 St,40.83169292241844,-73.90210601220633,Bronx,24
+8119.05,W 159 St & Edgecombe Ave,40.833303,-73.939326,Manhattan,21
+8122.04,E 169 St & Webster Ave,40.834015,-73.908863,Bronx,23
+8123.02,Broadway & W 155 St,40.83299,-73.94592,Manhattan,15
+8123.06,Broadway & W 157 St,40.83402740143528,-73.94510813442648,Manhattan,29
+8126.07,Grand Concourse & E 167 St,40.834263,-73.917641,Bronx,26
+8129.02,Southern Blvd & E 172 St,40.834124,-73.88955,Bronx,22
+8130.02,E 165 St & Jerome Ave,40.83263,-73.925101,Bronx,21
+8133.08,Boston Rd & Prospect Ave,40.833246,-73.896599,Bronx,22
+8137.06,3 Ave & E 170 St,40.834857,-73.903743,Bronx,23
+8138.07,W 160 St & St Nicholas Ave,40.834468,-73.939865,Manhattan,25
+8141.05,College Ave & E 169 St,40.835122799036405,-73.91196817159653,Bronx,23
+8142.03,Riverside Dr E & W 155 St,40.834097985815255,-73.94834974194816,Manhattan,22
+8144.09,E 174 St & Longfellow Ave,40.836274,-73.884308,Bronx,23
+8145.03,Gerard Ave & McClellan St,40.833909,-73.92112,Bronx,22
+8149.09,Ogden Ave & W 165 St,40.834457,-73.928381,Bronx,24
+8152.03,Fulton Ave & St Paul's Pl,40.83545,-73.90153,Bronx,23
+8153.1,W 163 St & Edgecombe Ave,40.835798,-73.937496,Manhattan,21
+8156.01,E 170 St & Clay Ave,40.837213,-73.908345,Bronx,22
+8156.03,E 170 St & Webster Ave,40.83617913677475,-73.90730146322765,Bronx,25
+8157.06,Broadway & W 160 St,40.835775,-73.9434,Manhattan,25
+8160.03,Sheridan Ave & E 168 St,40.835334,-73.9154,Bronx,22
+8163.05,Southern Blvd & E 174 St,40.836733,-73.887931,Bronx,25
+8167.02,Wilkins Ave & Crotona Park E,40.835302,-73.895133,Bronx,23
+8167.04,Charlotte St & Boston Rd,40.8358771,-73.8931428,Bronx,19
+8171.06,E 171 St & 3 Ave,40.837119,-73.902185,Bronx,25
+8172.07,Amsterdam Ave & W 162 St,40.83618,-73.939789,Manhattan,23
+8175.06,College Ave & E 170 St,40.837576,-73.910489,Bronx,20
+8176.01,W 160 St & Riverside Dr,40.83719,-73.9466,Manhattan,22
+8179.03,Walton Ave & E 168 St,40.83649,-73.918316,Bronx,24
+8182.02,Crotona Park East & E 173 St,40.837037,-73.890413,Bronx,22
+8183.02,University Ave & W 168 St,40.838706,-73.927034,Manhattan,22
+8183.08,Nelson Ave & 167 St,40.83670566862804,-73.92608866095543,Bronx,23
+8186.01,Fulton Ave & E 172 St,40.839229,-73.899047,Bronx,22
+8187.04,Edgecombe Ave & W 167 St,40.838191,-73.936085,Manhattan,22
+8190.03,E 171 St & Webster Ave,40.838379,-73.905838,Bronx,22
+8191.01,Broadway & W 165 St,40.839137,-73.941409,Manhattan,24
+8194.06,Grand Concourse & E 171 St,40.839549,-73.913004,Bronx,22
+8194.07,E 170 St & Sheridan Ave,40.838315,-73.912604,Bronx,25
+8196.02,Southern Blvd & E 175 St,40.839335,-73.886445,Bronx,18
+8198.05,Shakespeare Ave & W 169 St,40.839312,-73.922423,Bronx,26
+8205.05,3 Ave & E 172 St,40.839586,-73.900277,Bronx,21
+8206.17,Amsterdam Ave & W 167 St,40.839443,-73.937044,Manhattan,23
+8209.01,Morris Ave & E 171 St,40.83899,-73.9109,Bronx,20
+8210.01,W 163 St & Riverside Dr,40.839278,-73.945446,Manhattan,20
+8212.01,Boston Rd & West Farms Rd,40.83998,-73.8806,Bronx,24
+8213.01,Plaza Dr & W 170 St,40.840484,-73.917946,Bronx,28
+8216.02,Waterloo Pl & Crotona Park East,40.839194,-73.888587,Bronx,20
+8218.04,Ogden Ave & Merriam Ave,40.839142,-73.925961,Manhattan,21
+8225.05,Clay Ave & Claremont Pkwy,40.83999,-73.90549,Bronx,21
+8226.05,W 165 St & Fort Washington Ave,40.84004,-73.942939,Manhattan,24
+8226.06,Broadway & W 168 St,40.84089603193041,-73.93972098827362,Manhattan,27
+8226.07,W 168 St & Fort Washington Ave,40.84210236102173,-73.9422395825386,Manhattan,27
+8229.04,Sheridan Ave & E 172 St,40.840494,-73.911479,Bronx,21
+8231.09,Vyse Ave & Boston Rd,40.83961,-73.88371,Bronx,20
+8233.01,Inwood Ave & W 170 St,40.840536,-73.919228,Bronx,21
+8236.01,Crotona Park North & Prospect Ave,40.841092,-73.892317,Bronx,20
+8241.07,3 Ave & E 174 St,40.84224,-73.8985,Bronx,20
+8242.04,Amsterdam Ave & W 172 St,40.842173,-73.935111,Manhattan,25
+8245.03,Mount Eden Pkwy & Eastburn Ave,40.842675,-73.908544,Bronx,21
+8248.05,Boston Rd & E 178 St,40.84096,-73.87923,Bronx,24
+8249.1,Walton Ave & E 171 St,40.840683,-73.915073,Bronx,25
+8252.03,Crotona Pkwy & Elsmere Pl,40.84188,-73.8855,Bronx,22
+8254.01,W 170 St & University Ave,40.84207,-73.926075,Manhattan,25
+8257.03,Crotona Ave & Crotona Park N,40.84234,-73.89409,Bronx,22
+8262.07,W 171 St & St Nicholas Ave,40.842941,-73.938631,Manhattan,25
+8265.09,Grand Concourse & E Mount Eden Ave,40.84301,-73.91172,Bronx,24
+8268.08,E 179 St & Daly Ave,40.84335,-73.88247,Bronx,21
+8269.01,Goble Pl & Macombs Rd,40.844075,-73.917256,Bronx,24
+8272.01,Clinton Ave & E Tremont Ave,40.845,-73.88994,Bronx,15
+8272.05,Fairmount Pl & Prospect Ave,40.843099,-73.889927,Bronx,20
+8272.08,E 176 St & Clinton Ave,40.84311,-73.89149,Bronx,20
+8277.03,Washington Ave & E 174 St,40.843079,-73.900216,Bronx,20
+8278.05,Amsterdam Ave & W 175 St,40.844044,-73.933651,Manhattan,24
+8281.06,Clay Ave & E 173 St,40.843264,-73.904867,Bronx,21
+8284.01,Bronx Park S & Bryant Ave,40.84437,-73.87796,Bronx,21
+8285.09,E 174 St & Walton Ave,40.844811,-73.912042,Bronx,21
+8285.11,Featherbed Ln & Jerome Ave,40.845505,-73.914311,Bronx,21
+8288.11,E 179 St & Southern Blvd,40.84467,-73.88507,Bronx,22
+8290.01,Nelson Ave & W 172 St,40.843965,-73.920999,Bronx,24
+8293.12,Arthur Ave & E Tremont Ave,40.84616,-73.89322,Bronx,26
+8299.03,Wadsworth Ave & W 175 St,40.846052,-73.937648,Manhattan,26
+8303.06,Grand Concourse & E 175 St,40.84627592921954,-73.90931278467178,Bronx,21
+8306.03,Vyse Ave & E 181 St,40.84463,-73.87988,Bronx,20
+8307.05,Macombs Rd & Featherbed Ln,40.84552,-73.91722,Bronx,21
+8315.03,3 Ave & E Tremont Ave,40.84649,-73.89616,Bronx,23
+8316.02,Audubon Ave & W 179 St,40.847305,-73.933291,Manhattan,23
+8319.01,Anthony Ave & E 175 St,40.846465,-73.903869,Bronx,21
+8320.01,Fort Washington Ave & W 173 St,40.84522,-73.940493,Manhattan,25
+8323.05,Townsend Ave & E 175 St,40.84741,-73.911359,Bronx,21
+8325.08,Southern Blvd & E 180 St,40.84605,-73.88426,Bronx,21
+8325.12,Crotona Pkwy & Bronx Park S,40.84784,-73.883,Bronx,21
+8327.15,Featherbed Ln & Nelson Ave,40.846011,-73.919637,Bronx,22
+8330.05,Crotona Ave & E 179 St,40.84666,-73.88991,Bronx,22
+8335.02,Park Ave & E Tremont Ave,40.84731,-73.89981,Bronx,23
+8336.02,Wadsworth Ave & W 179 St,40.848467,-73.936064,Manhattan,28
+8340.01,Grand Concourse & E 176 St,40.84761,-73.90745,Bronx,24
+8344.04,Macombs Rd & W 175 St,40.848177,-73.916082,Bronx,21
+8344.09,University Ave & Macombs Rd,40.8496401,-73.9161206,Bronx,23
+8346.06,E 180 St & Prospect Ave,40.84696,-73.88663,Bronx,21
+8348.02,Popham Ave & W 174 St,40.847746,-73.922079,Bronx,23
+8351.06,E 178 St & Monterey Ave,40.84749,-73.89464,Bronx,21
+8353.02,Amsterdam Ave & W 180 St,40.847396,-73.931205,Manhattan,21
+8353.09,Amsterdam Ave & W 183 St,40.84925,-73.93022,Manhattan,21
+8356.02,E Tremont Ave & E 176 St,40.847798,-73.901883,Bronx,21
+8356.04,Anthony Ave & E Tremont Ave,40.848793,-73.903178,Bronx,22
+8358.03,W 180 St & Fort Washington Ave,40.849972,-73.938423,Manhattan,27
+8358.1,Cabrini Blvd & W 177 St,40.848282,-73.941343,Manhattan,20
+8362.02,Walton Ave & E 176 St,40.84833,-73.90971,Bronx,24
+8362.09,Jerome Ave & W 177 St,40.850121,-73.910765,Bronx,20
+8366.06,W 176 St & Montgomery Ave,40.849629,-73.919205,Bronx,21
+8366.07,University Ave & Brandt Pl,40.848354,-73.918389,Bronx,20
+8369.08,Hughes Ave & Oak Tree Pl,40.85079,-73.88945,Bronx,22
+8374.02,Park Ave & E 179 St,40.85014,-73.89818,Bronx,21
+8379.06,Echo Pl & Grand Concourse,40.849955,-73.905943,Bronx,26
+8379.07,Creston Ave & E 178 St,40.850885,-73.906469,Bronx,15
+8381.04,W 181 St & Riverside Dr,40.85168,-73.94186,Manhattan,15
+8384.03,W Tremont Ave & Grand Ave,40.850036,-73.912785,Bronx,21
+8384.04,University Ave & Morton Pl,40.85118155499655,-73.91465058978447,Bronx,22
+8387.03,Crotona Ave & E 183 St,40.85157,-73.88475,Bronx,22
+8392.02,E 180 St & Monterey Ave,40.85025,-73.89301,Bronx,22
+8394.15,Amsterdam Ave & W 186 St,40.851113,-73.928808,Manhattan,21
+8397.02,E Burnside Ave & Ryer Ave,40.850535,-73.901318,Bronx,24
+8399.06,Fort Washington Ave & W 183 St,40.852252,-73.937854,Manhattan,24
+8403.02,E Tremont Ave & Jerome Ave,40.851747,-73.908964,Bronx,23
+8407.03,W Tremont Ave & Montgomery Ave,40.851788,-73.916418,Bronx,21
+8410.1,E 182 St & Belmont Ave,40.85089,-73.88793,Bronx,21
+8415.01,E 181 St & Bathgate Ave,40.85198,-73.89438,Bronx,21
+8416.07,Broadway & W 185 St,40.852538,-73.93441,Manhattan,24
+8416.1,W 186 St & St Nicholas Ave,40.852253,-73.931308,Manhattan,24
+8421.03,W 181 St & Riverside Dr,40.85179476985454,-73.94171894634957,Manhattan,25
+8425.01,W Burnside Ave & University Ave,40.853686,-73.912498,Bronx,15
+8427.05,Southern Blvd & E 187 St,40.8535,-73.88177,Bronx,21
+8428.04,W Tremont Ave & Matthewson Rd,40.853827,-73.920765,Bronx,22
+8428.05,Sedgwick Ave & W Tremont Ave,40.85304455868985,-73.91830623149872,Bronx,22
+8430.03,Arthur Ave & E 183 St,40.85307,-73.88953,Bronx,20
+8432.11,Amsterdam Ave & W 189 St,40.85318758861975,-73.92715752124786,Manhattan,15
+8435.04,Valentine Ave & E 181 St,40.854123869116,-73.89932222664356,Bronx,21
+8441.01,Morris Ave & E Burnside Ave,40.85322,-73.90546,Bronx,22
+8441.05,Davidson Ave & W Burnside Ave,40.853646,-73.908731,Bronx,24
+8447.07,Crescent Ave & Belmont Ave,40.85391,-73.8866,Bronx,21
+8451.07,E 182 St & Park Ave,40.85455,-73.89507,Bronx,20
+8453.14,W 190 St & St Nicholas Ave,40.854788,-73.929513,Manhattan,25
+8456.02,Creston Ave & E 181 St,40.8549,-73.90281,Bronx,15
+8456.05,Grand Concourse & E 181 St,40.85466,-73.9015,Bronx,22
+8458.03,Pinehurst Ave & W 187 St,40.855331,-73.937878,Manhattan,24
+8462.09,University Ave & W Burnside Ave,40.85501,-73.910751,Bronx,22
+8465.01,Sedgwick Ave & W Burnside Ave,40.854947,-73.916661,Bronx,20
+8467.03,E 184 St & 3 Ave,40.85472,-73.89022,Bronx,23
+8469.05,Audubon Ave & W 192 St,40.85589030603889,-73.92708241939545,Manhattan,21
+8472.06,Valentine Ave & E 183 St,40.856987,-73.898237,Bronx,20
+8472.08,Webster Ave & Ford St,40.85556,-73.89615,Bronx,21
+8474.02,W 190 St & Broadway,40.85648733523576,-73.93296986818314,Manhattan,22
+8478.11,Jerome Ave & E 181 St,40.855653,-73.905528,Bronx,22
+8483.02,Andrews Ave S & W 179 St,40.855156,-73.91278,Bronx,22
+8485.01,E 188 St & Hughes Ave,40.8561,-73.88625,Bronx,22
+8489.06,E 187 St & 3 Ave,40.85724,-73.8909,Bronx,21
+8491.07,Audubon Ave & Fort George Ave,40.85715781391904,-73.92717361450195,Manhattan,21
+8494.01,E 182 St & Morris Ave,40.85670801831255,-73.90265285968779,Bronx,22
+8494.06,Ryer Ave & E 182 St,40.8558,-73.89956,Bronx,15
+8494.07,E 182 St & Grand Concourse,40.85591,-73.90051,Bronx,22
+8496.01,Fort Washington Ave & W 190 St,40.856906,-73.935662,Manhattan,22
+8500.01,Grand Ave & W 181 St,40.856302,-73.907302,Bronx,21
+8502.04,Crotona Ave & E Fordham Rd,40.8579,-73.88147,Bronx,22
+8505.08,E 189 St & Bathgate Ave,40.85859,-73.88821,Bronx,19
+8507.02,Dyckman St & 10 Ave,40.85890447538412,-73.9230939745903,Manhattan,19
+8510.02,Tiebout Ave & E 184 St,40.858498,-73.89637,Bronx,22
+8511.08,Broadway & W 192 St,40.857994,-73.932173,Manhattan,23
+8514.05,Walton Ave & E 183 St,40.858472,-73.90266,Bronx,21
+8520.01,Andrew Ave N & Hall of Fame Tce,40.85834,-73.91008,Bronx,20
+8526.03,3 Ave & E 189 St,40.85985,-73.89135,Bronx,25
+8528.05,Nagle Ave & Ellwood St,40.86012,-73.928489,Manhattan,22
+8531.05,Grand Concourse & E 184 St,40.85941,-73.8985,Bronx,22
+8532.03,Margaret Corbin Plz & Ft Washington Ave,40.859166,-73.933872,Manhattan,23
+8535.01,Buchanan Pl & Grand Ave,40.85834,-73.90626,Bronx,21
+8535.09,Aqueduct Ave & North St,40.8604787,-73.9057169936,Bronx,21
+8539.02,Sedgwick Ave & Hall of Fame Terrace,40.859532,-73.913303,Bronx,17
+8541.04,E 191 St & Bathgate Ave,40.8601,-73.8866,Bronx,20
+8543.01,10 Ave & W 202 St,40.861281970750994,-73.921417593956,Manhattan,20
+8546.06,Tiebout Ave & E Fordham Rd,40.861915,-73.894831,Bronx,25
+8547.04,Broadway & Ellwood St,40.862058,-73.929719,Manhattan,22
+8550.01,Jerome Ave & W 184 St,40.860814,-73.902541,Bronx,20
+8550.04,Morris Ave & E 184 St,40.86008,-73.90079,Bronx,15
+8555.05,Loring Pl North & W 183 St,40.8604244,-73.9093359997,Bronx,21
+8558.01,Southern Blvd & Xavier Way,40.86149,-73.88103,Bronx,19
+8559.04,9 Ave & W 204 St,40.86169883507865,-73.91855701804161,Manhattan,17
+8563.06,Nagle Ave & Thayer St,40.861382,-73.925591,Manhattan,23
+8566.05,E 188 St & Creston Ave,40.861669,-73.898589,Bronx,27
+8571.02,Grand Ave & W Fordham Rd,40.86288,-73.90316,Bronx,21
+8575.02,Cedar Ave & W Fordham Rd,40.86156,-73.91219,Bronx,15
+8579.03,W 204 St & Nagle Ave,40.863211,-73.920827,Manhattan,21
+8579.05,Academy St & Nagle Ave,40.862562,-73.922661,Manhattan,21
+8579.09,10 Ave & W 204 St,40.862638,-73.92006,Manhattan,20
+8582.02,Bainbridge Ave & E 193 St,40.86389,-73.89246,Bronx,15
+8582.09,E Fordham Rd & Webster Ave,40.861748,-73.89105,Bronx,28
+8582.1,Bainbridge Ave & E 193 St,40.86415477605928,-73.892452880543,Bronx,20
+8583.02,Sherman Ave & Thayer St,40.863124,-73.926994,Manhattan,22
+8586.09,Jerome Ave & W Fordham Rd,40.86294,-73.90108,Bronx,26
+8590.01,W Fordham Rd & Loring Pl N,40.86295,-73.90741,Bronx,23
+8597.01,Decatur Ave & E 197 St,40.86557,-73.88807,Bronx,19
+8601.04,Grand Concourse & E 192 St,40.86448,-73.89522,Bronx,22
+8605.06,Aqueduct Ave & W 190 St,40.8649213,-73.9024238,Bronx,21
+8613.09,10 Ave & W 207 St,40.864632,-73.918598,Manhattan,23
+8615.01,Bainbridge Ave & E 196 St,40.86648,-73.89042,Bronx,20
+8616.06,Riverside Dr & Broadway,40.865364,-73.92791,Manhattan,26
+8619.02,Jerome Ave & W 193 St,40.86659,-73.89794,Bronx,23
+8624.01,Webb Ave & W 190 St,40.8660052,-73.904254892,Bronx,19
+8631.03,Decatur Ave & Oliver Pl,40.867,-73.8857764,Bronx,18
+8632.07,W 204 St & Vermilyea Ave,40.866141,-73.922648,Manhattan,19
+8635.08,Grand Concourse & E 196 St,40.86767,-73.89286,Bronx,15
+8635.09,E 196 St & Valentine Ave,40.86744,-73.89198,Bronx,22
+8636.04,Dyckman St & Henshaw St,40.867357,-73.92936,Manhattan,22
+8639.01,W 192 St & University Ave,40.866899,-73.901942,Bronx,21
+8643.01,Bailey Ave & Sedgwick Ave,40.86571,-73.90857,Bronx,19
+8646.02,Botanical Sq & Webster Ave,40.86814,-73.88145,Bronx,20
+8647.1,W 211 St & 10 Ave,40.86709406268147,-73.9172950387001,Manhattan,19
+8649.03,Bainbridge Ave & E 198 St,40.8684871,-73.8884559781,Bronx,19
+8650.11,Seaman Ave & Beak St,40.867505,-73.926363,Manhattan,22
+8653.09,Jerome Ave & W 195 St,40.86874,-73.89657,Bronx,24
+8655.02,Dyckman St & Staff St,40.868846,-73.931537,Manhattan,23
+8664.06,Decatur Ave & Bedford Park Blvd,40.86813,-73.88412,Bronx,20
+8665.02,Seaman Ave & Isham St,40.86989866194045,-73.92076313495636,Manhattan,22
+8665.09,Isham St & Broadway,40.86788,-73.919685,Manhattan,25
+8667.01,Grand Concourse & E 197 St,40.86945,-73.89148,Bronx,15
+8667.02,Valentine Ave & E 198 St,40.86941,-73.88994,Bronx,21
+8672.05,Eames Pl & Claflin Ave,40.8692,-73.90121,Bronx,20
+8676.01,Bailey Ave & W 193 St,40.87069,-73.90678,Bronx,18
+8679.03,10 Ave & W 215 St,40.86932465640094,-73.91519755125046,Manhattan,20
+8682.06,Bainbridge Ave & Bedford Park Blvd,40.87002,-73.88565,Bronx,20
+8692.04,Sedgwick Ave & W 195 St,40.87049,-73.90287,Bronx,21
+8696.05,9 Ave & W 219 St,40.871094,-73.911503,Manhattan,17
+8699.01,Marion Ave & Mosholu Pkwy,40.8704956,-73.8818756582,Bronx,20
+8699.09,Hull Ave & E Mosholu Pkwy N,40.87115,-73.88035,Bronx,19
+8703.05,Grand Concourse & E 199 St,40.87142,-73.88839,Bronx,21
+8707.01,Goulden Ave & W 197 St,40.87156,-73.89714,Bronx,20
+8707.04,Strong St & University Ave,40.87119,-73.89918,Bronx,20
+8711.02,W 225 St & Exterior St,40.873265,-73.906646,Bronx,24
+8714.06,E 204 St & Webster Ave,40.87095,-73.87679,Bronx,21
+8715.01,Broadway & W 220 St,40.872412,-73.912807,Manhattan,19
+8715.06,W 218 St & Broadway,40.87139,-73.914318,Manhattan,22
+8717.07,E 201 St & Briggs Ave,40.87207,-73.88459,Bronx,19
+8720.02,Jerome Ave & E 198 St,40.87144520687118,-73.89289632439613,Bronx,21
+8731.09,Perry Ave & E 204 St,40.87318,-73.87856,Bronx,20
+8732.04,W 218 St & Indian Rd,40.873054589370895,-73.91837194561958,Manhattan,21
+8734.02,Jerome Ave & Bedford Park Blvd E,40.87307,-73.88971,Bronx,23
+8734.04,Grand Concourse & E 203 St,40.87382,-73.88661,Bronx,20
+8738.01,Goulden Ave & Bedford Park Blvd,40.87387,-73.89533,Bronx,19
+8741.01,Bailey Ave & W 229 St,40.87449,-73.90467,Bronx,19
+8744.07,E 205 St & Webster Ave,40.87302,-73.87514,Bronx,20
+8745.01,Marble Hill Ave & W 225 St,40.87471,-73.91099,Bronx,23
+8748.02,E Mosholu Pkwy & E 204 St,40.8740704,-73.8833650931,Bronx,20
+8752.01,Bedford Park Blvd & Paul Ave,40.87444,-73.89186,Bronx,20
+8756.03,Claflin Ave & Reservoir Ave,40.87398,-73.89943,Bronx,21
+8756.07,Sedgwick Ave & W 231 St,40.87512,-73.90126,Bronx,21
+8763.05,Bainbridge Ave & E 206 St,40.8751,-73.87941,Bronx,22
+8763.08,Reservoir Oval E & Bainbridge Ave,40.87634,-73.87902,Bronx,20
+8766.03,Grand Concourse & E 205 St,40.875531,-73.8863864831,Bronx,21
+8772.06,Kingsbridge Terrace & W 230 St,40.87555,-73.90212,Bronx,20
+8775.03,Hull Ave & E 209 St,40.87689,-73.87444,Bronx,20
+8776.02,Marble Hill Ave & W 227 St,40.87655,-73.90941,Bronx,19
+8778.01,E Mosholu Pkwy & Van Cortlandt Ave E,40.87656,-73.88366,Bronx,19
+8782.01,Paul Ave & W 205 St,40.87704,-73.88943,Bronx,20
+8786.01,Giles Pl & Fort Independence St,40.87869,-73.89862,Bronx,20
+8790.08,Verveelen Pl & Broadway,40.87826,-73.90508,Bronx,24
+8795.01,Jerome Ave & E Mosholu Pkwy S,40.87935,-73.88534,Bronx,22
+8795.03,Grand Concourse & E Mosholu Pkwy S,40.877964,-73.8847550291,Bronx,18
+8799.01,Goulden Ave & W 205 St,40.87812,-73.89192,Bronx,19
+8802.05,W 233 St & Albany Crescent,40.87979,-73.90164,Bronx,19
+8805.08,Hull Ave & E Gun Hill Rd,40.87902,-73.87349,Bronx,22
+8806.01,W 230 St & Marble Hill Ave,40.87807,-73.90796,Bronx,21
+8806.1,W 231 St & Tibbett Ave,40.88071,-73.90837,Bronx,20
+8808.02,Steuben Ave & E 210 St,40.87985,-73.88083,Bronx,21
+8809.04,Knolls Crescent & Kappock St,40.87875,-73.91743,Manhattan,20
+8811.01,Paul Ave & Mosholu Pkwy,40.8802945,-73.8860653648,Bronx,19
+8815.01,Sedgwick Ave & Giles Pl,40.88111,-73.8965,Bronx,21
+8819.05,Naples Terrace & Godwin Terrace,40.87995,-73.90536,Bronx,20
+8821.07,E Gun Hill Rd & Tryon Ave,40.8802,-73.87697,Bronx,20
+8824.02,Jerome Ave & E Mosholu Pkwy N,40.88031,-73.88426,Bronx,22
+8825.02,Kappock St & Independence Ave,40.88077,-73.91952,Manhattan,21
+8828.02,Sedgwick Ave & Hillman Ave,40.88224,-73.89136,Bronx,20
+8831.03,Bailey Ave & W 234 St,40.88066,-73.90076,Bronx,19
+8835.05,Irwin Ave & W 232 St,40.88227,-73.90809,Bronx,19
+8837.06,Bainbridge Ave & E 211 St,40.88206,-73.87808,Bronx,18
+8838.06,Henry Hudson Pkwy E & W 231 St,40.88336,-73.91505,Bronx,18
+8841.03,W Mosholu Pkwy S & Sedgwick Ave,40.88226,-73.88702,Bronx,18
+8849.03,Broadway & W 234 St,40.88185,-73.90291,Bronx,21
+8855.07,Jerome Ave & E Gun Hill Rd,40.88239,-73.88146,Bronx,21
+8859.03,Van Cortlandt Park S & Dickinson Ave,40.88435,-73.88781,Bronx,19
+8862.02,Bailey Ave & W 238 St,40.88417,-73.89793,Bronx,15
+8862.05,Bailey Ave & W 238 St,40.88394,-73.89824,Bronx,21
+8866.01,Tibbett Ave & W 234 St,40.88324,-73.90587,Bronx,19
+8870.01,Netherland Ave & W 232 St,40.8839,-73.91165,Bronx,19
+8876.04,Van Cortlandt Park S & Gouverneur Ave,40.88492,-73.89084,Bronx,21
+8879.02,Broadway & Van Cortlandt Park S,40.8863,-73.8997,Bronx,21
+8879.03,Broadway & W 238 St,40.88524,-73.90077,Bronx,23
+8883.07,Johnson Ave & W 235 St,40.88555,-73.9099,Bronx,23
+8886.05,Jerome Ave & Bainbridge Ave,40.88644,-73.87832,Bronx,20
+8887.07,W 235 St & Independence Ave,40.88641,-73.9144,Bronx,20
+8897.05,W 238 St & Tibbett Ave,40.88602,-73.90232,Bronx,20
+8914.01,W 238 St & Riverdale Ave,40.88819,-73.90782,Bronx,22
+8918.08,W 237 St & Hudson Manor Terrace,40.88838,-73.91546,Bronx,19
+8927.01,Waldo Ave & Manhattan College Pkwy,40.88902,-73.90288,Bronx,19
+8940.01,Broadway & W 242 St,40.88917,-73.89875,Bronx,23
+8946.06,Independence Ave & W 240 St,40.89069,-73.91284,Bronx,19
+8978.03,Broadway & W 251 St,40.89415,-73.89642,Bronx,20
+8998.03,Post Rd & W 251 St,40.89561,-73.89793,Bronx,19
+9029.01,Broadway & Lakeview Pl,40.89818,-73.89697,Bronx,20
+9050.03,Riverdale Ave & W 254 St,40.90207,-73.90578,Bronx,19
+9068.04,Fieldston Rd & Mosholu Ave,40.90524,-73.90054,Bronx,19
+9074.06,David Sheridan Plaza & Broadway,40.90501,-73.89663,Bronx,19
+9075.05,Riverdale Ave & W 258 St,40.90573,-73.9046,Bronx,19
+9089.01,Broadway & W 261 St,40.90951,-73.89652,Bronx,20
+9091.04,Riverdale Ave & W 261 St,40.90972,-73.90324,Bronx,18
+9095.02,Riverdale Ave & W 263 St,40.91239,-73.90272,Bronx,20
+HB101,Hoboken Terminal - Hudson St & Hudson Pl,40.73593758446329,-74.03030455112457,Hoboken,15
+HB102,Hoboken Terminal - River St & Hudson Pl,40.7360676564825,-74.02912706136703,Hoboken,15
+HB103,South Waterfront Walkway - Sinatra Dr & 1 St,40.73698221818716,-74.02778059244156,Hoboken,15
+HB105,City Hall - Washington St & 1 St,40.73736,-74.03097,Hoboken,15
+HB106,River St & Newark St,40.73672227316331,-74.02900660353771,Hoboken,16
+HB201,12 St & Sinatra Dr N,40.75060414236896,-74.02402013540268,Hoboken,16
+HB202,14 St Ferry - 14 St & Shipyard Ln,40.75296063046496,-74.02435272932053,Hoboken,17
+HB203,Bloomfield St & 15 St,40.75453,-74.02658,Hoboken,16
+HB301,4 St & Grand St,40.7422579775645,-74.03511106967926,Hoboken,15
+HB302,6 St & Grand St,40.7443978330956,-74.03450086712837,Hoboken,15
+HB303,Clinton St & 7 St,40.74542,-74.03332,Hoboken,15
+HB304,7 St & Monroe St,40.74641264837719,-74.03797701001167,Hoboken,15
+HB305,9 St HBLR - Jackson St & 8 St,40.74790720968899,-74.03841152787209,Hoboken,15
+HB401,Southwest Park - Jackson St & Observer Hwy,40.73755127245804,-74.04166370630264,Hoboken,15
+HB402,Madison St & 1 St,40.73879,-74.0393,Hoboken,15
+HB404,Mama Johnson Field - 4 St & Jackson St,40.74313993965626,-74.04004096984863,Hoboken,15
+HB407,Adams St & 2 St,40.73981372311843,-74.03690412640572,Hoboken,15
+HB408,Marshall St & 2 St,40.740802,-74.042521,Hoboken,15
+HB409,Clinton St & Newark St,40.73743,-74.03571,Hoboken,15
+HB501,Columbus Park - Clinton St & 9 St,40.74816121065146,-74.0324530005455,Hoboken,15
+HB502,11 St & Washington St,40.74998490907138,-74.02715027332306,Hoboken,16
+HB503,Madison St & 10 St,40.74994325412246,-74.03586477041245,Hoboken,15
+HB505,Willow Ave & 12 St,40.7518674823282,-74.03037697076797,Hoboken,16
+HB506,Grand St & 14 St,40.75409,-74.0316,Hoboken,15
+HB507,Adams St & 11 St,40.750915534784994,-74.03354063630104,Hoboken,15
+HB508,Monroe St & 11 St,40.7501091128573,-74.036636745998,Hoboken,15
+HB601,Church Sq Park - 5 St & Park Ave,40.74265933273143,-74.03223305940628,Hoboken,15
+HB602,Stevens - River Ter & 6 St,40.74313282710551,-74.02698867022991,Hoboken,15
+HB603,8 St & Washington St,40.74598388291562,-74.02819901704788,Hoboken,16
+HB607,Hudson St & 4 St,40.74097260864355,-74.02860336005688,Hoboken,15
+HB608,2 St & Park Ave,40.73915272763701,-74.0330819785595,Hoboken,15
+HB609,River St & 1 St,40.73721535335381,-74.02886540972803,Hoboken,15
+HB610,Adams St & 12 St,40.751889392240685,-74.03329162748534,Hoboken,15
+HB611,4 St & River St,40.7408139,-74.0274062,Hoboken,16
+HB612,Newark St & Washington St,40.73681,-74.0309,Hoboken,15
+JC002,Paulus Hook,40.7141454,-74.0335519,Jersey City,16
+JC003,City Hall,40.7177325,-74.043845,Jersey City,15
+JC006,Warren St,40.7211236,-74.03805095,Jersey City,16
+JC008,Newport Pkwy,40.7287448,-74.0321082,Jersey City,16
+JC009,Hamilton Park,40.727595966,-74.044247311,Jersey City,16
+JC013,Marin Light Rail,40.71458403535893,-74.04281705617905,Jersey City,16
+JC014,Columbus Drive,40.71835519823214,-74.03891444206238,Jersey City,16
+JC018,5 Corners Library,40.73496102000952,-74.0595030784607,Jersey City,15
+JC019,Hilltop,40.7311689,-74.0575736,Jersey City,15
+JC020,Baldwin at Montgomery,40.7236589,-74.0641943,Jersey City,15
+JC022,Oakland Ave,40.7376037,-74.0524783,Jersey City,15
+JC023,Brunswick St,40.7241765,-74.0506564,Jersey City,15
+JC024,Pershing Field,40.742677141,-74.051788633,Jersey City,15
+JC027,Jersey & 6th St,40.72528910781132,-74.04557168483734,Jersey City,15
+JC032,Newark Ave,40.72152515,-74.046304543,Jersey City,16
+JC034,Christ Hospital,40.734785818,-74.050443636,Jersey City,15
+JC035,Van Vorst Park,40.71848892,-74.047726625,Jersey City,15
+JC038,Essex Light Rail,40.7127742,-74.0364857,Jersey City,16
+JC051,Union St,40.7182113,-74.0836394,Jersey City,15
+JC052,Liberty Light Rail,40.7112423,-74.0557013,Jersey City,15
+JC053,Lincoln Park,40.7246050998869,-74.07840594649315,Jersey City,15
+JC055,McGinley Square,40.7253399253558,-74.06762212514877,Jersey City,15
+JC057,Riverview Park,40.7443187,-74.0439909,Jersey City,16
+JC059,Heights Elevator,40.74871594538023,-74.04044330120087,Jersey City,16
+JC063,Jackson Square,40.71113,-74.0789,Jersey City,15
+JC065,Dey St,40.737711,-74.066921,Jersey City,16
+JC066,Newport PATH,40.7272235,-74.0337589,Jersey City,15
+JC072,Morris Canal,40.7124188237569,-74.03852552175522,Jersey City,16
+JC074,Jersey & 3rd,40.72333158646436,-74.04595255851744,Jersey City,15
+JC075,Monmouth & 6th,40.72568548362901,-74.04879033565521,Jersey City,15
+JC076,Dixon Mills,40.721630142638354,-74.04996782541275,Jersey City,16
+JC077,Astor Place,40.71928220070702,-74.07126188278198,Jersey City,15
+JC078,Lafayette Park,40.71346382669195,-74.06285852193832,Jersey City,15
+JC080,Leonard Gordon Park,40.74590996631558,-74.0572714805603,Jersey City,15
+JC081,Brunswick & 6th,40.72601172964625,-74.05038893222809,Jersey City,15
+JC082,Manila & 1st,40.72165072487999,-74.04288411140442,Jersey City,15
+JC084,Communipaw & Berry Lane,40.71435836870427,-74.06661093235016,Jersey City,15
+JC093,Fairmount Ave,40.72572613742557,-74.07195925712585,Jersey City,15
+JC094,Glenwood Ave,40.72755146730012,-74.07106071710587,Jersey City,15
+JC095,Bergen Ave,40.722103786686034,-74.07145500183105,Jersey City,15
+JC097,York St & Marin Blvd,40.716615000830494,-74.0424120426178,Jersey City,16
+JC098,Washington St,40.7242941,-74.0354826,Jersey City,15
+JC099,Montgomery St,40.71942,-74.05099,Jersey City,15
+JC102,Grand St,40.71517767732029,-74.03768330812454,Jersey City,16
+JC103,Journal Square,40.73367,-74.0625,Jersey City,15
+JC104,Harborside,40.7192517,-74.034234,Jersey City,15
+JC105,Hoboken Ave at Monmouth St,40.73520838045357,-74.04696375131607,Jersey City,15
+JC107,Grant Ave & MLK Dr,40.70919832245443,-74.08084273338318,Jersey City,15
+JC108,Bergen Ave & Stegman St,40.70657545063453,-74.0867006778717,Jersey City,15
+JC109,Bergen Ave & Sip Ave,40.73100888698729,-74.06443700194359,Jersey City,15
+JC110,JC Medical Center,40.71539114317,-74.04969155788422,Jersey City,15
+JC115,Grove St PATH,40.71941,-74.04309,Jersey City,15
+JC116,Exchange Pl,40.71636596185077,-74.034343957901,Jersey City,15
+JC117,Dr. Lena Edwards Park,40.713203,-74.058261,Jersey City,15
+JC118,Pacific Ave & Communipaw Ave,40.711354,-74.062446,Jersey City,15
+JC122,Union St & Bergen Ave,40.71575,-74.07887,Jersey City,15
+JC139,Danforth Light Rail,40.69277,-74.0878,Jersey City,15
+JC140,Caven Point Recreation Fields,40.69222,-74.08025,Jersey City,15
+JC145,Mallory Ave & Roosevelt Ave,40.72203,-74.08596,Jersey City,15
+JC148,Bay St & Washington St,40.720216,-74.03656,Jersey City,15
+JC149,Washington St & Morgan St,40.71944579304272,-74.03689158686865,Jersey City,16
+LA Metro Demo 1,LA Metro Demo 1,34.026178454715,-118.25145956905,Jersey City,15
+LA Metro Demo 2,LA Metro Demo 2,34.026214022171,-118.25157758625,Jersey City,15
+LA Metro Demo 3,LA Metro Demo 3,34.02618,-118.2515,Jersey City,15
+Lab - NYC,Lab - NYC,40.75404038449624,-73.99646580219269,Manhattan,15
+Lab - NYC - Monolith,Lab - NYC - M,40.7541804,-73.9964658,Manhattan,15
+MTL-LAB-BKN,MTL-LAB-BKN,40.785792,-73.96207,Manhattan,15
+SYS016,Morgan Bike Mechanics,40.70962789682351,-73.93145710229872,Brooklyn,19
+SYS018,Bronx WH station,0.0,0.0,Queens,15
+SYS025,Bike Mechanics at Riis Room A,40.72522576938248,-73.97468617200502,Brooklyn,15
+SYS032,Park Ave Depot,40.69594342560201,-73.96778789156087,Brooklyn,15
+SYS033,Pier 40 X2,40.728486861173785,-74.01169271324761,Manhattan,17
+SYS035,Pier 40 Dock Station,40.72865963236461,-74.0119797096122,Manhattan,15
+SYS038,Morgan Loading Docks,40.709306335794274,-73.93117547035216,Brooklyn,19
+Shop Morgan ,Shop Morgan,40.70987333941734,-73.9315938949585,Brooklyn,17
