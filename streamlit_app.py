@@ -32,7 +32,10 @@ import pydeck as pdk
 import streamlit as st
 
 import live_data
-from data_utils import BIKE_TYPES, HORIZON_HOURS, WARMUP_DAYS, available_timestamps, get_snapshot, load_stations
+from data_utils import (
+    BIKE_TYPES, HORIZON_HOURS, WARMUP_DAYS, available_timestamps, get_snapshot,
+    load_demo_features, load_stations, simulate_occupancy_total,
+)
 from optimizer import compute_surplus_deficit, solve_rebalancing, summarize_system_state
 
 st.set_page_config(page_title="Citi Bike NYC Rebalancing", page_icon="🚲", layout="wide")
@@ -209,13 +212,15 @@ def render_types_tab(sd):
         .sum()
         .rename(columns={"pred_net_flow_classic": "Classic", "pred_net_flow_electric": "Electric"})
     )
+    by_borough.index.name = "Region"
     st.bar_chart(by_borough)
     st.caption(
         "Positive = net arrivals (station filling up), negative = net departures (station draining). "
         "Classic and electric bikes are modeled and predicted completely separately -- two independent "
         "XGBoost models -- since usage patterns differ (e-bikes skew toward longer/commute trips)."
     )
-    st.scatter_chart(sd, x="pred_net_flow_classic", y="pred_net_flow_electric", color="borough")
+    sd_scatter = sd.rename(columns={"borough": "Region"})
+    st.scatter_chart(sd_scatter, x="pred_net_flow_classic", y="pred_net_flow_electric", color="Region")
 
 
 def render_perf_tab():
@@ -256,7 +261,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
     """
     snapshot = snapshot[snapshot["borough"].isin(selected_boroughs)].reset_index(drop=True)
     if snapshot.empty:
-        st.warning("No stations match the current borough filter.")
+        st.warning("No stations match the current region filter.")
         return
 
     sd = compute_surplus_deficit(snapshot, min_buffer=min_buffer)
@@ -323,7 +328,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, top_k, title_suffi
 
     view_state = pdk.ViewState(latitude=40.745, longitude=-73.97, zoom=10.3, pitch=35)
     tooltip = {
-        "html": "<b>{name}</b><br/>Borough: {borough}<br/>Status: {status}<br/>"
+        "html": "<b>{name}</b><br/>Region: {borough}<br/>Status: {status}<br/>"
                 "Predicted bikes: {predicted_bikes} / cap {capacity}",
         "style": {"backgroundColor": "steelblue", "color": "white"},
     }
@@ -354,12 +359,13 @@ def render_live_status_tab(out, meta):
     n_matched = meta["n_matched"]
     st.markdown(
         f"**Live station coverage:** {n_matched:,} / {n_canon:,} stations matched to the live GBFS "
-        f"feed by nearest lat/lng (within ~50m). By borough, matched vs. total in your station list:"
+        f"feed by nearest lat/lng (within ~50m). By region, matched vs. total in your station list:"
     )
     all_stations = load_stations()
     total_by_borough = all_stations.groupby("borough").size().rename("Total stations")
     matched_by_borough = out.groupby("borough").size().rename("Matched live")
     cov_by_borough = pd.concat([matched_by_borough, total_by_borough], axis=1).fillna(0).astype(int)
+    cov_by_borough.index.name = "Region"
     cov_by_borough["Coverage"] = (cov_by_borough["Matched live"] / cov_by_borough["Total stations"]
                                    ).map(lambda x: f"{x*100:.0f}%")
     st.dataframe(cov_by_borough.sort_values("Total stations", ascending=False), width='stretch')
@@ -440,6 +446,28 @@ with st.sidebar:
     mode = st.radio("Mode", ["📼 Historical Playback", "🔴 Live"], index=1, horizontal=True)
     is_live = mode.startswith("🔴")
 
+    # Memory footprint, not correctness: each mode's data layer is cached
+    # (@st.cache_data / @st.cache_resource) so it stays resident across
+    # reruns for fast switching back -- but on a low-memory host (e.g.
+    # Streamlit Community Cloud's free ~1GB tier) holding BOTH Historical
+    # Playback's occupancy simulation (dense matrix, ~2,500 stations x
+    # weeks of hours) and Live's fetched state in memory at once can push
+    # past the limit and get the process OOM-killed mid-switch -- which
+    # Streamlit shows as a generic "Oh no." with no Python traceback,
+    # since the process dies before it can log one. Dropping the mode
+    # you're navigating AWAY from keeps only one mode's heavy data
+    # resident at a time, trading "instant" back-and-forth switching for
+    # "a few seconds to reload" in exchange for not crashing.
+    if "last_mode_is_live" not in st.session_state:
+        st.session_state.last_mode_is_live = is_live
+    elif st.session_state.last_mode_is_live != is_live:
+        if is_live:
+            simulate_occupancy_total.clear()
+            load_demo_features.clear()
+        else:
+            live_data.load_seasonal_baseline.clear()
+        st.session_state.last_mode_is_live = is_live
+
     if is_live:
         st.caption(
             f"Trains offline on ~3 years of history, scores real-time GBFS + weather + events every "
@@ -462,7 +490,7 @@ with st.sidebar:
 
     stations_all = load_stations()
     boroughs = sorted(stations_all["borough"].unique())
-    selected_boroughs = st.multiselect("Boroughs", boroughs, default=boroughs)
+    selected_boroughs = st.multiselect("Regions", boroughs, default=boroughs)
 
     with st.expander("Advanced settings"):
         min_buffer = st.slider("Min-buffer bikes (empty-risk threshold)", 0, 6, 2)
@@ -483,9 +511,31 @@ with st.sidebar:
         )
 
 # --------------------------------------------------------------- render
-if is_live:
-    render_live_view(selected_boroughs, min_buffer, top_k)
-else:
-    snapshot = get_snapshot(selected_ts)
-    render_dashboard(snapshot, selected_boroughs, min_buffer, top_k,
-                      title_suffix="📼 Playback", about_markdown=HISTORICAL_ABOUT_MARKDOWN)
+# Wrapped so a transient failure (e.g. a live data source timing out, or a
+# memory spike right at the moment of a mode switch on a constrained host)
+# shows a recoverable in-app message instead of Streamlit's hard "Oh no."
+# crash page, which loses all sidebar state and forces a full page reload.
+try:
+    if is_live:
+        render_live_view(selected_boroughs, min_buffer, top_k)
+    else:
+        snapshot = get_snapshot(selected_ts)
+        render_dashboard(snapshot, selected_boroughs, min_buffer, top_k,
+                          title_suffix="📼 Playback", about_markdown=HISTORICAL_ABOUT_MARKDOWN)
+except Exception as e:
+    st.error(
+        "This mode hit an error while loading -- often a transient hiccup right at a mode "
+        "switch (a live data source timing out, or a memory spike on a constrained host). "
+        "Your sidebar settings are preserved."
+    )
+    if not is_live:
+        st.info("Historical Playback is fully self-contained (no network needed) -- try **Refresh** below.")
+    else:
+        st.info(
+            "Live mode needs outbound internet access to GBFS/Open-Meteo/NYC Open Data. If this keeps "
+            "happening, switch back to **Historical Playback** in the sidebar, which always works offline."
+        )
+    if st.button("🔄 Refresh"):
+        st.rerun()
+    with st.expander("Technical details"):
+        st.exception(e)

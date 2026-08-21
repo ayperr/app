@@ -1,81 +1,81 @@
 station_id,name,lat,lng,borough,capacity
 1234.56,Morgan HCT Charging,40.708948,-73.932777,Brooklyn,21
 190 Morgan,190 Morgan,40.711071680975735,-73.9320957361997,Brooklyn,15
-1964.01,101 St & Fort Hamilton Pkwy,40.61124,-74.03282,Jersey City,19
-2009.04,Shore Rd & 4 Ave,40.6115,-74.03513,Jersey City,20
-2042.01,4 Ave & 99 St,40.61327,-74.03315,Jersey City,18
-2086.07,99 St & 3 Ave,40.61451,-74.03502,Jersey City,19
-2118.13,Fort Hamilton Pkwy & 95 St,40.61466,-74.02946,Jersey City,18
-2127.03,Shore Rd & 97 St,40.61529,-74.03779,Jersey City,19
-2158.08,4 Ave & 94 St,40.61689,-74.03091,Jersey City,20
-2190.08,Fort Hamilton Pkwy & 92 St,40.61717,-74.02744,Jersey City,20
-2200.07,96 St & Marine Ave,40.61699,-74.03568,Jersey City,19
-2231.1,3 Ave & 92 St,40.61946,-74.03261,Jersey City,20
-2240.06,Shore Rd & Oliver St,40.61919,-74.0402,Jersey City,19
-2261.04,5 Ave & 88 St,40.62021,-74.02717,Jersey City,19
-2303.05,4 Ave & 87 St,40.62184,-74.02863,Jersey City,22
-2312.02,Colonial Rd & 89 St,40.62254,-74.03726,Jersey City,19
-2335.08,Fort Hamilton Pkwy & 85 St,40.62095,-74.02388,Jersey City,21
-2345.04,Ridge Blvd & 89 St,40.62194,-74.03477,Jersey City,19
-2345.05,89 St & 3 Ave,40.62137,-74.03209,Jersey City,19
-2354.03,Shore Rd & Narrows Ave,40.6222,-74.04029,Jersey City,18
-2377.01,4 Ave & 85 St,40.62354,-74.02817,Jersey City,22
-2387.07,86 St & Ridge Blvd,40.62402,-74.03396,Jersey City,19
-2419.03,84 St & 3 Ave,40.62503,-74.03059,Jersey City,20
-2453.05,4 Ave & 81 St,40.62643,-74.02707,Jersey City,20
-2463.04,Ridge Blvd & 82 St,40.62711,-74.0326,Jersey City,18
-2472.02,Shore Rd & 86 St,40.62561,-74.04079,Jersey City,19
-2488.09,6 Ave & 78 St,40.62569,-74.02119,Jersey City,19
-2497.07,3 Ave & 81 St,40.627,-74.02948,Jersey City,20
-2506.1,83 St & Narrows Ave,40.62757,-74.03838,Jersey City,19
-2506.11,Colonial Rd & 83 St,40.62691,-74.03564,Jersey City,19
-2533.04,79 St & 5 Ave,40.62646,-74.02367,Jersey City,20
+1964.01,101 St & Fort Hamilton Pkwy,40.61124,-74.03282,Brooklyn,19
+2009.04,Shore Rd & 4 Ave,40.6115,-74.03513,Brooklyn,20
+2042.01,4 Ave & 99 St,40.61327,-74.03315,Brooklyn,18
+2086.07,99 St & 3 Ave,40.61451,-74.03502,Brooklyn,19
+2118.13,Fort Hamilton Pkwy & 95 St,40.61466,-74.02946,Brooklyn,18
+2127.03,Shore Rd & 97 St,40.61529,-74.03779,Brooklyn,19
+2158.08,4 Ave & 94 St,40.61689,-74.03091,Brooklyn,20
+2190.08,Fort Hamilton Pkwy & 92 St,40.61717,-74.02744,Brooklyn,20
+2200.07,96 St & Marine Ave,40.61699,-74.03568,Brooklyn,19
+2231.1,3 Ave & 92 St,40.61946,-74.03261,Brooklyn,20
+2240.06,Shore Rd & Oliver St,40.61919,-74.0402,Brooklyn,19
+2261.04,5 Ave & 88 St,40.62021,-74.02717,Brooklyn,19
+2303.05,4 Ave & 87 St,40.62184,-74.02863,Brooklyn,22
+2312.02,Colonial Rd & 89 St,40.62254,-74.03726,Brooklyn,19
+2335.08,Fort Hamilton Pkwy & 85 St,40.62095,-74.02388,Brooklyn,21
+2345.04,Ridge Blvd & 89 St,40.62194,-74.03477,Brooklyn,19
+2345.05,89 St & 3 Ave,40.62137,-74.03209,Brooklyn,19
+2354.03,Shore Rd & Narrows Ave,40.6222,-74.04029,Brooklyn,18
+2377.01,4 Ave & 85 St,40.62354,-74.02817,Brooklyn,22
+2387.07,86 St & Ridge Blvd,40.62402,-74.03396,Brooklyn,19
+2419.03,84 St & 3 Ave,40.62503,-74.03059,Brooklyn,20
+2453.05,4 Ave & 81 St,40.62643,-74.02707,Brooklyn,20
+2463.04,Ridge Blvd & 82 St,40.62711,-74.0326,Brooklyn,18
+2472.02,Shore Rd & 86 St,40.62561,-74.04079,Brooklyn,19
+2488.09,6 Ave & 78 St,40.62569,-74.02119,Brooklyn,19
+2497.07,3 Ave & 81 St,40.627,-74.02948,Brooklyn,20
+2506.1,83 St & Narrows Ave,40.62757,-74.03838,Brooklyn,19
+2506.11,Colonial Rd & 83 St,40.62691,-74.03564,Brooklyn,19
+2533.04,79 St & 5 Ave,40.62646,-74.02367,Brooklyn,20
 2569.07,6 Ave & 74 St,40.629233,-74.019864,Brooklyn,21
-2578.16,3 Ave & 77 St,40.62991,-74.02834,Jersey City,21
-2578.17,4 Ave & 76 St,40.63005,-74.0255,Jersey City,21
-2615.05,Bay Ridge Pkwy & 5 Ave,40.62967,-74.02275,Jersey City,21
-2625.01,78 St & Ridge Blvd,40.62994,-74.03121,Jersey City,18
-2635.08,Shore Rd & 80 St,40.63074,-74.03962,Jersey City,18
-2660.09,4 Ave & 72 St,40.63283,-74.02439,Jersey City,20
-2671.05,77 St & Colonial Rd,40.63121,-74.03318,Jersey City,18
-2698.07,68 St & 5 Ave,40.63416,-74.02058,Jersey City,20
-2708.07,73 St & Ridge Blvd,40.63349,-74.02976,Jersey City,22
-2717.06,Shore Rd & 74 St,40.63414,-74.03699,Jersey City,19
+2578.16,3 Ave & 77 St,40.62991,-74.02834,Brooklyn,21
+2578.17,4 Ave & 76 St,40.63005,-74.0255,Brooklyn,21
+2615.05,Bay Ridge Pkwy & 5 Ave,40.62967,-74.02275,Brooklyn,21
+2625.01,78 St & Ridge Blvd,40.62994,-74.03121,Brooklyn,18
+2635.08,Shore Rd & 80 St,40.63074,-74.03962,Brooklyn,18
+2660.09,4 Ave & 72 St,40.63283,-74.02439,Brooklyn,20
+2671.05,77 St & Colonial Rd,40.63121,-74.03318,Brooklyn,18
+2698.07,68 St & 5 Ave,40.63416,-74.02058,Brooklyn,20
+2708.07,73 St & Ridge Blvd,40.63349,-74.02976,Brooklyn,22
+2717.06,Shore Rd & 74 St,40.63414,-74.03699,Brooklyn,19
 2733.03,67 St & Erik Pl,40.633385,-74.016562,Brooklyn,21
-2743.04,68 St & 4 Ave,40.63537,-74.02342,Jersey City,22
-2754.05,Colonial Rd & 71 St,40.63537,-74.03202,Jersey City,20
+2743.04,68 St & 4 Ave,40.63537,-74.02342,Brooklyn,22
+2754.05,Colonial Rd & 71 St,40.63537,-74.03202,Brooklyn,20
 2782.02,5 Ave & 67 St,40.63593237994821,-74.01975896253617,Brooklyn,20
-2793.07,Ovington Ave & 3 Ave,40.63487,-74.02625,Jersey City,23
-2803.04,Narrows Ave & MacKay Pl,40.63692,-74.03449,Jersey City,19
+2793.07,Ovington Ave & 3 Ave,40.63487,-74.02625,Brooklyn,23
+2803.04,Narrows Ave & MacKay Pl,40.63692,-74.03449,Brooklyn,19
 2818.01,Ditmas Ave & McDonald Ave,40.63548,-73.97825,Brooklyn,21
 2821.05,7 Ave & 62 St,40.63556,-74.01298,Brooklyn,23
 2821.06,62 St & 7 Ave,40.635928,-74.013256,Brooklyn,15
-2832.03,4 Ave & Shore Road Dr,40.637033,-74.022141,Jersey City,19
-2843.01,Colonial Rd & 68 St,40.63841,-74.03093,Jersey City,22
-2843.13,70 St & Ridge Blvd,40.63596,-74.02908,Jersey City,21
+2832.03,4 Ave & Shore Road Dr,40.637033,-74.022141,Brooklyn,19
+2843.01,Colonial Rd & 68 St,40.63841,-74.03093,Brooklyn,22
+2843.13,70 St & Ridge Blvd,40.63596,-74.02908,Brooklyn,21
 2861.02,57 St & 7 Ave,40.638566,-74.010147,Brooklyn,21
 2868.03,15 Ave & 37 St,40.63899,-73.98074,Brooklyn,19
 2872.02,63 St & 5 Ave,40.63766,-74.01782,Brooklyn,20
-2883.03,3 Ave & Wakeman Pl,40.638246,-74.024714,Jersey City,20
+2883.03,3 Ave & Wakeman Pl,40.638246,-74.024714,Brooklyn,20
 2898.01,Cortelyou Rd & Stratford Rd,40.63966,-73.96807,Brooklyn,24
 2908.02,E 3 St & Cortelyou Rd,40.63828,-73.9765,Brooklyn,20
 2912.08,6 Ave & 60 St,40.638196,-74.013821,Brooklyn,19
 2923.01,62 St & 4 Ave,40.639859,-74.019776,Brooklyn,21
-2932.03,Wakeman Pl & Ridge Blvd,40.639421,-74.026823,Jersey City,20
-2942.07,Shore Pkwy Greenway & Bay Ridge Ave,40.63896,-74.03678,Jersey City,26
+2932.03,Wakeman Pl & Ridge Blvd,40.639421,-74.026823,Brooklyn,20
+2942.07,Shore Pkwy Greenway & Bay Ridge Ave,40.63896,-74.03678,Brooklyn,26
 2947.05,Cortelyou Rd & E 8 St,40.63874,-73.97063,Brooklyn,23
 2951.05,55 St & 7 Ave,40.639673,-74.008957,Brooklyn,21
 2957.08,Ave C & McDonald Ave,40.6403436,-73.9791522,Brooklyn,18
 2961.05,59 St & 5 Ave,40.640125,-74.015726,Brooklyn,20
-2971.02,64 St & 3 Ave,40.639978,-74.02324,Jersey City,18
-2981.03,Colonial Rd & Wakeman Pl,40.64067,-74.0294,Jersey City,20
+2971.02,64 St & 3 Ave,40.639978,-74.02324,Brooklyn,18
+2981.03,Colonial Rd & Wakeman Pl,40.64067,-74.0294,Brooklyn,20
 2984.04,Cortelyou Rd & Argyle Rd,40.64034,-73.96603,Brooklyn,24
 2996.05,Ocean Pkwy & Ave C,40.64078,-73.97395,Brooklyn,24
 3000.08,6 Ave & 55 St,40.640831,-74.010996,Brooklyn,20
 3007.05,Church Ave & Story St,40.642031,-73.981073,Brooklyn,21
 3011.03,59 St & 4 Ave,40.641269,-74.017651,Brooklyn,24
-3019.02,65 St & 2 Ave,40.640493,-74.02564,Jersey City,18
-3019.03,Keegan Rd & 2 Ave,40.64243139706092,-74.0255355834961,Jersey City,19
+3019.02,65 St & 2 Ave,40.640493,-74.02564,Brooklyn,18
+3019.03,Keegan Rd & 2 Ave,40.64243139706092,-74.0255355834961,Brooklyn,19
 3022.01,Cortelyou Rd & E 19 St,40.64269,-73.96099,Brooklyn,24
 3034.02,Matthews Ct & Coney Island Ave,40.64235,-73.96951,Brooklyn,20
 3038.08,50 St & 7 Ave,40.642501,-74.006055,Brooklyn,23
@@ -98,8 +98,8 @@ station_id,name,lat,lng,borough,capacity
 3129.08,53 St & 5 Ave,40.643371,-74.011884,Brooklyn,21
 3132.09,Beverley Rd & Nostrand Ave,40.64507,-73.9488,Brooklyn,23
 3135.04,Chester Ave & 12 Ave,40.644367,-73.984276,Brooklyn,21
-3138.03,56 St & 2 Ave,40.645705,-74.020292,Jersey City,24
-3138.09,58 St & 2 Ave,40.644512,-74.021506,Jersey City,15
+3138.03,56 St & 2 Ave,40.645705,-74.020292,Brooklyn,24
+3138.09,58 St & 2 Ave,40.644512,-74.021506,Brooklyn,15
 3140.09,Bedford Ave & Beverley Rd,40.64491,-73.95487,Brooklyn,24
 3148.08,E 17 St & Beverley Rd,40.64466,-73.96322,Brooklyn,22
 3148.09,E 19 St & Beverley Rd,40.64483,-73.9613,Brooklyn,21
@@ -110,7 +110,7 @@ station_id,name,lat,lng,borough,capacity
 3166.03,Albemarle Rd & McDonald Ave,40.645074,-73.979681,Brooklyn,24
 3169.07,53 St & 4 Ave,40.644862,-74.014531,Brooklyn,25
 3172.01,Tilden Ave & Nostrand Ave,40.64683,-73.94933,Brooklyn,20
-3178.02,57 St & 1 Ave,40.646377,-74.023087,Jersey City,22
+3178.02,57 St & 1 Ave,40.646377,-74.023087,Brooklyn,22
 3180.02,Beverley Rd & Flatbush Ave,40.64499,-73.95818,Brooklyn,25
 3180.09,Albemarle Rd & E 21 St,40.64741,-73.95933,Brooklyn,24
 3184.07,New Utrecht Ave & 9 Ave,40.646249287052434,-73.99452600971485,Brooklyn,25
@@ -123,7 +123,7 @@ station_id,name,lat,lng,borough,capacity
 3208.07,Dahill Rd & 12 Ave,40.646037,-73.980963,Brooklyn,22
 3211.06,53 St & 2 Ave,40.64744,-74.018846,Brooklyn,22
 3214.04,Tilden Ave & Lott St,40.64661,-73.95401,Brooklyn,20
-3220.01,58 St & Pier 4,40.646475,-74.026081,Jersey City,23
+3220.01,58 St & Pier 4,40.646475,-74.026081,Brooklyn,23
 3223.07,Ocean Ave & Tennis Ct,40.64873,-73.96084,Brooklyn,23
 3229.07,E 48 St & Tilden Ave,40.64795,-73.93182,Brooklyn,19
 3230.01,Caton Ave & E 10 St,40.648481,-73.97058,Brooklyn,25
@@ -132,7 +132,7 @@ station_id,name,lat,lng,borough,capacity
 3240.15,Fort Hamilton Pkwy & E 5 St,40.649037,-73.97673,Brooklyn,26
 3243.02,47 St & 3 Ave,40.649143,-74.012384,Brooklyn,20
 3246.06,New York Ave & Snyder Ave,40.64868,-73.94635,Brooklyn,20
-3253.01,52 St & 1 Ave,40.649292,-74.020105,Jersey City,21
+3253.01,52 St & 1 Ave,40.649292,-74.020105,Brooklyn,21
 3256.04,Bedford Ave & Albemarle Rd,40.64796,-73.9556,Brooklyn,21
 3263.01,E 18 St & Church Ave,40.64958,-73.96316,Brooklyn,26
 3266.01,7 Ave & 40 St,40.648169,-74.000057,Brooklyn,23
@@ -506,7 +506,7 @@ station_id,name,lat,lng,borough,capacity
 4416.1,Madison St & Malcolm X Blvd,40.68713,-73.93008,Brooklyn,29
 4419.03,Washington Ave & Greene Ave,40.68650065,-73.96563307,Brooklyn,34
 4422.04,Columbia St & Degraw St,40.6859296,-74.00242364,Manhattan,30
-4422.05,Columbia St & Kane St,40.68763155,-74.0016256,Manhattan,27
+4422.05,Columbia St & Kane St,40.68763155,-74.0016256,Brooklyn,27
 4425.02,Lewis Ave & Madison St,40.686312,-73.935775,Brooklyn,30
 4428.02,Cumberland St & Lafayette Ave,40.68753406,-73.97265183,Brooklyn,35
 4432.1,Central Ave & Decatur St,40.6882,-73.90798,Brooklyn,25
@@ -891,7 +891,7 @@ station_id,name,lat,lng,borough,capacity
 5359.13,Church St & Worth St,40.71688538495366,-74.00650128722191,Manhattan,34
 5360.02,60 St & 60 Rd,40.71592232709503,-73.90601366758347,Queens,20
 5362.08,Withers St & Kingsland Ave,40.71773,-73.94051,Brooklyn,26
-5365.02,Columbia St & Rivington St,40.71739973,-73.98016555,Brooklyn,34
+5365.02,Columbia St & Rivington St,40.71739973,-73.98016555,Manhattan,34
 5368.03,River Ter & Warren St,40.71759894980997,-74.01587963104248,Manhattan,46
 5369.01,Grand Ave & 55 St,40.71888,-73.91427,Queens,21
 5371.07,Frost St & Meeker Ave,40.71766197083994,-73.94880026578903,Brooklyn,33
@@ -1128,7 +1128,7 @@ station_id,name,lat,lng,borough,capacity
 5881.01,Tyler Ave & Maurice Ave,40.73394,-73.90128,Queens,19
 5883.06,Van Dam St & Greenpoint Ave,40.73443564069459,-73.93790781497955,Queens,15
 5883.08,Review Ave & Greenpoint Ave,40.73424679613554,-73.93776814411713,Queens,23
-5886.13,E 20 St & FDR Dr,40.733208626522426,-73.9756813647,Brooklyn,42
+5886.13,E 20 St & FDR Dr,40.733208626522426,-73.9756813647,Manhattan,42
 5887.03,Queens Blvd & 56 Ave,40.73481,-73.87431,Queens,24
 5894.01,64 Rd & Grand Central Pkwy,40.73362,-73.84494,Queens,20
 5896.01,E 17 St & 2 Ave,40.73431166276575,-73.98372530937195,Manhattan,39
@@ -1481,7 +1481,7 @@ station_id,name,lat,lng,borough,capacity
 6526.05,8 Ave & W 38 St,40.75461,-73.99177,Manhattan,50
 6527.07,75 St & Northern Blvd,40.75473,-73.8918,Queens,20
 6529.02,37 Ave & 35 St,40.7531106,-73.9279917,Queens,24
-6532.06,E 51 St & 1 Ave,40.75455731,-73.96592976,Queens,37
+6532.06,E 51 St & 1 Ave,40.75455731,-73.96592976,Manhattan,37
 6533.02,37 Ave & 106 St,40.75397,-73.862,Queens,20
 6535.04,W 34 St & Hudson Blvd E,40.75516719072139,-74.00059908628464,Manhattan,45
 6535.05,10 Ave & W 34 St,40.75476986284269,-73.99914588449698,Manhattan,38
@@ -1526,7 +1526,7 @@ station_id,name,lat,lng,borough,capacity
 6603.06,32 Ave & 77 St,40.75727,-73.89024,Queens,21
 6603.07,78 St & Northern Blvd,40.75499,-73.88905,Queens,26
 6605.08,34 St & 35 Ave,40.7569332,-73.9262231,Queens,27
-6608.09,E 54 St & 1 Ave,40.756265,-73.964179,Queens,40
+6608.09,E 54 St & 1 Ave,40.756265,-73.964179,Manhattan,40
 6609.03,34 Ave & 108 St,40.75614,-73.86084,Queens,21
 6611.02,W 37 St & 10 Ave,40.75660359,-73.9979009,Manhattan,48
 6611.07,Hudson Blvd W & W 36 St,40.75676475086503,-73.99971440439913,Manhattan,36
@@ -1849,7 +1849,7 @@ station_id,name,lat,lng,borough,capacity
 7456.03,E 106 St & 1 Ave,40.7892529,-73.93956237,Queens,27
 7458.03,W 87 St & Amsterdam Ave,40.78839,-73.9747,Manhattan,37
 7463.09,E 103 St & Lexington Ave,40.7903051,-73.94755757,Manhattan,30
-7482.15,E 106 St & 2 Ave,40.790586067792006,-73.94195795059204,Queens,15
+7482.15,E 106 St & 2 Ave,40.790586067792006,-73.94195795059204,Manhattan,15
 7484.05,W 87 St & West End Ave,40.789622,-73.97757,Manhattan,37
 7488.24,E 102 St & Park Ave,40.7904828,-73.95033068,Manhattan,29
 7502.01,W 92 St & Broadway,40.7921,-73.9739,Manhattan,36
