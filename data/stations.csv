@@ -2370,7 +2370,7 @@ station_id,name,lat,lng,borough,capacity
 8738.01,Goulden Ave & Bedford Park Blvd,40.87387,-73.89533,Bronx,19
 8741.01,Bailey Ave & W 229 St,40.87449,-73.90467,Bronx,19
 8744.07,E 205 St & Webster Ave,40.87302,-73.87514,Bronx,20
-8745.01,Marble Hill Ave & W 225 St,40.87471,-73.91099,Bronx,23
+8745.01,Marble Hill Ave & W 225 St,40.87471,-73.91099,Manhattan,23
 8748.02,E Mosholu Pkwy & E 204 St,40.8740704,-73.8833650931,Bronx,20
 8752.01,Bedford Park Blvd & Paul Ave,40.87444,-73.89186,Bronx,20
 8756.03,Claflin Ave & Reservoir Ave,40.87398,-73.89943,Bronx,21
@@ -2380,7 +2380,7 @@ station_id,name,lat,lng,borough,capacity
 8766.03,Grand Concourse & E 205 St,40.875531,-73.8863864831,Bronx,21
 8772.06,Kingsbridge Terrace & W 230 St,40.87555,-73.90212,Bronx,20
 8775.03,Hull Ave & E 209 St,40.87689,-73.87444,Bronx,20
-8776.02,Marble Hill Ave & W 227 St,40.87655,-73.90941,Bronx,19
+8776.02,Marble Hill Ave & W 227 St,40.87655,-73.90941,Manhattan,19
 8778.01,E Mosholu Pkwy & Van Cortlandt Ave E,40.87656,-73.88366,Bronx,19
 8782.01,Paul Ave & W 205 St,40.87704,-73.88943,Bronx,20
 8786.01,Giles Pl & Fort Independence St,40.87869,-73.89862,Bronx,20
@@ -2390,7 +2390,7 @@ station_id,name,lat,lng,borough,capacity
 8799.01,Goulden Ave & W 205 St,40.87812,-73.89192,Bronx,19
 8802.05,W 233 St & Albany Crescent,40.87979,-73.90164,Bronx,19
 8805.08,Hull Ave & E Gun Hill Rd,40.87902,-73.87349,Bronx,22
-8806.01,W 230 St & Marble Hill Ave,40.87807,-73.90796,Bronx,21
+8806.01,W 230 St & Marble Hill Ave,40.87807,-73.90796,Manhattan,21
 8806.1,W 231 St & Tibbett Ave,40.88071,-73.90837,Bronx,20
 8808.02,Steuben Ave & E 210 St,40.87985,-73.88083,Bronx,21
 8809.04,Knolls Crescent & Kappock St,40.87875,-73.91743,Bronx,20
