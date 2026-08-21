@@ -30,6 +30,7 @@ Directions, etc.) without touching the optimizer itself.
 import math
 
 import networkx as nx
+import numpy as np
 import pandas as pd
 
 EARTH_RADIUS_KM = 6371.0
@@ -111,6 +112,13 @@ def solve_rebalancing(stations_df, top_k_neighbors=8):
     since leftover supply/demand that can't be matched within the k-nearest
     graph is absorbed by a zero-cost dummy node (standard unbalanced-
     transportation-problem technique), it just won't show up as a move.
+
+    Distance-to-neighbors is computed with one vectorized numpy pairwise
+    matrix rather than a per-source Python loop over sinks.iterrows() --
+    proactive donors mean "sources" can now be most of the system (a few
+    thousand stations) instead of just the handful that are literally
+    overfull, and the old per-source/per-edge pandas .loc[] lookups scaled
+    badly enough at that size to make the map visibly slow to load.
     """
     sources = stations_df[stations_df["available_to_donate"] > 0].reset_index(drop=True)
     sinks = stations_df[stations_df["deficit"] > 0].reset_index(drop=True)
@@ -118,38 +126,57 @@ def solve_rebalancing(stations_df, top_k_neighbors=8):
     if sources.empty or sinks.empty:
         return empty
 
-    G = nx.DiGraph()
-    for _, s in sources.iterrows():
-        G.add_node(("src", s.station_id), demand=-int(s.available_to_donate))
-    for _, d in sinks.iterrows():
-        G.add_node(("snk", d.station_id), demand=int(d.deficit))
+    src_ids = sources["station_id"].to_numpy()
+    src_donate = sources["available_to_donate"].to_numpy(dtype=int)
+    src_lat = np.radians(sources["lat"].to_numpy(dtype=float))
+    src_lng = np.radians(sources["lng"].to_numpy(dtype=float))
+    snk_ids = sinks["station_id"].to_numpy()
+    snk_deficit = sinks["deficit"].to_numpy(dtype=int)
+    snk_lat = np.radians(sinks["lat"].to_numpy(dtype=float))
+    snk_lng = np.radians(sinks["lng"].to_numpy(dtype=float))
 
-    total_supply = int(sources["available_to_donate"].sum())
-    total_deficit = int(sinks["deficit"].sum())
+    # haversine, vectorized: every source x every sink in one shot (broadcasting
+    # (n_sources, 1) against (1, n_sinks) gives an (n_sources, n_sinks) matrix)
+    dlat = snk_lat[None, :] - src_lat[:, None]
+    dlng = snk_lng[None, :] - src_lng[:, None]
+    a = np.sin(dlat / 2) ** 2 + np.cos(src_lat[:, None]) * np.cos(snk_lat[None, :]) * np.sin(dlng / 2) ** 2
+    dist_km = 2 * EARTH_RADIUS_KM * np.arcsin(np.sqrt(np.clip(a, 0, 1)))
+    minutes_mat = (dist_km / AVG_URBAN_SPEED_KMH) * 60.0
+
+    k = min(top_k_neighbors, len(sinks))
+    # argpartition finds the k nearest per source in O(n) instead of a full O(n log n)
+    # sort -- order within those k doesn't matter, the flow solver picks among them anyway
+    nearest_idx = np.argpartition(dist_km, kth=k - 1, axis=1)[:, :k]
+
+    G = nx.DiGraph()
+    for sid, donate in zip(src_ids, src_donate):
+        G.add_node(("src", sid), demand=-int(donate))
+    for did, deficit in zip(snk_ids, snk_deficit):
+        G.add_node(("snk", did), demand=int(deficit))
+
+    total_supply = int(src_donate.sum())
+    total_deficit = int(snk_deficit.sum())
     imbalance = total_supply - total_deficit  # >0: excess supply, <0: excess demand
     if imbalance != 0:
         G.add_node("dummy", demand=imbalance)
         if imbalance > 0:
-            for _, s in sources.iterrows():
-                G.add_edge(("src", s.station_id), "dummy", capacity=int(s.available_to_donate), weight=0)
+            for sid, donate in zip(src_ids, src_donate):
+                G.add_edge(("src", sid), "dummy", capacity=int(donate), weight=0)
         else:
-            for _, d in sinks.iterrows():
-                G.add_edge("dummy", ("snk", d.station_id), capacity=int(d.deficit), weight=0)
+            for did, deficit in zip(snk_ids, snk_deficit):
+                G.add_edge("dummy", ("snk", did), capacity=int(deficit), weight=0)
 
     edge_meta = {}
-    for _, s in sources.iterrows():
-        dists = sorted(
-            ((d.station_id, haversine_km(s.lat, s.lng, d.lat, d.lng)) for _, d in sinks.iterrows()),
-            key=lambda x: x[1],
-        )
-        for dest_id, km in dists[:top_k_neighbors]:
-            d = sinks.loc[sinks.station_id == dest_id].iloc[0]
-            minutes = (km / AVG_URBAN_SPEED_KMH) * 60.0
-            cap = min(int(s.available_to_donate), int(d.deficit))
+    for i in range(len(sources)):
+        sid, donate = src_ids[i], src_donate[i]
+        for j in nearest_idx[i]:
+            did, deficit = snk_ids[j], snk_deficit[j]
+            cap = min(int(donate), int(deficit))
             if cap <= 0:
                 continue
+            km, minutes = float(dist_km[i, j]), float(minutes_mat[i, j])
             cost = max(1, round(minutes * COST_SCALE))
-            u, v = ("src", s.station_id), ("snk", dest_id)
+            u, v = ("src", sid), ("snk", did)
             G.add_edge(u, v, capacity=cap, weight=cost)
             edge_meta[(u, v)] = (km, minutes)
 
