@@ -72,12 +72,14 @@ FEATURE_SOURCE_TABLE = pd.DataFrame([
      "Until then / on failure": "always the seasonal average"},
 ])
 
-COMMON_ABOUT_MARKDOWN = f"""
-**Data (~3 years, Aug 2023 - Jul 2026, full NYC system incl. Hoboken/JC) used to train both models:**
+COMMON_ABOUT_SECTIONS = [
+    ("Training data", f"""
+Data (~3 years, Aug 2023 - Jul 2026, full NYC system incl. Hoboken/JC) used to train both models:
 Citi Bike trip-history archive (S3), Open-Meteo historical hourly weather (Central Park),
 and NYC Open Data's permitted-events history (borough-level).
-
-**Leak safety:** the target is net flow **{HORIZON_HOURS} hours ahead** (SQL `LEAD`); every lag/rolling
+"""),
+    ("Leak safety & validation", f"""
+The target is net flow **{HORIZON_HOURS} hours ahead** (SQL `LEAD`); every lag/rolling
 feature (1h/24h/168h lag, 24h rolling average, same-weekday-hour rolling average) is computed
 with SQL `LAG`/window functions using only *past* rows. Validation is **chronological throughout** --
 never random k-fold, which would let near-identical neighboring-in-time rows leak into training and
@@ -89,21 +91,24 @@ in time than everything that fold trained on. The **Model performance** tab belo
 per-fold CV numbers (how stable accuracy is across folds) and the single held-out test score. This
 holds regardless of which mode below is serving predictions -- it's a property of how the models were
 trained, not how they're served.
-
-**Rebalancing travel cost/time:** a haversine-distance proxy at an assumed average city speed, not
+"""),
+    ("Rebalancing travel cost model", """
+A haversine-distance proxy at an assumed average city speed, not
 real road-network routing (swap-in point documented in `optimizer.py`). The optimizer solves a
 **transportation / min-cost-flow problem** (how many bikes should move from where to where) -- not
 full multi-stop truck routing/scheduling (a harder VRP, out of scope).
-
-**Proactive rebalancing:** a station doesn't need to be predicted literally over capacity to act as a
+"""),
+    ("Proactive rebalancing", """
+A station doesn't need to be predicted literally over capacity to act as a
 source. Any station predicted to stay comfortably stocked -- above its own empty-risk threshold plus
 a safety margin it keeps in reserve -- even after giving bikes away is a valid donor for a nearby
 station predicted to run low, controlled by **Donor safety margin** in Advanced settings. The
 **Rebalancing moves** tab marks each recommended move as either relieving a literal overfill or
 proactively freeing up a comfortable station, so it's clear which is which (see `optimizer.py`'s
 `compute_surplus_deficit()` docstring for the full reasoning).
-
-**Known data issue, found and mitigated during pipeline development:** Citi Bike's own trip-history
+"""),
+    ("Known data issue: duplicate station ids", """
+Found and mitigated during pipeline development: Citi Bike's own trip-history
 exports label 123 stations (~4.6% of the system) inconsistently across months -- the same physical
 dock shows up under two different `station_id` values in different months (e.g. `"6098.1"` vs.
 `"6098.10"`, identical name/lat/lng). Left alone, this makes the two halves look like separate
@@ -112,50 +117,58 @@ itself. Both ids are merged back into one station for every number and map marke
 (`station_id_map.csv`). What's *not* fully fixed: the two trained models still learned from each
 half's fragmented, gappier history, so predictions for these ~123 stations are inherently noisier
 than the system average -- the real fix is re-running the ETL with canonicalized ids from the start.
-"""
+"""),
+]
 
-HISTORICAL_ABOUT_MARKDOWN = f"""
-**What's simulated vs real, in Historical Playback:**
+HISTORICAL_ABOUT_SECTIONS = [
+    ("What's simulated vs. real", f"""
 - Weather, events, calendar, and all lag/rolling features for the selected snapshot: **real
   historical values**, exactly as the model saw at training/evaluation time.
 - Current dock occupancy: **simulated** -- cumulative real historical net flow from a capacity/2
   seed at the start of the window (first {WARMUP_DAYS} days are a warm-up and not selectable).
 - Station capacity: **estimated** from typical hourly activity (Citi Bike doesn't publish
   historical dock counts); Live mode overwrites this with real GBFS dock counts where it can.
-
-**Why this mode exists at all, alongside Live:** GBFS only ever exposes *current* station state,
+"""),
+    ("Why this mode exists, alongside Live", """
+GBFS only ever exposes *current* station state,
 never history, so on a fresh deploy there's no live source yet for the lag/rolling features the
 models need. Playback sidesteps that entirely by replaying hours where the real values are already
 known -- a fully-reproducible, network-free demo and fallback, useful even once Live mode works.
-"""
+"""),
+]
 
-LIVE_ABOUT_MARKDOWN = f"""
-**What Live mode does:** the same two trained XGBoost models above, unchanged -- Live mode only
+LIVE_ABOUT_SECTIONS = [
+    ("What Live mode does", """
+The same two trained XGBoost models above, unchanged -- Live mode only
 changes how the *input row* is built each cycle: real-time GBFS station status, live weather, and
 live permitted events, reshaped into the exact feature layout the models were trained on. See the
 **Live data** tab (next to this one) for exactly which features are real-time vs. a stand-in right
 now, with live coverage numbers.
-
-**"Right now" actually means the last fully-completed hour:** a training row at hour H holds flow
+"""),
+    ("What \"right now\" actually means", f"""
+It means the last fully-completed hour: a training row at hour H holds flow
 that happened *during* [H, H+1) and predicts [H+3, H+4). At, say, 14:37, the hour [14:00, 14:37) is
 still in progress and has no real net-flow value yet -- so Live mode uses 13:00 as "the row's hour"
 and predicts conditions ~{HORIZON_HOURS}h from there, mirroring training exactly. Weather/events are
 still fetched for right now (fine, since both change slowly relative to an hour).
-
-**Refresh:** auto-refreshes every {LIVE_REFRESH_SECONDS}s, or hit **Refresh now** at the top of the
+"""),
+    ("Refresh & history logging", f"""
+Auto-refreshes every {LIVE_REFRESH_SECONDS}s, or hit **Refresh now** at the top of the
 page for an immediate poll. Every refresh also logs one snapshot per station to this app's own
 history log (deduplicated to one row per station per hour, regardless of poll frequency) -- that
 log is what lets the flow-lag features graduate from a seasonal proxy to real self-observed values
 over the following days/week, see the Live data tab.
-
-**Known live-only gap:** the live feed checked during development covers what looks like all five
+"""),
+    ("Known gap: Hoboken/Jersey City not in the live feed", """
+The live feed checked during development covers what looks like all five
 NYC boroughs but not Hoboken/Jersey City -- roughly 200 stations real to the system (and in the
 historical training data) with no live counterpart. Those stations simply don't appear in Live mode
 (Historical Playback still covers them). Matching live stations to this app's station list is done
 by nearest lat/lng (Citi Bike's live feed uses a different id scheme than the historical archive,
 with no published crosswalk), accepted only within ~50m -- see `gbfs.py`.
-
-**A subtler fix worth calling out:** for the ~123 stations mentioned above with fragmented
+"""),
+    ("A subtler fix: picking the right id for fragmented stations", """
+For the ~123 stations mentioned above with fragmented
 historical ids, live mode has to pick *one* id to represent the physical station to the model (live
 data only has one combined signal per dock, unlike training). Checked rather than assumed: the
 "canonical" id `station_id_map.csv` designates is picked by location, not by which id the model
@@ -165,7 +178,19 @@ row under. Live mode instead feeds whichever raw id the model has the most real 
 bike type. Checked empirically, not just in theory: across the affected stations, that choice
 changes the 3-hour forecast by 0.6 bikes on average, and by several bikes for a few of them --
 worth getting right rather than picking arbitrarily.
-"""
+"""),
+]
+
+
+def render_about_tab(mode_sections):
+    """Every fact from the old single-scroll About tab is still here, just
+    collapsed into expanders so the tab opens as a scannable list of topics
+    instead of a wall of text -- nothing was cut, only reorganized."""
+    st.caption("How this demo works, what's simulated vs. real, and known data-quality issues found "
+               "along the way -- expand any section for the full detail.")
+    for title, body in COMMON_ABOUT_SECTIONS + mode_sections:
+        with st.expander(title):
+            st.markdown(body)
 
 
 # ============================================================== shared dashboard
@@ -312,15 +337,24 @@ def render_perf_tab():
         col.bar_chart(fi)
 
 
-def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_k, title_suffix, about_markdown,
+def render_title(title_suffix):
+    """Pulled out of render_dashboard so every mode can put the title at the
+    very top of its own layout -- Live mode needs its live-status message
+    directly under the title, before anything else, rather than after a
+    block of live-only widgets like it used to render."""
+    st.title(f"Citi Bike NYC -- Rebalancing Dashboard   {title_suffix}")
+
+
+def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_k, about_sections,
                       extra_tabs=None):
     """
     snapshot: unified per-station DataFrame (station_id, name, lat, lng,
     borough, capacity, current_bikes_total, pred_net_flow_classic/electric/
     total) -- same shape whether it came from Historical Playback
     (data_utils.get_snapshot) or Live serving (live_data.assemble_live_snapshot).
-    title_suffix: short mode badge appended to the page title.
-    about_markdown: mode-specific body appended after the shared About content.
+    about_sections: mode-specific (title, body) list appended after the
+    shared About sections. Title itself is rendered by the caller via
+    render_title() -- see its docstring for why.
     extra_tabs: optional list of (label, render_fn) for mode-specific tabs
     (e.g. Live's coverage/freshness tab), inserted before "About this demo".
     """
@@ -338,7 +372,6 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
     kpi = summarize_system_state(sd)
 
     # ------------------------------------------------------------ KPIs
-    st.title(f"Citi Bike NYC -- Rebalancing Dashboard   {title_suffix}")
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Stations in view", f"{kpi['n_stations']:,}")
     c2.metric("Overfill risk", f"{kpi['n_overfill_risk']:,}", help="Predicted to exceed capacity")
@@ -438,8 +471,8 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
     st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view_state, tooltip=tooltip,
                               map_provider="carto", map_style="light"))
     st.caption(
-        "🔴 red = overfill risk (docks running out)   🟠 orange = empty risk (bikes running out)   "
-        "🟢 green = healthy   |   arcs show the recommended rebalancing plan (red end = pickup, green end = drop-off)"
+        "🔴 overfill risk 🟠 empty risk 🟢 healthy — arcs = recommended moves "
+        "(red end = pickup, green end = drop-off)"
     )
 
     # ------------------------------------------------------------ tabs
@@ -448,7 +481,7 @@ def render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_
                  ("📊 Model performance", render_perf_tab)]
     if extra_tabs:
         tab_specs += list(extra_tabs)
-    tab_specs.append(("ℹ️ About this demo", lambda: st.markdown(COMMON_ABOUT_MARKDOWN + about_markdown)))
+    tab_specs.append(("ℹ️ About this demo", lambda: render_about_tab(about_sections)))
 
     tabs = st.tabs([label for label, _ in tab_specs])
     for tab, (_, render_fn) in zip(tabs, tab_specs):
@@ -494,6 +527,34 @@ def render_live_status_tab(out, meta):
 
 @st.fragment(run_every=LIVE_REFRESH_SECONDS)
 def render_live_view(selected_boroughs, min_buffer, donor_buffer, top_k):
+    # This whole body needs its own try/except, separate from the one
+    # around the top-level render call further down: when run_every fires
+    # this fragment on its timer, Streamlit reruns *only* this function,
+    # not the surrounding script -- an uncaught exception here skips the
+    # outer try/except entirely and hits Streamlit's own hard crash page
+    # instead (exactly what happened when a corrupted live-history log row
+    # made pd.to_datetime raise on a background auto-refresh tick).
+    try:
+        _render_live_view_body(selected_boroughs, min_buffer, donor_buffer, top_k)
+    except Exception as e:
+        st.error(
+            "Live mode hit an error on an auto-refresh -- often a transient hiccup (a live data "
+            "source timing out, or corrupted local state). This will retry on the next refresh."
+        )
+        st.info(
+            "If this keeps happening, switch to **Historical Playback** in the sidebar, which "
+            "always works offline."
+        )
+        if st.button("🔄 Retry now", key="live_fragment_retry"):
+            st.rerun(scope="fragment")
+        with st.expander("Technical details"):
+            st.exception(e)
+
+
+def _render_live_view_body(selected_boroughs, min_buffer, donor_buffer, top_k):
+    # Title first, always -- including in the unreachable-feed branch below,
+    # which used to skip straight to an error with no title above it at all.
+    render_title("🔴 Live")
     out, meta = live_data.assemble_live_snapshot()
 
     header_col, refresh_col = st.columns([5, 1])
@@ -502,7 +563,7 @@ def render_live_view(selected_boroughs, min_buffer, donor_buffer, top_k):
 
     if not meta.get("ok"):
         with header_col:
-            st.caption("🔴 **Live** -- currently unreachable")
+            st.caption("currently unreachable")
         reason = (meta.get("reason") or "unknown error").rstrip(".")
         st.error(
             f"Couldn't load live data: {reason}. Switch to **Historical "
@@ -519,25 +580,28 @@ def render_live_view(selected_boroughs, min_buffer, donor_buffer, top_k):
     target_hour = reference_hour + pd.Timedelta(hours=HORIZON_HOURS)
     with header_col:
         st.caption(
-            f"🔴 **Live** -- as of {meta['as_of'].strftime('%H:%M:%S')}   |   "
+            f"as of {meta['as_of'].strftime('%H:%M:%S')}   |   "
             f"scoring the last completed hour, **{reference_hour.strftime('%a %H:%M')}**, to predict "
             f"**{HORIZON_HOURS}h ahead** -> target **{target_hour.strftime('%a %H:%M')}**   |   "
             f"auto-refreshes every {LIVE_REFRESH_SECONDS}s"
         )
 
+    # Live-only diagnostics -- a single small caption line rather than three
+    # big st.metric tiles, so this stays secondary to the main KPI row below
+    # instead of competing with it for attention. Full breakdown with help
+    # text for each of these three numbers is still in the Live data tab.
     n_canon = meta["crosswalk_stats"]["n_canonical"]
-    cA, cB, cC = st.columns(3)
-    cA.metric("Live station coverage", f"{meta['n_matched']:,} / {n_canon:,}",
-              help="Matched via nearest lat/lng to the live GBFS feed. Full breakdown in the Live data tab.")
-    cB.metric("Live history collected", f"{min(meta['history_depth_hours'], 168):.0f}h / 168h",
-              help="Once this reaches 168h (1 week), every lag feature can be fully real instead of proxied.")
     avg_net_flow_cov = sum(meta["coverage"][bt]["net_flow"] for bt in BIKE_TYPES) / len(BIKE_TYPES)
-    cC.metric("Net-flow realness", f"{avg_net_flow_cov*100:.0f}%",
-              help="Share of matched stations where the latest hour's net flow is real, not a seasonal proxy.")
+    st.caption(
+        f"📡 station coverage {meta['n_matched']:,}/{n_canon:,}   |   "
+        f"🕓 history collected {min(meta['history_depth_hours'], 168):.0f}h/168h   |   "
+        f"🌊 net-flow realness {avg_net_flow_cov*100:.0f}%   "
+        f"(full breakdown in the **Live data** tab below)"
+    )
 
     render_dashboard(
-        out, selected_boroughs, min_buffer, donor_buffer, top_k, title_suffix="🔴 Live",
-        about_markdown=LIVE_ABOUT_MARKDOWN,
+        out, selected_boroughs, min_buffer, donor_buffer, top_k,
+        about_sections=LIVE_ABOUT_SECTIONS,
         extra_tabs=[("🛰️ Live data", lambda: render_live_status_tab(out, meta))],
     )
 
@@ -640,9 +704,10 @@ try:
     if is_live:
         render_live_view(selected_boroughs, min_buffer, donor_buffer, top_k)
     else:
+        render_title("📼 Playback")
         snapshot = get_snapshot(selected_ts)
         render_dashboard(snapshot, selected_boroughs, min_buffer, donor_buffer, top_k,
-                          title_suffix="📼 Playback", about_markdown=HISTORICAL_ABOUT_MARKDOWN)
+                          about_sections=HISTORICAL_ABOUT_SECTIONS)
 except Exception as e:
     st.error(
         "This mode hit an error while loading -- often a transient hiccup right at a mode "

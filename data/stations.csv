@@ -189,7 +189,6 @@ station_id,name,lat,lng,borough,capacity
 3457.03,Prospect Park SW & Vanderbilt St,40.65482,-73.973217,Brooklyn,28
 3460.01,2 Ave & 36 St,40.65708866668485,-74.00870203971863,Brooklyn,22
 3460.02,36 St & 3 Ave,40.655716,-74.006664,Brooklyn,27
-3460.04,2 Ave & 37 St,40.656326,-74.009627,Brooklyn,15
 3460.05,2 Ave & 39 St,40.655722167971554,-74.01000827550888,Brooklyn,15
 3460.06,2 Ave & 37 St,40.65624,-74.00933,Brooklyn,15
 3463.01,Clarkson Ave & E 37 St,40.65577,-73.9432,Brooklyn,24
@@ -353,7 +352,6 @@ station_id,name,lat,lng,borough,capacity
 4028.03,3 St & 3 Ave,40.6750705,-73.98775226,Brooklyn,30
 4028.04,4 Ave & 3 St,40.673746,-73.985649,Brooklyn,32
 4031.05,St Marks Ave & Ralph Ave,40.67372,-73.92199,Brooklyn,20
-4033.06,Park Pl & Franklin Ave,40.6741806,-73.9564947,Brooklyn,15
 4033.16,Sterling Pl & Franklin Ave,40.67324785,-73.95689517,Brooklyn,15
 4033.18,Sterling Pl & Classon Ave,40.6739411,-73.96026,Brooklyn,31
 4033.19,Park Pl & Franklin Ave,40.67418106036449,-73.95655458212127,Brooklyn,36
@@ -384,7 +382,6 @@ station_id,name,lat,lng,borough,capacity
 4096.08,Dean St & Rockaway Ave,40.67486,-73.91123,Brooklyn,20
 4098.06,New York Ave & St Marks Ave,40.67514,-73.94716,Brooklyn,30
 4101.17,President St & 4 Ave,40.676757,-73.983262,Brooklyn,15
-4101.18,President St & 4 Ave,40.676660243631495,-73.98327781669718,Brooklyn,30
 4105.01,Pacific St & Ralph Ave,40.67607,-73.92171,Brooklyn,22
 4107.05,Franklin Ave & St Marks Ave,40.6758324,-73.9561677,Brooklyn,32
 4107.13,Dean St & Franklin Ave,40.67759206937376,-73.955637216568,Brooklyn,37
@@ -451,7 +448,6 @@ station_id,name,lat,lng,borough,capacity
 4244.06,Broadway & Furman Ave,40.68139,-73.90756,Brooklyn,22
 4246.02,MacDonough St & Marcy Ave,40.68078,-73.94613,Brooklyn,29
 4249.01,St Marks Pl & 4 Ave,40.68197,-73.98034,Brooklyn,30
-4249.1,St Marks Pl & 4 Ave,40.68177810928762,-73.97988975048065,Brooklyn,15
 4253.02,Thomas S. Boyland St & Marion St,40.6814658848122,-73.91415685415268,Brooklyn,25
 4255.05,Hancock St & Bedford Ave,40.68216564,-73.95399026,Brooklyn,34
 4258.07,Degraw St & Hoyt St,40.68199044270703,-73.99079024791718,Brooklyn,32
@@ -555,7 +551,6 @@ station_id,name,lat,lng,borough,capacity
 4531.05,Henry St & Atlantic Ave,40.69089272,-73.99612349,Brooklyn,37
 4534.06,Lexington Ave & Patchen Ave,40.6904,-73.9277,Brooklyn,28
 4543.07,Lewis Ave & Greene Ave,40.68995,-73.9365,Brooklyn,31
-4546.04,DeKalb Ave & S Portland Ave,40.68981035,-73.97493121,Brooklyn,15
 4546.05,Washington Park,40.6917823,-73.9737299,Brooklyn,34
 4546.06,DeKalb Ave & S Portland Ave,40.68967018552252,-73.97527355121376,Brooklyn,36
 4550.05,Central Ave & Covert St,40.68929,-73.90951,Brooklyn,25
@@ -584,7 +579,6 @@ station_id,name,lat,lng,borough,capacity
 4625.01,Pulaski St & Throop Ave,40.693115,-73.943149,Brooklyn,32
 4628.05,Willoughby St & Fleet St,40.69196566,-73.9813018,Brooklyn,38
 4628.07,Myrtle Ave & Fleet Pl,40.693534,-73.981909,Brooklyn,34
-4631.02,Soissons Landing,40.692566,-74.015936,Manhattan,30
 4632.1,Central Ave & Woodbine St,40.69296,-73.91605,Brooklyn,29
 4634.02,Willoughby Ave & Walworth St,40.69331716,-73.95381995,Brooklyn,30
 4637.06,Fulton St & Adams St,40.69241829257847,-73.98949474096298,Brooklyn,42
@@ -761,7 +755,6 @@ station_id,name,lat,lng,borough,capacity
 5068.02,Montrose Ave & Bushwick Ave,40.70767788,-73.94016171,Brooklyn,40
 5073.07,Greenwich St & Rector St,40.70806582380646,-74.0135595202446,Manhattan,15
 5073.07_Pillar,Pillar Greenwich St & Rector St,40.70817,-74.01346,Manhattan,15
-5073.08,Greenwich St & Rector St,40.708351,-74.013493,Manhattan,34
 5074.08,Woodward Ave & Harman St,40.70793,-73.91092,Queens,26
 5076.04,Scholes St & Lorimer St,40.708323,-73.948732,Brooklyn,32
 5082.08,Jefferson St & Cypress Ave,40.70907,-73.92157,Brooklyn,30
@@ -847,7 +840,6 @@ station_id,name,lat,lng,borough,capacity
 5273.01,Metropolitan Ave & Stewart Ave,40.71401,-73.92793,Brooklyn,24
 5276.04,S 2 St & Kent Ave,40.714731,-73.966612,Brooklyn,50
 5279.03,Centre St & Worth St,40.71494807,-74.00234482,Manhattan,38
-5280.02,Fresh Pond Rd & Eliot Ave,40.71453,-73.90105,Queens,15
 5280.03,Fresh Pond Rd & Eliot Ave,40.71442,-73.90097,Queens,22
 5282.02,Devoe St & Morgan Ave,40.713811,-73.93515,Brooklyn,28
 5283.02,78 Ave & Queens Blvd S,40.7149,-73.83247,Queens,21
@@ -861,7 +853,6 @@ station_id,name,lat,lng,borough,capacity
 5300.05,Metropolitan Ave & Meeker Ave,40.71413311,-73.95234386,Brooklyn,42
 5300.06,Union Ave & Jackson St,40.7160751,-73.952029,Brooklyn,33
 5303.06,Clinton St & Grand St,40.71559509,-73.9870295,Manhattan,46
-5303.06_,Clinton St & Grand St,40.71573792143338,-73.98698994965027,Manhattan,30
 5303.08,Canal St & Rutgers St,40.71427487,-73.98990025,Manhattan,49
 5308.04,Metropolitan Ave & Bedford Ave,40.71534825,-73.96024116,Brooklyn,53
 5321.08,60 Ave & Fresh Pond Rd,40.71693,-73.90198,Queens,20
@@ -879,7 +870,6 @@ station_id,name,lat,lng,borough,capacity
 5343.11,Orchard St & Grand St,40.717318403855785,-73.99067759513855,Manhattan,46
 5348.02,Wythe Ave & Metropolitan Ave,40.716887,-73.963198,Brooklyn,15
 5348.06,Kent Ave & N 3 St,40.71797940978296,-73.96427449047715,Brooklyn,48
-5348.06_old,Kent Ave & N 3 St,40.7188,-73.961,Brooklyn,15
 5348.1,Grand St & Wythe Ave,40.71575,-73.96433,Brooklyn,38
 5351.03,Bayard St & Baxter St,40.71602118,-73.99974372,Manhattan,41
 5351.07,Walker St & Baxter St,40.717411,-73.999573,Manhattan,40
@@ -989,7 +979,6 @@ station_id,name,lat,lng,borough,capacity
 5558.04,Wythe Ave & N 13 St,40.722767,-73.957021,Brooklyn,38
 5561.04,Mott St & Prince St,40.72317958,-73.99480012,Manhattan,49
 5561.06,Lafayette St & Jersey St,40.72456089,-73.99565293,Manhattan,15
-5561.08,Lafayette St & Jersey St,40.72430527,-73.99600983,Manhattan,47
 5569.06,W Broadway & Spring St,40.72494672359416,-74.00165855884552,Manhattan,42
 5569.07,W Broadway & Watts St,40.72323,-74.00314,Manhattan,40
 5570.04,Grand Ave & Remsen Pl,40.72353,-73.89967,Queens,22
@@ -1164,7 +1153,6 @@ station_id,name,lat,lng,borough,capacity
 5971.08,E 20 St & 2 Ave,40.73587678,-73.98205027,Manhattan,39
 5971.09,E 22 St & 2 Ave,40.73716919369882,-73.98122549057007,Manhattan,42
 5977.01,McGuinness Blvd & Eagle St,40.73555,-73.95284,Brooklyn,35
-5980.07,E 17 St & Broadway,40.73704984,-73.99009296,Manhattan,15
 5980.1,E 17 St & Broadway,40.737006,-73.990134,Manhattan,55
 5980.11,Broadway & E 19 St,40.73829,-73.99006,Manhattan,46
 5983.04,43 St & 50 Ave,40.73787237950538,-73.92264068126678,Queens,25
@@ -1217,7 +1205,6 @@ station_id,name,lat,lng,borough,capacity
 6096.01,Van Cleef St & 108 St,40.74096,-73.85357,Queens,19
 6098.02,W 20 St & 5 Ave,40.73972989238724,-73.99103969335556,Manhattan,41
 6098.1,Broadway & E 21 St,40.73988840858996,-73.98958593606949,Manhattan,51
-6098.12,Broadway & E 19 St,40.73866091428551,-73.98987293243407,Manhattan,15
 6099.02,76 St & 45 Ave,40.7411,-73.88837,Queens,22
 6101.11,48 Ave & 41 St,40.73985995699164,-73.92400324344635,Queens,26
 6104.01,55 Ave & Center Blvd,40.740288,-73.960697,Queens,36
@@ -1276,7 +1263,6 @@ station_id,name,lat,lng,borough,capacity
 6191.04,62 St & 43 Ave,40.74261,-73.903,Queens,22
 6191.06,61 St & Woodside Ave,40.74501,-73.9036,Queens,29
 6194.06,29 St & Skillman Ave,40.744831,-73.938411,Queens,22
-6197.02,2 Ave & E 31 St,40.74290902,-73.97706058,Manhattan,15
 6197.08,E 33 St & 1 Ave,40.74322681432173,-73.97449783980846,Manhattan,51
 6197.11,2 Ave & E 31 St,40.74299,-73.97711,Manhattan,47
 6198.03,Forley St & Lamont Ave,40.74463,-73.87386,Queens,22
@@ -1378,7 +1364,6 @@ station_id,name,lat,lng,borough,capacity
 6339.06,W 25 St & 9 Ave,40.74783260583772,-74.0005722643582,Manhattan,43
 6340.09,37 Ave & 63 St,40.74893,-73.89981,Queens,21
 6345.08,E 39 St & 2 Ave,40.74803319428767,-73.973827958107,Manhattan,15
-6346.02,Warren St & Roosevelt Ave,40.74919,-73.87043,Queens,15
 6346.07,Warren St & Roosevelt Ave,40.74919,-73.87054,Queens,24
 6349.03,39 Ave & 56 St,40.74838,-73.90699,Queens,22
 6352.01,44 Dr & Jackson Ave,40.74718234,-73.9432635,Queens,38
@@ -1394,7 +1379,6 @@ station_id,name,lat,lng,borough,capacity
 6379.03,1 Ave & E 44 St,40.75001986,-73.96905301,Manhattan,34
 6380.1,39 Ave & 99 St,40.74962,-73.86677,Queens,21
 6382.05,W 26 St & 10 Ave,40.749717753,-74.002950346,Manhattan,39
-6383.02,60 St & 37 Ave,40.74958,-73.90256,Queens,15
 6383.06,60 St & 37 Ave,40.74952,-73.90265,Queens,22
 6389.09,E 39 St & Lexington Ave,40.7494985460252,-73.97729203113158,Manhattan,45
 6390.05,93 St & Roosevelt Ave,40.74888,-73.87368,Queens,20
@@ -1426,12 +1410,10 @@ station_id,name,lat,lng,borough,capacity
 6433.01,92 St & 37 Ave,40.75085,-73.87509,Queens,21
 6435.02,48 St & 37 Ave,40.751555,-73.915026,Queens,27
 6435.03,50 St & Barnett Ave,40.750097682094825,-73.91349703073502,Queens,25
-6438.04,11 St & 43 Ave,40.7519071,-73.9479119,Queens,15
 6438.05,11 St & 43 Ave,40.75177,-73.94821,Queens,25
 6441.01,Broadway & W 36 St,40.75097711,-73.98765428,Manhattan,15
 6441.02,Broadway & W 37 St,40.75172632,-73.98753523,Manhattan,30
 6441.06,W 37 St & Broadway,40.75227093837409,-73.98770570755005,Manhattan,32
-6441.11,Broadway & W 36 St,40.751226078126,-73.98772201748262,Manhattan,34
 6442.08,81 St & 35 Ave,40.75179,-73.88568,Queens,24
 6448.07,111 St & Roosevelt Ave,40.75147,-73.8557,Queens,24
 6450.05,8 Ave & W 31 St,40.7505853470215,-73.9946848154068,Manhattan,51
@@ -1464,14 +1446,11 @@ station_id,name,lat,lng,borough,capacity
 6499.06,100 St & 37 Ave,40.75243,-73.86717,Queens,19
 6502.01,55 St & Northern Blvd,40.75326,-73.90585,Queens,24
 6505.01,24 St & 41 Ave,40.7527085,-73.9397405,Queens,27
-6505.09,24 St & 41 Ave,40.752474,-73.939991,Queens,15
 6509.07,92 St & 35 Ave,40.7529,-73.87536,Queens,21
 6511.03,50 St & Northern Blvd,40.753441,-73.912402,Queens,25
 6514.08,Vernon Blvd & 41 Rd,40.7552433,-73.9485678,Queens,27
 6515.01,Mets Plaza at Citi Field,40.75521,-73.84672,Queens,25
 6517.08,W 42 St & 6 Ave,40.75492,-73.98455,Manhattan,43
-6517.08_,W 42 St & 6 Ave,40.75496980175467,-73.98468096052407,Manhattan,21
-6518.08,34 Ave & 83 St,40.75375,-73.88423,Queens,15
 6518.13,34 Ave & 83 St,40.75393500483023,-73.88390148299196,Queens,27
 6520.06,43 St & 35 Ave,40.754139,-73.919543,Queens,24
 6520.07,42 Pl & Northern Blvd,40.753091,-73.920603,Queens,24
@@ -1505,7 +1484,6 @@ station_id,name,lat,lng,borough,capacity
 6569.07,W 36 St & 9 Ave,40.75462324029105,-73.99516761302948,Manhattan,38
 6569.08,W 35 St & Dyer Ave,40.754691750226016,-73.99740189313889,Manhattan,15
 6569.09,W 35 St & 9 Ave,40.75414519263519,-73.9960889518261,Manhattan,36
-6569.09_,W 35 St & 9 Ave,40.75425585988168,-73.99645123326621,Manhattan,18
 6570.06,72 St & Northern Blvd,40.75473,-73.89458,Queens,23
 6572.08,36 Ave & 31 St,40.75654005185898,-73.929555582706,Queens,32
 6575.03,E 51 St & 2 Ave,40.755293,-73.967641,Manhattan,39
@@ -1542,7 +1520,6 @@ station_id,name,lat,lng,borough,capacity
 6629.06,48 St & Broadway,40.755763,-73.912715,Queens,29
 6633.01,Shea Rd & Boat Basin Pl,40.75777,-73.84887,Queens,23
 6636.04,32 Ave & 84 St,40.75793,-73.88401,Queens,20
-6638.01,34 Ave & 38 St,40.756913,-73.921631,Queens,15
 6638.08,34 Ave & 38 St,40.75717,-73.92175,Queens,28
 6642.08,34 Ave & 113 St,40.75696,-73.85612,Queens,20
 6644.04,W 39 St & 9 Ave,40.75645824,-73.99372222,Manhattan,42
@@ -1563,7 +1540,6 @@ station_id,name,lat,lng,borough,capacity
 6662.09,51 St & Hobart St,40.75767234025041,-73.90769943594933,Queens,23
 6664.05,40 Ave & 9 St,40.75742,-73.945133,Queens,25
 6667.04,W 47 St & 6 Ave,40.758397,-73.98255,Manhattan,15
-6667.12,W 47 St & 6 Ave,40.758154,-73.981957,Manhattan,37
 6668.06,90 St & 32 Ave,40.75836,-73.87824,Queens,22
 6670.03,43 St & Broadway,40.7577284,-73.9166368,Queens,28
 6676.02,W 45 St & 8 Ave,40.75929124,-73.98859651,Manhattan,46
@@ -1625,7 +1601,6 @@ station_id,name,lat,lng,borough,capacity
 6782.01,31 Ave & Steinway St,40.7611488,-73.9170071,Queens,33
 6786.02,W 47 St & 9 Ave,40.76153045158114,-73.99007007479668,Manhattan,43
 6787.02,30 Ave & 80 St,40.76109,-73.88838,Queens,21
-6789.04,31 St & Broadway,40.761584,-73.925921,Queens,15
 6789.08,Broadway & 31 St,40.76194,-73.92513,Queens,39
 6789.2,31 St & Broadway,40.76211,-73.92523,Queens,15
 6793.01,Ditmars Blvd & 31 Dr,40.76138,-73.86035,Queens,18
@@ -1686,7 +1661,6 @@ station_id,name,lat,lng,borough,capacity
 6912.01,Pillar 7 Ave & Central Park S,40.76674,-73.97907,Manhattan,56
 6913.03,24 Ave & 92 St,40.76589,-73.87789,Queens,19
 6915.02,Steinway St & 28 Ave,40.7656251,-73.9136695,Queens,32
-6920.03,W 54 St & 9 Ave,40.76584941,-73.98690506,Manhattan,15
 6920.05,W 54 St & 9 Ave,40.76604,-73.98737,Manhattan,43
 6921.04,23 Ave & 83 St,40.76646,-73.88674,Queens,20
 6923.2,31 St & Newtown Ave,40.7675487799971,-73.9209334552288,Queens,37
@@ -1702,13 +1676,11 @@ station_id,name,lat,lng,borough,capacity
 6943.07,25 Ave & 41 St,40.767666,-73.910963,Queens,29
 6948.1,Broadway & W 58 St,40.76695317,-73.98169333,Manhattan,55
 6949.03,91 St & 23 Ave,40.76768,-73.87899,Queens,18
-6949.04,91 St & 23 Ave,40.76769,-73.8791,Queens,15
 6951.03,28 Ave & 35 St,40.7671,-73.9169858,Queens,29
 6953.08,E 74 St & 1 Ave,40.7689738,-73.95482273,Manhattan,43
 6955.01,W 56 St & 10 Ave,40.768254,-73.988639,Manhattan,39
 6955.05,W 54 St & 11 Ave,40.768333,-73.992573,Manhattan,46
 6958.06,Crescent St & 30 Ave,40.768692,-73.9249574,Queens,33
-6960.1,3 Ave & E 71 St,40.76873687,-73.96119945,Manhattan,15
 6960.12,3 Ave & E 71 St,40.76879,-73.9614,Manhattan,35
 6964.05,Ditmars Blvd & 73 St,40.76817,-73.896293,Queens,19
 6966.04,31 Ave & 14 St,40.7682,-73.9322662,Queens,28
@@ -1894,7 +1866,6 @@ station_id,name,lat,lng,borough,capacity
 7622.12,2 Ave & E 122 St,40.8006721,-73.9349,Manhattan,25
 7623.13,Riverside Dr & W 104 St,40.8013434,-73.9711457439,Manhattan,36
 7625.18,E 118 St & Park Ave,40.8005385,-73.9419949,Manhattan,15
-7625.22,E 118 St & Park Ave,40.80069087251806,-73.94255424184108,Manhattan,24
 7626.02,Willow Ave & E 133 St,40.800933,-73.913863,Bronx,21
 7627.1,Lenox Ave & W 115 St,40.8011939,-73.9500739,Manhattan,29
 7631.23,Frederick Douglass Blvd & W 112 St,40.801694,-73.957145,Manhattan,36
@@ -1939,7 +1910,6 @@ station_id,name,lat,lng,borough,capacity
 7723.01,St Nicholas Ave & Manhattan Ave,40.809725,-73.953149,Manhattan,37
 7726.02,Willis Ave & E 137 St,40.808384,-73.923604,Bronx,25
 7727.07,Amsterdam Ave & W 119 St,40.8086249,-73.9596214,Manhattan,31
-7727.08,Amsterdam Ave & W 119 St,40.80863218,-73.9595861,Manhattan,15
 7735.05,5 Ave & W 131 St,40.81014,-73.93973,Manhattan,29
 7735.23,E 128 St & Madison Ave,40.80756,-73.939182,Manhattan,26
 7737.06,St Mary's St & Jackson Ave,40.808891,-73.91081,Bronx,22
@@ -2004,7 +1974,6 @@ station_id,name,lat,lng,borough,capacity
 7881.09,Old Broadway & W 133 St,40.818212,-73.955277,Manhattan,22
 7883.06,Lafayette Ave & Hunts Point Ave,40.816567,-73.888161,Bronx,15
 7883.09,Seneca Ave & Irvine St,40.81872569990116,-73.88862490653992,Bronx,22
-7883.1,Seneca Ave & Irvine St,40.81885,-73.88821,Bronx,15
 7884.04,E 149 St & Park Ave,40.818154,-73.925294,Bronx,26
 7886.02,12 Ave & W 125 St,40.818299,-73.960405,Manhattan,30
 7888.1,Dawson St & Intervale Ave,40.819999,-73.897263,Bronx,19
@@ -2251,7 +2220,6 @@ station_id,name,lat,lng,borough,capacity
 8415.01,E 181 St & Bathgate Ave,40.85198,-73.89438,Bronx,21
 8416.07,Broadway & W 185 St,40.852538,-73.93441,Manhattan,24
 8416.1,W 186 St & St Nicholas Ave,40.852253,-73.931308,Manhattan,24
-8421.03,W 181 St & Riverside Dr,40.85179476985454,-73.94171894634957,Manhattan,25
 8425.01,W Burnside Ave & University Ave,40.853686,-73.912498,Bronx,15
 8427.05,Southern Blvd & E 187 St,40.8535,-73.88177,Bronx,21
 8428.04,W Tremont Ave & Matthewson Rd,40.853827,-73.920765,Bronx,22
@@ -2316,7 +2284,6 @@ station_id,name,lat,lng,borough,capacity
 8579.09,10 Ave & W 204 St,40.862638,-73.92006,Manhattan,20
 8582.02,Bainbridge Ave & E 193 St,40.86389,-73.89246,Bronx,15
 8582.09,E Fordham Rd & Webster Ave,40.861748,-73.89105,Bronx,28
-8582.1,Bainbridge Ave & E 193 St,40.86415477605928,-73.892452880543,Bronx,20
 8583.02,Sherman Ave & Thayer St,40.863124,-73.926994,Manhattan,22
 8586.09,Jerome Ave & W Fordham Rd,40.86294,-73.90108,Bronx,26
 8590.01,W Fordham Rd & Loring Pl N,40.86295,-73.90741,Bronx,23
@@ -2410,7 +2377,6 @@ station_id,name,lat,lng,borough,capacity
 8855.07,Jerome Ave & E Gun Hill Rd,40.88239,-73.88146,Bronx,21
 8859.03,Van Cortlandt Park S & Dickinson Ave,40.88435,-73.88781,Bronx,19
 8862.02,Bailey Ave & W 238 St,40.88417,-73.89793,Bronx,15
-8862.05,Bailey Ave & W 238 St,40.88394,-73.89824,Bronx,21
 8866.01,Tibbett Ave & W 234 St,40.88324,-73.90587,Bronx,19
 8870.01,Netherland Ave & W 232 St,40.8839,-73.91165,Bronx,19
 8876.04,Van Cortlandt Park S & Gouverneur Ave,40.88492,-73.89084,Bronx,21
