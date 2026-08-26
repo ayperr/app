@@ -1,5 +1,0 @@
-__pycache__/
-*.pyc
-.streamlit/secrets.toml
-*.log
-data/live_history/

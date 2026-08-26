@@ -33,22 +33,22 @@ One more real data-quality issue surfaced during testing and is corrected
 here rather than swept under the rug: Citi Bike's own trip-history exports
 represent some stations' station_id inconsistently across months (e.g.
 "6098.1" in some files, "6098.10" in others, for the exact same dock at
-the same lat/lng) -- 123 stations (~4.6% of the system) are affected. Left
+the same lat/lng) -- 151 stations (~6.0% of the system) are affected. Left
 alone, the two ID variants are trained/predicted as if they were different
 stations, and the optimizer would happily recommend moving bikes from a
 station to itself. `station_id_map.csv` (built by grouping stations with
 identical lat/lng) collapses each such pair to one canonical id at the
 snapshot layer, below. The trained models themselves still saw fragmented,
-gappier history for these ~123 stations during training, since fixing that
+gappier history for these ~151 stations during training, since fixing that
 requires re-running the ETL with canonicalized IDs from the start -- so
 predictions for merged stations are the sum of both variants' forecasts, a
 mitigation rather than a full fix, and are probably somewhat noisier than
 the system average.
 """
+
 import numpy as np
 import pandas as pd
 import streamlit as st
-
 from inference import predict_net_flow
 
 DATA = "data"
@@ -127,7 +127,9 @@ def simulate_occupancy_total():
         f = load_demo_features(bt)[["station_id", "date", "hour", "net_flow"]]
         parts.append(_canonicalize(f))
     combined = pd.concat(parts, ignore_index=True)
-    combined = combined.groupby(["station_id", "date", "hour"], as_index=False)["net_flow"].sum()
+    combined = combined.groupby(["station_id", "date", "hour"], as_index=False)[
+        "net_flow"
+    ].sum()
     combined["ts"] = combined["date"] + pd.to_timedelta(combined["hour"], unit="h")
 
     stations = load_stations()[["station_id", "capacity"]]
@@ -135,7 +137,12 @@ def simulate_occupancy_total():
     wide = wide.reindex(stations["station_id"]).fillna(0.0)
     wide = wide.reindex(sorted(wide.columns), axis=1)
 
-    cap = stations.set_index("station_id")["capacity"].reindex(wide.index).fillna(25).to_numpy(dtype="float32")
+    cap = (
+        stations.set_index("station_id")["capacity"]
+        .reindex(wide.index)
+        .fillna(25)
+        .to_numpy(dtype="float32")
+    )
     flow = wide.to_numpy(dtype="float32")
     occ = np.empty_like(flow)
     cur = cap / 2.0
@@ -157,22 +164,39 @@ def get_snapshot(selected_ts):
     """
     stations = load_stations()
     occ = simulate_occupancy_total()
-    current_bikes = occ[selected_ts] if selected_ts in occ.columns else pd.Series(0.0, index=occ.index)
+    current_bikes = (
+        occ[selected_ts]
+        if selected_ts in occ.columns
+        else pd.Series(0.0, index=occ.index)
+    )
 
     preds = {}
     for bt in BIKE_TYPES:
         feats = load_demo_features(bt)
-        snap = feats[(feats["date"] == selected_ts.normalize()) & (feats["hour"] == selected_ts.hour)]
+        snap = feats[
+            (feats["date"] == selected_ts.normalize())
+            & (feats["hour"] == selected_ts.hour)
+        ]
         raw_pred = predict_net_flow(bt, snap)
         # raw_pred is indexed by the *raw* station_id from the feature table;
-        # roll up to canonical ids (sums the ~123 split-history stations'
+        # roll up to canonical ids (sums the 151 split-history stations'
         # two forecasts into one) before it ever meets stations.csv
-        canon_id = raw_pred.index.to_series().map(load_station_id_map()).fillna(raw_pred.index.to_series())
+        canon_id = (
+            raw_pred.index.to_series()
+            .map(load_station_id_map())
+            .fillna(raw_pred.index.to_series())
+        )
         preds[bt] = raw_pred.groupby(canon_id.to_numpy()).sum()
 
     out = stations.set_index("station_id").copy()
-    out["current_bikes_total"] = current_bikes.reindex(out.index).fillna(out["capacity"] / 2.0)
+    out["current_bikes_total"] = current_bikes.reindex(out.index).fillna(
+        out["capacity"] / 2.0
+    )
     out["pred_net_flow_classic"] = preds["classic_bike"].reindex(out.index).fillna(0.0)
-    out["pred_net_flow_electric"] = preds["electric_bike"].reindex(out.index).fillna(0.0)
-    out["pred_net_flow_total"] = out["pred_net_flow_classic"] + out["pred_net_flow_electric"]
+    out["pred_net_flow_electric"] = (
+        preds["electric_bike"].reindex(out.index).fillna(0.0)
+    )
+    out["pred_net_flow_total"] = (
+        out["pred_net_flow_classic"] + out["pred_net_flow_electric"]
+    )
     return out.reset_index()

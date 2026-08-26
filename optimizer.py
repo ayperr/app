@@ -27,6 +27,7 @@ a proxy for real road-network travel time. A production deployment would
 swap `travel_time_minutes()` for a real routing engine/API (OSRM, Mapbox
 Directions, etc.) without touching the optimizer itself.
 """
+
 import math
 
 import networkx as nx
@@ -37,23 +38,27 @@ EARTH_RADIUS_KM = 6371.0
 AVG_URBAN_SPEED_KMH = 16.0  # rough NYC surface-street average incl. lights/traffic
 DEFAULT_MIN_BUFFER_BIKES = 2  # a station below this is "at risk of running empty"
 DEFAULT_DONOR_BUFFER_BIKES = 3  # extra bikes a donor keeps for itself, on top of min_buffer, before it'll give any away
-COST_SCALE = 100              # scales minutes to an integer cost unit for network_simplex
+COST_SCALE = 100  # scales minutes to an integer cost unit for network_simplex
 
 
 def haversine_km(lat1, lng1, lat2, lng2):
     lat1, lng1, lat2, lng2 = map(math.radians, [lat1, lng1, lat2, lng2])
     dlat, dlng = lat2 - lat1, lng2 - lng1
-    a = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlng / 2) ** 2
+    a = (
+        math.sin(dlat / 2) ** 2
+        + math.cos(lat1) * math.cos(lat2) * math.sin(dlng / 2) ** 2
+    )
     return 2 * EARTH_RADIUS_KM * math.asin(math.sqrt(a))
 
 
-def travel_time_minutes(lat1, lng1, lat2, lng2):
-    return (haversine_km(lat1, lng1, lat2, lng2) / AVG_URBAN_SPEED_KMH) * 60.0
-
-
-def compute_surplus_deficit(stations_df, capacity_col="capacity", current_col="current_bikes_total",
-                             pred_net_flow_col="pred_net_flow_total", min_buffer=DEFAULT_MIN_BUFFER_BIKES,
-                             donor_buffer=DEFAULT_DONOR_BUFFER_BIKES):
+def compute_surplus_deficit(
+    stations_df,
+    capacity_col="capacity",
+    current_col="current_bikes_total",
+    pred_net_flow_col="pred_net_flow_total",
+    min_buffer=DEFAULT_MIN_BUFFER_BIKES,
+    donor_buffer=DEFAULT_DONOR_BUFFER_BIKES,
+):
     """
     stations_df needs: station_id, lat, lng, capacity_col, current_col, pred_net_flow_col.
     Adds predicted_bikes / surplus / deficit / available_to_donate columns.
@@ -83,10 +88,17 @@ def compute_surplus_deficit(stations_df, capacity_col="capacity", current_col="c
     """
     df = stations_df.copy()
     df["predicted_bikes"] = df[current_col] + df[pred_net_flow_col]
-    df["surplus"] = (df["predicted_bikes"] - df[capacity_col]).clip(lower=0).round().astype(int)
-    df["deficit"] = (min_buffer - df["predicted_bikes"]).clip(lower=0).round().astype(int)
+    df["surplus"] = (
+        (df["predicted_bikes"] - df[capacity_col]).clip(lower=0).round().astype(int)
+    )
+    df["deficit"] = (
+        (min_buffer - df["predicted_bikes"]).clip(lower=0).round().astype(int)
+    )
     df["available_to_donate"] = (
-        (df["predicted_bikes"] - min_buffer - donor_buffer).clip(lower=0).round().astype(int)
+        (df["predicted_bikes"] - min_buffer - donor_buffer)
+        .clip(lower=0)
+        .round()
+        .astype(int)
     )
     return df
 
@@ -122,7 +134,9 @@ def solve_rebalancing(stations_df, top_k_neighbors=8):
     """
     sources = stations_df[stations_df["available_to_donate"] > 0].reset_index(drop=True)
     sinks = stations_df[stations_df["deficit"] > 0].reset_index(drop=True)
-    empty = pd.DataFrame(columns=["from_station_id", "to_station_id", "bikes", "distance_km", "minutes"])
+    empty = pd.DataFrame(
+        columns=["from_station_id", "to_station_id", "bikes", "distance_km", "minutes"]
+    )
     if sources.empty or sinks.empty:
         return empty
 
@@ -139,7 +153,10 @@ def solve_rebalancing(stations_df, top_k_neighbors=8):
     # (n_sources, 1) against (1, n_sinks) gives an (n_sources, n_sinks) matrix)
     dlat = snk_lat[None, :] - src_lat[:, None]
     dlng = snk_lng[None, :] - src_lng[:, None]
-    a = np.sin(dlat / 2) ** 2 + np.cos(src_lat[:, None]) * np.cos(snk_lat[None, :]) * np.sin(dlng / 2) ** 2
+    a = (
+        np.sin(dlat / 2) ** 2
+        + np.cos(src_lat[:, None]) * np.cos(snk_lat[None, :]) * np.sin(dlng / 2) ** 2
+    )
     dist_km = 2 * EARTH_RADIUS_KM * np.arcsin(np.sqrt(np.clip(a, 0, 1)))
     minutes_mat = (dist_km / AVG_URBAN_SPEED_KMH) * 60.0
 
@@ -185,19 +202,28 @@ def solve_rebalancing(stations_df, top_k_neighbors=8):
     except nx.NetworkXUnfeasible:
         # can happen if a source's k-nearest sinks are all saturated by
         # closer competing sources -- widen the search once before giving up
-        return solve_rebalancing(stations_df, top_k_neighbors=min(len(sinks), top_k_neighbors * 4))
+        return solve_rebalancing(
+            stations_df, top_k_neighbors=min(len(sinks), top_k_neighbors * 4)
+        )
 
     rows = []
     for (u, v), (km, minutes) in edge_meta.items():
         bikes = flow_dict.get(u, {}).get(v, 0)
         if bikes > 0:
-            rows.append({
-                "from_station_id": u[1], "to_station_id": v[1],
-                "bikes": int(bikes), "distance_km": round(km, 2), "minutes": round(minutes, 1),
-            })
+            rows.append(
+                {
+                    "from_station_id": u[1],
+                    "to_station_id": v[1],
+                    "bikes": int(bikes),
+                    "distance_km": round(km, 2),
+                    "minutes": round(minutes, 1),
+                }
+            )
     if not rows:
         return empty
-    return pd.DataFrame(rows).sort_values("bikes", ascending=False).reset_index(drop=True)
+    return (
+        pd.DataFrame(rows).sort_values("bikes", ascending=False).reset_index(drop=True)
+    )
 
 
 def summarize_system_state(stations_df):
@@ -207,7 +233,7 @@ def summarize_system_state(stations_df):
     bikes_to_remove = int(stations_df["surplus"].sum())
     bikes_to_add = int(stations_df["deficit"].sum())
     return {
-        "n_stations": int(len(stations_df)),
+        "n_stations": len(stations_df),
         "n_overfill_risk": n_overfill,
         "n_empty_risk": n_empty_risk,
         "n_healthy": int(len(stations_df) - n_overfill - n_empty_risk),

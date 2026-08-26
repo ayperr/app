@@ -21,7 +21,7 @@ Two modes, switchable from the sidebar at any time:
 
 ```bash
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 Open http://localhost:8501. First load takes ~30-40 seconds in Historical
@@ -68,7 +68,7 @@ values over the app's first running week; delete the file to reset it.
    models, demo data — is self-contained inside it; nothing here needs
    Git LFS, the two model files are ~40MB each).
 2. On [share.streamlit.io](https://share.streamlit.io), point a new app at
-   the repo with `streamlit_app.py` as the entry point.
+   the repo with `app.py` as the entry point.
 3. No secrets or API keys are required to run either mode — the map's
    basemap tiles come from Carto's free tier, Historical Playback runs
    entirely on the bundled demo data, and Live mode's three data sources
@@ -78,7 +78,7 @@ values over the app's first running week; delete the file to reset it.
 ## Project structure
 
 ```
-streamlit_app.py    main UI: sidebar controls, shared KPIs/map/tabs, mode switch
+app.py    main UI: sidebar controls, shared KPIs/map/tabs, mode switch
 data_utils.py         Historical Playback data layer + occupancy simulation
 live_data.py            Live mode: snapshot logging, hybrid lag features, live snapshot assembly
 gbfs.py                   live GBFS/weather/events fetch layer used by live_data.py

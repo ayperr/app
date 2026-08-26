@@ -1,7 +1,7 @@
 """
 Live snapshot assembly -- turns right-now GBFS/weather/events into the same
 shaped feature row the trained models saw during training, using a hybrid
-source per feature (see the table in streamlit_app.py's Live tab and the
+source per feature (see the table in app.py's Live tab and the
 About section for the full breakdown). This is the module that makes
 "train offline on history, score online on live data" actually work.
 
@@ -188,12 +188,43 @@ def log_snapshot_if_new_hour(reference_hour, current_bikes_df):
 
 
 def load_snapshot_log():
+    """
+    Reads the self-accumulating live-history log. Defensive on purpose: this
+    file is appended to by an auto-refreshing fragment with no file locking,
+    so on Streamlit Cloud (which can run more than one worker process for
+    the same app) two processes can interleave writes and leave a genuinely
+    corrupt row behind -- a partial line, a stray duplicate header, a
+    truncated write. A single bad `logged_at` value used to take down the
+    entire Live view with an uncaught ValueError; now a row that can't be
+    parsed is treated as corrupt and dropped rather than crashing the app,
+    and if the file is unreadable/malformed beyond that, we fall back to an
+    empty log exactly like a fresh deploy would see.
+    """
+    empty = pd.DataFrame(columns=["logged_at", "station_id", "bikes_classic", "bikes_electric", "bikes_total"])
     if not os.path.exists(SNAPSHOT_LOG_PATH):
-        return pd.DataFrame(columns=["logged_at", "station_id", "bikes_classic", "bikes_electric", "bikes_total"])
-    df = pd.read_csv(SNAPSHOT_LOG_PATH)
-    df["logged_at"] = pd.to_datetime(df["logged_at"])
-    df["station_id"] = df["station_id"].astype(str)
-    return df
+        return empty
+    try:
+        df = pd.read_csv(SNAPSHOT_LOG_PATH)
+        df["logged_at"] = pd.to_datetime(df["logged_at"], errors="coerce")
+        n_before = len(df)
+        df = df.dropna(subset=["logged_at"])
+        if len(df) < n_before:
+            _repair_snapshot_log(df)  # drop the corrupt rows from disk too, so this doesn't repeat every load
+        df["station_id"] = df["station_id"].astype(str)
+        return df
+    except Exception:
+        return empty
+
+
+def _repair_snapshot_log(clean_df):
+    """Best-effort: overwrite the log with only the rows that parsed cleanly.
+    Failure here (e.g. a concurrent writer holding the file) is fine to
+    ignore -- load_snapshot_log() already dropped the bad rows in memory
+    for this run, and the next successful load will retry the cleanup."""
+    try:
+        clean_df.to_csv(SNAPSHOT_LOG_PATH, index=False)
+    except Exception:
+        pass
 
 
 def history_depth_hours(log_df):
